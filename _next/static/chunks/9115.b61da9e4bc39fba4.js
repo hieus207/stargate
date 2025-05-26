@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9115],{59115:function(e,n,t){t.r(n),t.d(n,{safeWallet:function(){return u}});let u=new(t(70983)).vx}}]);

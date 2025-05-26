@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4842],{84842:function(e,t,n){n.r(t),n.d(t,{abstractGlobalWallet:function(){return l}});let l=new(n(70983)).WI}}]);

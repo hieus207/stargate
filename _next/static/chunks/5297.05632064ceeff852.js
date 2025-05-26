@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5297],{55297:function(e,n,t){t.r(n),t.d(n,{tahoWallet:function(){return u}});let u=new(t(70983)).IG}}]);
