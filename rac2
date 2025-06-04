@@ -1,0 +1,32 @@
+const au = (0, X.C2)({
+  strict: true,
+  limit: false,
+  version: 3,
+  fee: true,
+  sharedDecimals: 6,
+  coinMarketCapId: 36053,
+  deployments: {
+    ethereum: {
+      eid: 30101,
+      version: 3,
+      token: {
+        chainKey: "ethereum",
+        decimals: 18,
+        symbol: "LA",
+        name: "Lagrange",
+        address: "0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467",
+      },
+    },
+    bsc: {
+      eid: 30102,
+      version: 3,
+      token: {
+        chainKey: "bsc",
+        decimals: 18,
+        symbol: "LA",
+        name: "Lagrange",
+        address: "0x389AD4bb96d0D6EE5B6eF0EFAF4b7db0bA2e02a0",
+      },
+    },
+  },
+});

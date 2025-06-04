@@ -1,312 +1,312 @@
 "use strict";
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[3403], {
-    73403: function(e, a, d) {
+    73403: function (e, a, d) {
         d.r(a),
-        d.d(a, {
-            bridges: function() {
-                return io
-            }
-        });
+            d.d(a, {
+                bridges: function () {
+                    return io
+                }
+            });
         var s = d(62795)
-          , i = d(69961)
-          , o = d(82784)
-          , n = d(6479)
-          , c = d(9866)
-          , r = d(25536)
-          , m = d(35440)
-          , t = d(79429)
-          , b = d(10889)
-          , l = d(81339)
-          , y = d(93912)
-          , f = d(91185)
-          , C = d(48220)
-          , D = {
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    dstGasMin: 15e4,
-                    dstFeeBp: 7,
-                    bridge: {
-                        address: "0x50002CdFe7CCb0C41F519c6Eb0653158d11cd907"
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    dstGasMin: 15e5,
-                    dstFeeBp: 7,
-                    bridge: {
-                        address: "0x1BAcC2205312534375c8d1801C27D28370656cFf"
-                    }
-                },
-                avalanche: {
-                    eid: 106,
-                    dstGasMin: 15e4,
-                    dstFeeBp: 7,
-                    bridge: {
-                        address: "0xA5972EeE0C9B5bBb89a5B16D1d65f94c9EF25166"
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    dstGasMin: 15e4,
-                    dstFeeBp: 7,
-                    bridge: {
-                        address: "0x2762409Baa1804D94D8c0bCFF8400B78Bf915D5B"
-                    }
-                },
-                optimism: {
-                    eid: 111,
-                    dstGasMin: 15e4,
-                    dstFeeBp: 7,
-                    bridge: {
-                        address: "0x86Bb63148d17d445Ed5398ef26Aa05Bf76dD5b59"
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    dstGasMin: 15e4,
-                    dstFeeBp: 7,
-                    bridge: {
-                        address: "0x488863D609F3A673875a914fBeE7508a1DE45eC6"
-                    }
-                },
-                aptos: {
-                    eid: 108,
-                    dstGasMin: 1e4,
-                    dstFeeBp: 0,
-                    bridge: {
-                        address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa"
-                    }
-                }
-            }
-        }
-          , E = k(D, {
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDC",
-                        name: "USD Coin",
-                        address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
-                    }
-                },
-                avalanche: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDC",
-                        name: "USD Coin",
-                        address: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
-                    }
-                },
-                polygon: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDC",
-                        name: "USD Coin",
-                        address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
-                    }
-                },
-                arbitrum: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDC",
-                        name: "USD Coin",
-                        address: "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
-                    }
-                },
-                optimism: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDC",
-                        name: "USD Coin",
-                        address: "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
-                    }
-                },
-                bsc: {
-                    token: {
-                        decimals: 18,
-                        symbol: "USDC",
-                        name: "USD Coin",
-                        address: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
-                    }
-                },
-                aptos: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDC",
-                        name: "USD Coin",
-                        address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC"
+            , i = d(69961)
+            , o = d(82784)
+            , n = d(6479)
+            , c = d(9866)
+            , r = d(25536)
+            , m = d(35440)
+            , t = d(79429)
+            , b = d(10889)
+            , l = d(81339)
+            , y = d(93912)
+            , f = d(91185)
+            , C = d(48220)
+            , D = {
+                deployments: {
+                    ethereum: {
+                        eid: 101,
+                        dstGasMin: 15e4,
+                        dstFeeBp: 7,
+                        bridge: {
+                            address: "0x50002CdFe7CCb0C41F519c6Eb0653158d11cd907"
+                        }
+                    },
+                    arbitrum: {
+                        eid: 110,
+                        dstGasMin: 15e5,
+                        dstFeeBp: 7,
+                        bridge: {
+                            address: "0x1BAcC2205312534375c8d1801C27D28370656cFf"
+                        }
+                    },
+                    avalanche: {
+                        eid: 106,
+                        dstGasMin: 15e4,
+                        dstFeeBp: 7,
+                        bridge: {
+                            address: "0xA5972EeE0C9B5bBb89a5B16D1d65f94c9EF25166"
+                        }
+                    },
+                    bsc: {
+                        eid: 102,
+                        dstGasMin: 15e4,
+                        dstFeeBp: 7,
+                        bridge: {
+                            address: "0x2762409Baa1804D94D8c0bCFF8400B78Bf915D5B"
+                        }
+                    },
+                    optimism: {
+                        eid: 111,
+                        dstGasMin: 15e4,
+                        dstFeeBp: 7,
+                        bridge: {
+                            address: "0x86Bb63148d17d445Ed5398ef26Aa05Bf76dD5b59"
+                        }
+                    },
+                    polygon: {
+                        eid: 109,
+                        dstGasMin: 15e4,
+                        dstFeeBp: 7,
+                        bridge: {
+                            address: "0x488863D609F3A673875a914fBeE7508a1DE45eC6"
+                        }
+                    },
+                    aptos: {
+                        eid: 108,
+                        dstGasMin: 1e4,
+                        dstFeeBp: 0,
+                        bridge: {
+                            address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa"
+                        }
                     }
                 }
             }
-        })
-          , A = k(D, {
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDT",
-                        name: "USD Tether",
-                        address: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
-                    }
-                },
-                bsc: {
-                    token: {
-                        decimals: 18,
-                        symbol: "USDT",
-                        name: "USD Tether",
-                        address: "0x55d398326f99059fF775485246999027B3197955"
-                    }
-                },
-                avalanche: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDT",
-                        name: "USD Tether",
-                        address: "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
-                    }
-                },
-                polygon: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDT",
-                        name: "USD Tether",
-                        address: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
-                    }
-                },
-                aptos: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDT",
-                        name: "USD Tether",
-                        address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT"
-                    }
-                }
-            }
-        })
-          , h = k(D, {
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    token: {
-                        decimals: 8,
-                        symbol: "WBTC",
-                        name: "Wrapped BTC",
-                        address: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
-                    }
-                },
-                aptos: {
-                    token: {
-                        decimals: 6,
-                        symbol: "WBTC",
-                        name: "Wrapped BTC",
-                        address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC"
+            , E = k(D, {
+                sharedDecimals: 6,
+                deployments: {
+                    ethereum: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDC",
+                            name: "USD Coin",
+                            address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+                        }
+                    },
+                    avalanche: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDC",
+                            name: "USD Coin",
+                            address: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+                        }
+                    },
+                    polygon: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDC",
+                            name: "USD Coin",
+                            address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+                        }
+                    },
+                    arbitrum: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDC",
+                            name: "USD Coin",
+                            address: "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+                        }
+                    },
+                    optimism: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDC",
+                            name: "USD Coin",
+                            address: "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+                        }
+                    },
+                    bsc: {
+                        token: {
+                            decimals: 18,
+                            symbol: "USDC",
+                            name: "USD Coin",
+                            address: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+                        }
+                    },
+                    aptos: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDC",
+                            name: "USD Coin",
+                            address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC"
+                        }
                     }
                 }
-            }
-        })
-          , x = k(D, {
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    token: {
-                        decimals: 18,
-                        symbol: "USDD",
-                        name: "Decentralized USD",
-                        address: "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6"
-                    }
-                },
-                bsc: {
-                    token: {
-                        decimals: 18,
-                        symbol: "USDD",
-                        name: "Decentralized USD",
-                        address: "0xd17479997F34dd9156Deef8F95A52D81D265be9c"
-                    }
-                },
-                aptos: {
-                    token: {
-                        decimals: 6,
-                        symbol: "USDD",
-                        name: "Decentralized USD",
-                        address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDD"
-                    }
-                }
-            }
-        })
-          , B = k(D, {
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    token: {
-                        decimals: 18,
-                        symbol: "ETH",
-                        name: "Ether"
-                    }
-                },
-                arbitrum: {
-                    token: {
-                        decimals: 18,
-                        symbol: "ETH",
-                        name: "Ether"
-                    }
-                },
-                optimism: {
-                    token: {
-                        decimals: 18,
-                        symbol: "ETH",
-                        name: "Ether"
-                    }
-                },
-                aptos: {
-                    token: {
-                        decimals: 6,
-                        symbol: "WETH",
-                        name: "Wrapped Ether",
-                        address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH"
+            })
+            , A = k(D, {
+                sharedDecimals: 6,
+                deployments: {
+                    ethereum: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDT",
+                            name: "USD Tether",
+                            address: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+                        }
+                    },
+                    bsc: {
+                        token: {
+                            decimals: 18,
+                            symbol: "USDT",
+                            name: "USD Tether",
+                            address: "0x55d398326f99059fF775485246999027B3197955"
+                        }
+                    },
+                    avalanche: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDT",
+                            name: "USD Tether",
+                            address: "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7"
+                        }
+                    },
+                    polygon: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDT",
+                            name: "USD Tether",
+                            address: "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+                        }
+                    },
+                    aptos: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDT",
+                            name: "USD Tether",
+                            address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT"
+                        }
                     }
                 }
-            }
-        })
-          , F = k(D, {
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    token: {
-                        decimals: 18,
-                        symbol: "WETH",
-                        name: "Wrapped Ether",
-                        address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
-                    }
-                },
-                arbitrum: {
-                    token: {
-                        decimals: 18,
-                        symbol: "WETH",
-                        name: "Wrapped Ether",
-                        address: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
-                    }
-                },
-                optimism: {
-                    token: {
-                        decimals: 18,
-                        symbol: "WETH",
-                        name: "Wrapped Ether",
-                        address: "0x4200000000000000000000000000000000000006"
-                    }
-                },
-                aptos: {
-                    token: {
-                        decimals: 6,
-                        symbol: "WETH",
-                        name: "Wrapped Ether",
-                        address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH"
+            })
+            , h = k(D, {
+                sharedDecimals: 6,
+                deployments: {
+                    ethereum: {
+                        token: {
+                            decimals: 8,
+                            symbol: "WBTC",
+                            name: "Wrapped BTC",
+                            address: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+                        }
+                    },
+                    aptos: {
+                        token: {
+                            decimals: 6,
+                            symbol: "WBTC",
+                            name: "Wrapped BTC",
+                            address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC"
+                        }
                     }
                 }
-            }
-        });
+            })
+            , x = k(D, {
+                sharedDecimals: 6,
+                deployments: {
+                    ethereum: {
+                        token: {
+                            decimals: 18,
+                            symbol: "USDD",
+                            name: "Decentralized USD",
+                            address: "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6"
+                        }
+                    },
+                    bsc: {
+                        token: {
+                            decimals: 18,
+                            symbol: "USDD",
+                            name: "Decentralized USD",
+                            address: "0xd17479997F34dd9156Deef8F95A52D81D265be9c"
+                        }
+                    },
+                    aptos: {
+                        token: {
+                            decimals: 6,
+                            symbol: "USDD",
+                            name: "Decentralized USD",
+                            address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDD"
+                        }
+                    }
+                }
+            })
+            , B = k(D, {
+                sharedDecimals: 6,
+                deployments: {
+                    ethereum: {
+                        token: {
+                            decimals: 18,
+                            symbol: "ETH",
+                            name: "Ether"
+                        }
+                    },
+                    arbitrum: {
+                        token: {
+                            decimals: 18,
+                            symbol: "ETH",
+                            name: "Ether"
+                        }
+                    },
+                    optimism: {
+                        token: {
+                            decimals: 18,
+                            symbol: "ETH",
+                            name: "Ether"
+                        }
+                    },
+                    aptos: {
+                        token: {
+                            decimals: 6,
+                            symbol: "WETH",
+                            name: "Wrapped Ether",
+                            address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH"
+                        }
+                    }
+                }
+            })
+            , F = k(D, {
+                sharedDecimals: 6,
+                deployments: {
+                    ethereum: {
+                        token: {
+                            decimals: 18,
+                            symbol: "WETH",
+                            name: "Wrapped Ether",
+                            address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+                        }
+                    },
+                    arbitrum: {
+                        token: {
+                            decimals: 18,
+                            symbol: "WETH",
+                            name: "Wrapped Ether",
+                            address: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+                        }
+                    },
+                    optimism: {
+                        token: {
+                            decimals: 18,
+                            symbol: "WETH",
+                            name: "Wrapped Ether",
+                            address: "0x4200000000000000000000000000000000000006"
+                        }
+                    },
+                    aptos: {
+                        token: {
+                            decimals: 6,
+                            symbol: "WETH",
+                            name: "Wrapped Ether",
+                            address: "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH"
+                        }
+                    }
+                }
+            });
         function k(e, a) {
             let d = {
                 sharedDecimals: a.sharedDecimals,
@@ -316,14 +316,14 @@
                 if (!a.deployments[s])
                     continue;
                 let i = a.deployments[s].token
-                  , o = (0,
-                n.gj)(i) ? n.WU.from({
-                    ...i,
-                    chainKey: s
-                }) : n.sN.from({
-                    ...i,
-                    chainKey: s
-                });
+                    , o = (0,
+                        n.gj)(i) ? n.WU.from({
+                            ...i,
+                            chainKey: s
+                        }) : n.sN.from({
+                            ...i,
+                            chainKey: s
+                        });
                 d.deployments[s] = {
                     ...e.deployments[s],
                     ...a.deployments[s],
@@ -355,7 +355,7 @@
             }
             async getRoute(e) {
                 var a;
-                let[d,s,{srcAmount: i, srcAmountMax: o, dstAmount: n},r] = await Promise.all([this.getMessageFee({
+                let [d, s, { srcAmount: i, srcAmountMax: o, dstAmount: n }, r] = await Promise.all([this.getMessageFee({
                     ...e,
                     dstNativeAmount: 0n
                 }), this.getMessageFee({
@@ -364,33 +364,33 @@
                 }), this.getAmounts({
                     ...e
                 }), null === (a = this.getDuration) || void 0 === a ? void 0 : a.call(this, e)])
-                  , m = (0,
-                c.Cy)(d, s);
+                    , m = (0,
+                        c.Cy)(d, s);
                 return (0,
-                c.Jg)(e, {
-                    route: p,
-                    srcAmount: i,
-                    dstAmount: n,
-                    srcAmountMax: o,
-                    fees: m,
-                    messageFee: d,
-                    allowance: v,
-                    duration: r
-                })
+                    c.Jg)(e, {
+                        route: p,
+                        srcAmount: i,
+                        dstAmount: n,
+                        srcAmountMax: o,
+                        fees: m,
+                        messageFee: d,
+                        allowance: v,
+                        duration: r
+                    })
             }
             async getAmounts(e) {
                 let a = K(e.srcChainKey, this.config)
-                  , d = K(e.dstChainKey, this.config)
-                  , s = (0,
-                c.LA)(e.srcAmount, {
-                    localDecimals: a.token.decimals,
-                    sharedDecimals: this.config.sharedDecimals
-                })
-                  , i = T((0,
-                n.oO)(s, {
-                    from: a.token.decimals,
-                    to: d.token.decimals
-                }), d.dstFeeBp);
+                    , d = K(e.dstChainKey, this.config)
+                    , s = (0,
+                        c.LA)(e.srcAmount, {
+                            localDecimals: a.token.decimals,
+                            sharedDecimals: this.config.sharedDecimals
+                        })
+                    , i = T((0,
+                        n.oO)(s, {
+                            from: a.token.decimals,
+                            to: d.token.decimals
+                        }), d.dstFeeBp);
                 return {
                     srcAmount: s,
                     dstAmount: i,
@@ -399,16 +399,16 @@
             }
             async getMessageFee(e) {
                 let a = await this.getClient(e.srcChainKey)
-                  , d = K(e.srcChainKey, this.config)
-                  , s = K(e.dstChainKey, this.config)
-                  , i = (0,
-                r.w$)(s.dstGasMin, e.dstNativeAmount, e.dstAddress)
-                  , [o,n] = await a.view({
-                    payload: {
-                        function: "".concat(d.bridge.address, "::coin_bridge::quote_fee"),
-                        functionArguments: [s.eid, !1, i, []]
-                    }
-                });
+                    , d = K(e.srcChainKey, this.config)
+                    , s = K(e.dstChainKey, this.config)
+                    , i = (0,
+                        r.w$)(s.dstGasMin, e.dstNativeAmount, e.dstAddress)
+                    , [o, n] = await a.view({
+                        payload: {
+                            function: "".concat(d.bridge.address, "::coin_bridge::quote_fee"),
+                            functionArguments: [s.eid, !1, i, []]
+                        }
+                    });
                 return {
                     nativeFee: BigInt(o),
                     zroFee: BigInt(n)
@@ -416,40 +416,40 @@
             }
             async transfer(e) {
                 let a = await this.getClient(e.srcChainKey)
-                  , d = K(e.srcChainKey, this.config)
-                  , s = K(e.dstChainKey, this.config)
-                  , i = (0,
-                r.w$)(s.dstGasMin, e.dstNativeAmount, e.dstAddress)
-                  , {nativeFee: o, zroFee: c} = await this.getMessageFee(e)
-                  , {bridge: m} = d
-                  , t = function(e) {
-                    let {token: a} = e;
-                    if ((0,
-                    n.gj)(a))
-                        return a.address;
-                    throw Error("Invalid deployment", {
-                        cause: e
-                    })
-                }(d)
-                  , b = s.eid
-                  , l = (0,
-                n.fs)(e.dstAddress, (0,
-                n.H1)(e.dstChainKey))
-                  , y = e.srcAmount
-                  , f = (0,
-                n.iI)(s.token)
-                  , C = {
-                    function: "".concat(m.address, "::coin_bridge::send_coin_from"),
-                    typeArguments: [t],
-                    functionArguments: [b.toString(), l, y.toString(), o.toString(), c.toString(), f, i, []]
-                };
+                    , d = K(e.srcChainKey, this.config)
+                    , s = K(e.dstChainKey, this.config)
+                    , i = (0,
+                        r.w$)(s.dstGasMin, e.dstNativeAmount, e.dstAddress)
+                    , { nativeFee: o, zroFee: c } = await this.getMessageFee(e)
+                    , { bridge: m } = d
+                    , t = function (e) {
+                        let { token: a } = e;
+                        if ((0,
+                            n.gj)(a))
+                            return a.address;
+                        throw Error("Invalid deployment", {
+                            cause: e
+                        })
+                    }(d)
+                    , b = s.eid
+                    , l = (0,
+                        n.fs)(e.dstAddress, (0,
+                            n.H1)(e.dstChainKey))
+                    , y = e.srcAmount
+                    , f = (0,
+                        n.iI)(s.token)
+                    , C = {
+                        function: "".concat(m.address, "::coin_bridge::send_coin_from"),
+                        typeArguments: [t],
+                        functionArguments: [b.toString(), l, y.toString(), o.toString(), c.toString(), f, i, []]
+                    };
                 return (0,
-                r._X)({
-                    sender: e.srcAddress,
-                    data: C
-                }, {
-                    client: a
-                })
+                    r._X)({
+                        sender: e.srcAddress,
+                        data: C
+                    }, {
+                        client: a
+                    })
             }
             supportsTransfer(e, a) {
                 var d, s;
@@ -457,188 +457,188 @@
             }
             constructor(e, a) {
                 this.getDuration = void 0,
-                this.config = e,
-                this.getClient = a
+                    this.config = e,
+                    this.getClient = a
             }
         }
-          , v = 0xffffffffffffffffn
-          , P = class {
-            async getOptions(e) {
-                return {
-                    options: [{
-                        mode: "taxi"
-                    }]
+            , v = 0xffffffffffffffffn
+            , P = class {
+                async getOptions(e) {
+                    return {
+                        options: [{
+                            mode: "taxi"
+                        }]
+                    }
+                }
+                async getRoute(e) {
+                    var a;
+                    let [d, s, { srcAmount: i, srcAmountMax: o, dstAmount: n }, r, m] = await Promise.all([this.getMessageFee({
+                        ...e,
+                        dstNativeAmount: 0n
+                    }), this.getMessageFee({
+                        ...e,
+                        dstNativeAmount: e.dstNativeAmount
+                    }), this.getAmounts({
+                        ...e
+                    }), null === (a = this.getDuration) || void 0 === a ? void 0 : a.call(this, e), this.getAllowance(e)])
+                        , t = (0,
+                            c.Cy)(d, s);
+                    return (0,
+                        c.Jg)(e, {
+                            route: p,
+                            srcAmount: i,
+                            dstAmount: n,
+                            srcAmountMax: o,
+                            fees: t,
+                            messageFee: d,
+                            allowance: m,
+                            duration: r
+                        })
+                }
+                async getAmounts(e) {
+                    let a = K(e.srcChainKey, this.config)
+                        , d = K(e.dstChainKey, this.config)
+                        , s = (0,
+                            c.LA)(e.srcAmount, {
+                                localDecimals: a.token.decimals,
+                                sharedDecimals: this.config.sharedDecimals
+                            })
+                        , i = T((0,
+                            n.oO)(s, {
+                                from: a.token.decimals,
+                                to: d.token.decimals
+                            }), d.dstFeeBp);
+                    return {
+                        srcAmount: s,
+                        dstAmount: i,
+                        srcAmountMax: n.Bz
+                    }
+                }
+                async approve(e) {
+                    let a = K(e.srcChainKey, this.config);
+                    if (!(0,
+                        n.gj)(a.token))
+                        throw Error("Cannot approve ETH");
+                    return (0,
+                        m._X)({
+                            from: (0,
+                                t.K)(e.srcAddress),
+                            to: (0,
+                                t.K)(e.srcToken),
+                            data: (0,
+                                b.R)({
+                                    abi: l.Wo,
+                                    functionName: "approve",
+                                    args: [(0,
+                                        t.K)(a.bridge.address), e.srcAmount]
+                                })
+                        }, {
+                            chainKey: e.srcChainKey
+                        })
+                }
+                async getAllowance(e) {
+                    let a = K(e.srcChainKey, this.config);
+                    return (0,
+                        n.gj)(a.token) ? (await this.getClient(e.srcChainKey)).readContract({
+                            abi: l.Wo,
+                            functionName: "allowance",
+                            address: (0,
+                                t.K)(a.token.address),
+                            args: [(0,
+                                t.K)(e.srcAddress), (0,
+                                    t.K)(a.bridge.address)]
+                        }) : n.Bz
+                }
+                async getMessageFee(e) {
+                    let a = await this.getClient(e.srcChainKey)
+                        , d = K(e.srcChainKey, this.config)
+                        , s = K(e.dstChainKey, this.config)
+                        , i = y.DR
+                        , o = I({
+                            dstGasMin: s.dstGasMin,
+                            dstNativeAmount: e.dstNativeAmount,
+                            dstNativeAddress: e.dstAddress
+                        })
+                        , [n, c] = await a.readContract({
+                            abi: g,
+                            functionName: "quoteForSend",
+                            args: [{
+                                refundAddress: (0,
+                                    t.K)(e.srcAddress),
+                                zroPaymentAddress: i
+                            }, o],
+                            address: (0,
+                                t.K)(d.bridge.address)
+                        });
+                    return {
+                        nativeFee: n,
+                        zroFee: c
+                    }
+                }
+                async transfer(e) {
+                    let a = K(e.srcChainKey, this.config)
+                        , d = K(e.dstChainKey, this.config)
+                        , s = y.DR
+                        , i = (0,
+                            t.K)(e.srcAddress)
+                        , o = I({
+                            dstGasMin: d.dstGasMin,
+                            dstNativeAmount: e.dstNativeAmount,
+                            dstNativeAddress: e.dstAddress
+                        })
+                        , { nativeFee: c } = await this.getMessageFee(e)
+                        , r = (0,
+                            n.fs)(e.dstAddress, (0,
+                                n.H1)(e.dstChainKey))
+                        , l = e.srcAmount
+                        , C = M(e.srcToken) ? e.srcAmount + c : c
+                        , D = M(e.srcToken) ? (0,
+                            b.R)({
+                                abi: g,
+                                functionName: "sendETHToAptos",
+                                args: [(0,
+                                    f.ci)(r), l, {
+                                    refundAddress: i,
+                                    zroPaymentAddress: s
+                                }, o]
+                            }) : (0,
+                                b.R)({
+                                    abi: g,
+                                    functionName: "sendToAptos",
+                                    args: [(0,
+                                        t.K)(e.srcToken), (0,
+                                            f.ci)(r), l, {
+                                        refundAddress: i,
+                                        zroPaymentAddress: s
+                                    }, o]
+                                });
+                    return (0,
+                        m._X)({
+                            data: D,
+                            from: i,
+                            to: (0,
+                                t.K)(a.bridge.address),
+                            value: C
+                        }, {
+                            chainKey: e.srcChainKey
+                        })
+                }
+                supportsTransfer(e, a) {
+                    var d, s;
+                    return "aptos" === a.chainKey && "aptos" !== e.chainKey && (null === (d = u(e.chainKey, this.config)) || void 0 === d ? void 0 : d.token.equals(e)) && (null === (s = u(a.chainKey, this.config)) || void 0 === s ? void 0 : s.token.equals(a))
+                }
+                constructor(e, a) {
+                    this.getDuration = void 0,
+                        this.config = e,
+                        this.getClient = a
                 }
             }
-            async getRoute(e) {
-                var a;
-                let[d,s,{srcAmount: i, srcAmountMax: o, dstAmount: n},r,m] = await Promise.all([this.getMessageFee({
-                    ...e,
-                    dstNativeAmount: 0n
-                }), this.getMessageFee({
-                    ...e,
-                    dstNativeAmount: e.dstNativeAmount
-                }), this.getAmounts({
-                    ...e
-                }), null === (a = this.getDuration) || void 0 === a ? void 0 : a.call(this, e), this.getAllowance(e)])
-                  , t = (0,
-                c.Cy)(d, s);
-                return (0,
-                c.Jg)(e, {
-                    route: p,
-                    srcAmount: i,
-                    dstAmount: n,
-                    srcAmountMax: o,
-                    fees: t,
-                    messageFee: d,
-                    allowance: m,
-                    duration: r
-                })
-            }
-            async getAmounts(e) {
-                let a = K(e.srcChainKey, this.config)
-                  , d = K(e.dstChainKey, this.config)
-                  , s = (0,
-                c.LA)(e.srcAmount, {
-                    localDecimals: a.token.decimals,
-                    sharedDecimals: this.config.sharedDecimals
-                })
-                  , i = T((0,
-                n.oO)(s, {
-                    from: a.token.decimals,
-                    to: d.token.decimals
-                }), d.dstFeeBp);
-                return {
-                    srcAmount: s,
-                    dstAmount: i,
-                    srcAmountMax: n.Bz
-                }
-            }
-            async approve(e) {
-                let a = K(e.srcChainKey, this.config);
-                if (!(0,
-                n.gj)(a.token))
-                    throw Error("Cannot approve ETH");
-                return (0,
-                m._X)({
-                    from: (0,
-                    t.K)(e.srcAddress),
-                    to: (0,
-                    t.K)(e.srcToken),
-                    data: (0,
-                    b.R)({
-                        abi: l.Wo,
-                        functionName: "approve",
-                        args: [(0,
-                        t.K)(a.bridge.address), e.srcAmount]
-                    })
-                }, {
-                    chainKey: e.srcChainKey
-                })
-            }
-            async getAllowance(e) {
-                let a = K(e.srcChainKey, this.config);
-                return (0,
-                n.gj)(a.token) ? (await this.getClient(e.srcChainKey)).readContract({
-                    abi: l.Wo,
-                    functionName: "allowance",
-                    address: (0,
-                    t.K)(a.token.address),
-                    args: [(0,
-                    t.K)(e.srcAddress), (0,
-                    t.K)(a.bridge.address)]
-                }) : n.Bz
-            }
-            async getMessageFee(e) {
-                let a = await this.getClient(e.srcChainKey)
-                  , d = K(e.srcChainKey, this.config)
-                  , s = K(e.dstChainKey, this.config)
-                  , i = y.DR
-                  , o = I({
-                    dstGasMin: s.dstGasMin,
-                    dstNativeAmount: e.dstNativeAmount,
-                    dstNativeAddress: e.dstAddress
-                })
-                  , [n,c] = await a.readContract({
-                    abi: g,
-                    functionName: "quoteForSend",
-                    args: [{
-                        refundAddress: (0,
-                        t.K)(e.srcAddress),
-                        zroPaymentAddress: i
-                    }, o],
-                    address: (0,
-                    t.K)(d.bridge.address)
-                });
-                return {
-                    nativeFee: n,
-                    zroFee: c
-                }
-            }
-            async transfer(e) {
-                let a = K(e.srcChainKey, this.config)
-                  , d = K(e.dstChainKey, this.config)
-                  , s = y.DR
-                  , i = (0,
-                t.K)(e.srcAddress)
-                  , o = I({
-                    dstGasMin: d.dstGasMin,
-                    dstNativeAmount: e.dstNativeAmount,
-                    dstNativeAddress: e.dstAddress
-                })
-                  , {nativeFee: c} = await this.getMessageFee(e)
-                  , r = (0,
-                n.fs)(e.dstAddress, (0,
-                n.H1)(e.dstChainKey))
-                  , l = e.srcAmount
-                  , C = M(e.srcToken) ? e.srcAmount + c : c
-                  , D = M(e.srcToken) ? (0,
-                b.R)({
-                    abi: g,
-                    functionName: "sendETHToAptos",
-                    args: [(0,
-                    f.ci)(r), l, {
-                        refundAddress: i,
-                        zroPaymentAddress: s
-                    }, o]
-                }) : (0,
-                b.R)({
-                    abi: g,
-                    functionName: "sendToAptos",
-                    args: [(0,
-                    t.K)(e.srcToken), (0,
-                    f.ci)(r), l, {
-                        refundAddress: i,
-                        zroPaymentAddress: s
-                    }, o]
-                });
-                return (0,
-                m._X)({
-                    data: D,
-                    from: i,
-                    to: (0,
-                    t.K)(a.bridge.address),
-                    value: C
-                }, {
-                    chainKey: e.srcChainKey
-                })
-            }
-            supportsTransfer(e, a) {
-                var d, s;
-                return "aptos" === a.chainKey && "aptos" !== e.chainKey && (null === (d = u(e.chainKey, this.config)) || void 0 === d ? void 0 : d.token.equals(e)) && (null === (s = u(a.chainKey, this.config)) || void 0 === s ? void 0 : s.token.equals(a))
-            }
-            constructor(e, a) {
-                this.getDuration = void 0,
-                this.config = e,
-                this.getClient = a
-            }
-        }
-        ;
+            ;
         function I(e) {
-            let {dstGasMin: a, dstNativeAddress: d, dstNativeAmount: s} = e;
+            let { dstGasMin: a, dstNativeAddress: d, dstNativeAmount: s } = e;
             return s > 0n ? (0,
-            C._)(["uint16", "uint", "uint", "bytes32"], [2, BigInt(a), s, d]) : (0,
-            C._)(["uint16", "uint256"], [1, BigInt(a)])
+                C._)(["uint16", "uint", "uint", "bytes32"], [2, BigInt(a), s, d]) : (0,
+                    C._)(["uint16", "uint256"], [1, BigInt(a)])
         }
         var g = [{
             inputs: [{
@@ -721,4889 +721,4865 @@
         }];
         function M(e) {
             return "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE" === (0,
-            t.K)(e)
+                t.K)(e)
         }
         function U(e) {
             return [(0,
-            s.$)(new S(e,i.p), "AptosBridge"), (0,
-            s.$)(new P(e,o.s), "AptosBridge")]
+                s.$)(new S(e, i.p), "AptosBridge"), (0,
+                    s.$)(new P(e, o.s), "AptosBridge")]
         }
         var R = d(12116)
-          , G = d(56194)
-          , L = d(62821)
-          , H = d(33404)
-          , N = d(36234)
-          , O = d(29739)
-          , w = d(92117)
-          , W = d(52713)
-          , X = d(37861)
-          , V = d(61869);
+            , G = d(56194)
+            , L = d(62821)
+            , H = d(33404)
+            , N = d(36234)
+            , O = d(29739)
+            , w = d(92117)
+            , W = d(52713)
+            , X = d(37861)
+            , V = d(61869);
         let z = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x49d803d2DF2295185610f44961F2Dcd40326F25C",
-                        decimals: 18,
-                        name: "Shark Cat",
-                        symbol: "SC"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    token: {
-                        chainKey: "solana",
-                        address: "6D7NaB2xsLd7cauWu1wKk6KBsJohJmP2qZH9GEfVi5Ui",
-                        decimals: 6,
-                        name: "Shark Cat",
-                        symbol: "SC",
-                        programId: V.H_
+            X.C2)({
+                sharedDecimals: 6,
+                version: 3,
+                limit: !1,
+                fee: !0,
+                deployments: {
+                    base: {
+                        eid: 30184,
+                        token: {
+                            chainKey: "base",
+                            address: "0x49d803d2DF2295185610f44961F2Dcd40326F25C",
+                            decimals: 18,
+                            name: "Shark Cat",
+                            symbol: "SC"
+                        }
                     },
-                    tokenEscrow: {
-                        address: "5iz5Rg2Rww1L4rxnD1CxwekZFG7EKiWPefdsLc5xx976"
-                    },
-                    oft: {
-                        programId: "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
-                    }
-                }
-            },
-            coinMarketCapId: 30309
-        })
-          , Z = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x77A4B0BfE5C7257F67a1DE1B99aA7E157035B1b2",
-                        decimals: 18,
-                        name: "Token7007",
-                        symbol: "7007"
+                    solana: {
+                        eid: 30168,
+                        token: {
+                            chainKey: "solana",
+                            address: "6D7NaB2xsLd7cauWu1wKk6KBsJohJmP2qZH9GEfVi5Ui",
+                            decimals: 6,
+                            name: "Shark Cat",
+                            symbol: "SC",
+                            programId: V.H_
+                        },
+                        tokenEscrow: {
+                            address: "5iz5Rg2Rww1L4rxnD1CxwekZFG7EKiWPefdsLc5xx976"
+                        },
+                        oft: {
+                            programId: "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
+                        }
                     }
                 },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0x75eC618A817EB0A4a7E44aC3dFc64c963DAf921A",
-                        decimals: 18,
-                        name: "Token7007",
-                        symbol: "7007"
-                    },
-                    oftProxy: {
-                        address: "0xa4889a7023e375344f7fc42ca164d8aadf5e8dcc"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x77A4B0BfE5C7257F67a1DE1B99aA7E157035B1b2",
-                        decimals: 18,
-                        name: "Token7007",
-                        symbol: "7007"
-                    }
-                }
-            },
-            coinGeckoId: "token7007"
-        })
-          , Q = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "ABOND",
-                        address: "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    oftProxy: {
-                        address: "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
-                    },
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "ABOND",
-                        address: "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
-                        decimals: 18
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "ABOND",
-                        address: "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 29157
-        })
-          , Y = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
-                        decimals: 18,
-                        name: "AltLayer Token ",
-                        symbol: "ALT"
-                    },
-                    oftProxy: {
-                        address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
-                        decimals: 18,
-                        name: "AltLayer Token ",
-                        symbol: "ALT"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
-                        decimals: 18,
-                        name: "AltLayer Token ",
-                        symbol: "ALT"
-                    }
-                },
-                optimism: {
-                    eid: 30111,
-                    token: {
-                        chainKey: "optimism",
-                        address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
-                        decimals: 18,
-                        name: "AltLayer Token ",
-                        symbol: "ALT"
-                    }
-                },
-                polygon: {
-                    eid: 30109,
-                    token: {
-                        chainKey: "polygon",
-                        address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
-                        decimals: 18,
-                        name: "AltLayer Token ",
-                        symbol: "ALT"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        name: "AltLayer Token ",
-                        symbol: "ALT",
-                        address: "GVkbuvfYEXGJfUZwnVoyzzby3RsatA2Cr56BPp79JUbg",
-                        decimals: 9,
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "8RCnxmR14qJXS9dYTDpngzbgueFDLnSRevw2ft3NMQSf"
-                    },
-                    oft: {
-                        programId: "CeEVLEGhkrLVqWKSYJimDjiTiSGqSAQortwLzaLihm9M"
-                    }
-                }
-            },
-            coinMarketCapId: 29073
-        })
-          , q = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "Anon",
-                        name: "HeyAnon",
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    oft: {
-                        programId: "A1oayh35gLkRG8fHcXtfdGJmbsubAeJA7URVVET3h8MZ"
-                    },
-                    token: {
-                        address: "9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T",
-                        chainKey: "solana",
-                        decimals: 9,
-                        name: "HeyAnon",
-                        symbol: "Anon",
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "3aHBZCkjV1X2EMMTiNxBC2WZ4fv1jW7Mt58ukfHefnPu"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        chainKey: "bsc",
-                        decimals: 18,
-                        symbol: "Anon",
-                        name: "HeyAnon",
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
-                    }
-                },
-                iota: {
-                    eid: 30284,
-                    token: {
-                        chainKey: "iota",
-                        decimals: 18,
-                        symbol: "Anon",
-                        name: "HeyAnon",
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
-                    }
-                },
-                kava: {
-                    eid: 30177,
-                    token: {
-                        chainKey: "kava",
-                        decimals: 18,
-                        symbol: "Anon",
-                        name: "HeyAnon",
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
-                    }
-                },
-                metis: {
-                    eid: 30151,
-                    token: {
-                        chainKey: "metis",
-                        decimals: 18,
-                        symbol: "Anon",
-                        name: "HeyAnon",
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        symbol: "Anon",
-                        name: "HeyAnon",
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
-                    }
-                },
-                sonic: {
-                    eid: 30332,
-                    token: {
-                        chainKey: "sonic",
-                        decimals: 18,
-                        symbol: "Anon",
-                        name: "HeyAnon",
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "HeyAnon",
-                        symbol: "Anon"
-                    }
-                },
-                avalanche: {
-                    eid: 30106,
-                    token: {
-                        address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
-                        chainKey: "avalanche",
-                        decimals: 18,
-                        name: "HeyAnon",
-                        symbol: "Anon"
-                    }
-                }
-            },
-            coinMarketCapId: 35092,
-            coinGeckoId: ""
-        })
-          , J = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinGeckoId: "airtor-protocol",
-            deployments: {
-                base: {
-                    eid: 30184,
+                coinMarketCapId: 30309
+            })
+            , Z = (0,
+                X.C2)({
+                    sharedDecimals: 6,
                     version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "ANYONE",
-                        name: "ANyONe Protocol",
-                        address: "0xe67F39FbE8C24ef8b3542efED1eE9963cEFC1f2a"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0xaa469fc353c0CCFfc8fc192E021AFBc4e5303892"
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x77A4B0BfE5C7257F67a1DE1B99aA7E157035B1b2",
+                                decimals: 18,
+                                name: "Token7007",
+                                symbol: "7007"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0x75eC618A817EB0A4a7E44aC3dFc64c963DAf921A",
+                                decimals: 18,
+                                name: "Token7007",
+                                symbol: "7007"
+                            },
+                            oftProxy: {
+                                address: "0xa4889a7023e375344f7fc42ca164d8aadf5e8dcc"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x77A4B0BfE5C7257F67a1DE1B99aA7E157035B1b2",
+                                decimals: 18,
+                                name: "Token7007",
+                                symbol: "7007"
+                            }
+                        }
                     },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "ANYONE",
-                        name: "ANyONe Protocol",
-                        address: "0xFeAc2Eae96899709a43E252B6B92971D32F9C0F9"
-                    }
-                },
-                peaq: {
-                    eid: 30302,
+                    coinGeckoId: "token7007"
+                })
+            , Q = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "ABOND",
+                                address: "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            oftProxy: {
+                                address: "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1"
+                            },
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "ABOND",
+                                address: "0x34294AfABCbaFfc616ac6614F6d2e17260b78BEd",
+                                decimals: 18
+                            }
+                        },
+                        polygon: {
+                            eid: 109,
+                            token: {
+                                chainKey: "polygon",
+                                symbol: "ABOND",
+                                address: "0xe6828D65bf5023AE1851D90D8783Cc821ba7eeE1",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 29157
+                })
+            , Y = (0,
+                X.C2)({
+                    sharedDecimals: 6,
                     version: 3,
-                    token: {
-                        chainKey: "peaq",
-                        decimals: 18,
-                        symbol: "ANYONE",
-                        name: "ANyONe Protocol",
-                        address: "0xe67F39FbE8C24ef8b3542efED1eE9963cEFC1f2a"
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
+                                decimals: 18,
+                                name: "AltLayer Token ",
+                                symbol: "ALT"
+                            },
+                            oftProxy: {
+                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
+                                decimals: 18,
+                                name: "AltLayer Token ",
+                                symbol: "ALT"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
+                                decimals: 18,
+                                name: "AltLayer Token ",
+                                symbol: "ALT"
+                            }
+                        },
+                        optimism: {
+                            eid: 30111,
+                            token: {
+                                chainKey: "optimism",
+                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
+                                decimals: 18,
+                                name: "AltLayer Token ",
+                                symbol: "ALT"
+                            }
+                        },
+                        polygon: {
+                            eid: 30109,
+                            token: {
+                                chainKey: "polygon",
+                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
+                                decimals: 18,
+                                name: "AltLayer Token ",
+                                symbol: "ALT"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                name: "AltLayer Token ",
+                                symbol: "ALT",
+                                address: "GVkbuvfYEXGJfUZwnVoyzzby3RsatA2Cr56BPp79JUbg",
+                                decimals: 9,
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "8RCnxmR14qJXS9dYTDpngzbgueFDLnSRevw2ft3NMQSf"
+                            },
+                            oft: {
+                                programId: "CeEVLEGhkrLVqWKSYJimDjiTiSGqSAQortwLzaLihm9M"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 29073
+                })
+            , q = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "Anon",
+                                name: "HeyAnon",
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            oft: {
+                                programId: "A1oayh35gLkRG8fHcXtfdGJmbsubAeJA7URVVET3h8MZ"
+                            },
+                            token: {
+                                address: "9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T",
+                                chainKey: "solana",
+                                decimals: 9,
+                                name: "HeyAnon",
+                                symbol: "Anon",
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "3aHBZCkjV1X2EMMTiNxBC2WZ4fv1jW7Mt58ukfHefnPu"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                chainKey: "bsc",
+                                decimals: 18,
+                                symbol: "Anon",
+                                name: "HeyAnon",
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+                            }
+                        },
+                        iota: {
+                            eid: 30284,
+                            token: {
+                                chainKey: "iota",
+                                decimals: 18,
+                                symbol: "Anon",
+                                name: "HeyAnon",
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+                            }
+                        },
+                        kava: {
+                            eid: 30177,
+                            token: {
+                                chainKey: "kava",
+                                decimals: 18,
+                                symbol: "Anon",
+                                name: "HeyAnon",
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+                            }
+                        },
+                        metis: {
+                            eid: 30151,
+                            token: {
+                                chainKey: "metis",
+                                decimals: 18,
+                                symbol: "Anon",
+                                name: "HeyAnon",
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                symbol: "Anon",
+                                name: "HeyAnon",
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+                            }
+                        },
+                        sonic: {
+                            eid: 30332,
+                            token: {
+                                chainKey: "sonic",
+                                decimals: 18,
+                                symbol: "Anon",
+                                name: "HeyAnon",
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "HeyAnon",
+                                symbol: "Anon"
+                            }
+                        },
+                        avalanche: {
+                            eid: 30106,
+                            token: {
+                                address: "0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C",
+                                chainKey: "avalanche",
+                                decimals: 18,
+                                name: "HeyAnon",
+                                symbol: "Anon"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 35092,
+                    coinGeckoId: ""
+                })
+            , J = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinGeckoId: "airtor-protocol",
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "ANYONE",
+                                name: "ANyONe Protocol",
+                                address: "0xe67F39FbE8C24ef8b3542efED1eE9963cEFC1f2a"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0xaa469fc353c0CCFfc8fc192E021AFBc4e5303892"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "ANYONE",
+                                name: "ANyONe Protocol",
+                                address: "0xFeAc2Eae96899709a43E252B6B92971D32F9C0F9"
+                            }
+                        },
+                        peaq: {
+                            eid: 30302,
+                            version: 3,
+                            token: {
+                                chainKey: "peaq",
+                                decimals: 18,
+                                symbol: "ANYONE",
+                                name: "ANyONe Protocol",
+                                address: "0xe67F39FbE8C24ef8b3542efED1eE9963cEFC1f2a"
+                            }
+                        }
                     }
-                }
+                })
+            , j = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+                                decimals: 18,
+                                name: "ApeCoin",
+                                symbol: "APE"
+                            },
+                            oftProxy: {
+                                address: "0x5182feDE730b31a9CF7f49C5781214B4a99F2370"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0x7f9FBf9bDd3F4105C478b996B648FE6e828a1e98",
+                                decimals: 18,
+                                name: "ApeCoin",
+                                symbol: "APE"
+                            }
+                        },
+                        ape: {
+                            eid: 30312,
+                            token: {
+                                chainKey: "ape",
+                                decimals: 18,
+                                name: "ApeCoin",
+                                symbol: "APE"
+                            },
+                            oftNative: {
+                                address: "0xe4103e80c967f58591a1d7cA443ed7E392FeD862"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 18876
+                })
+            , _ = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        zksync: {
+                            eid: 30165,
+                            token: {
+                                chainKey: "zksync",
+                                address: "0x67154b6a149081E796049F2a3B17e1c356d2bA61",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        blast: {
+                            eid: 30243,
+                            token: {
+                                chainKey: "blast",
+                                address: "0xCd615270aB3a7a3A262A4E49935D002278C76b78",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0x16Ed8E219cde31E14a80dCb6C9127A5EC6e88e46",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        linea: {
+                            eid: 30183,
+                            token: {
+                                chainKey: "linea",
+                                address: "0xEd97D39448D1c3891aAFCb28c9CF63F893D65743",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                chainKey: "bsc",
+                                address: "0x16Ed8E219cde31E14a80dCb6C9127A5EC6e88e46",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x9Ba021B0a9b958B5E75cE9f6dff97C7eE52cb3E6",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether",
+                                symbol: "apxETH"
+                            },
+                            oftProxy: {
+                                address: "0xe5ec9e3fa47d93a8a1062c983227f255bbeaf1f1"
+                            }
+                        },
+                        mode: {
+                            eid: 30260,
+                            token: {
+                                chainKey: "mode",
+                                address: "0xCd615270aB3a7a3A262A4E49935D002278C76b78",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0xEd97D39448D1c3891aAFCb28c9CF63F893D65743",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        optimism: {
+                            eid: 30111,
+                            token: {
+                                chainKey: "optimism",
+                                address: "0x16Ed8E219cde31E14a80dCb6C9127A5EC6e88e46",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        gnosis: {
+                            eid: 30145,
+                            token: {
+                                chainKey: "gnosis",
+                                address: "0xef2a1BF104a9600eeDEFA9ACe6877E51e5add29D",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        },
+                        scroll: {
+                            eid: 30214,
+                            token: {
+                                chainKey: "scroll",
+                                address: "0xCd615270aB3a7a3A262A4E49935D002278C76b78",
+                                decimals: 18,
+                                name: "Autocompounding Pirex Ether OFT",
+                                symbol: "apxETH"
+                            }
+                        }
+                    }
+                })
+            , $ = (0,
+                X.C2)({
+                    deployments: {
+                        arbitrum: {
+                            eid: 110,
+                            oftProxy: {
+                                address: "0x64F282290e8d0196c2929a9119250C361e025BAB"
+                            },
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "ARKEN",
+                                address: "0xAf5db6E1CC585ca312E8c8F7c499033590cf5C98",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "ARKEN",
+                                address: "0x1D4268a58ee7EC2cc2Af5d70a2fD2B3a896527a2",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 9,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 23969
+                })
+            , ee = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 7105,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "ASK",
+                                name: "Permission Token",
+                                address: "0xBB146326778227A8498b105a18f84E0987A684b4"
+                            }
+                        },
+                        polygon: {
+                            eid: 30109,
+                            version: 3,
+                            oftProxy: {
+                                address: "0xBB146326778227A8498b105a18f84E0987A684b4"
+                            },
+                            token: {
+                                chainKey: "polygon",
+                                decimals: 18,
+                                symbol: "ASK",
+                                name: "Permission Token",
+                                address: "0xaA3717090CDDc9B227e49d0D84A28aC0a996e6Ff"
+                            }
+                        }
+                    }
+                })
+            , ea = (0,
+                X.C2)({
+                    fee: !0,
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    deployments: {
+                        polygon: {
+                            eid: 30109,
+                            token: {
+                                chainKey: "polygon",
+                                symbol: "ASTRAFER",
+                                address: "0xDfCe1e99A31C4597a3f8A8945cBfa9037655e335",
+                                decimals: 18
+                            },
+                            oftProxy: {
+                                address: "0xa7f18d7a493c80378253b8129cbcfdfa85ddb7c8"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "ASTRAFER",
+                                address: "0xb51B97Dd5569FAB69495316B5a065CCcfF4B829d",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    coinMarketCapId: 20886
+                })
+            , ed = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B",
+                                decimals: 18,
+                                name: "Aethir Token",
+                                symbol: "ATH"
+                            },
+                            oftProxy: {
+                                address: "0x5786C150609a4eF8957bc614a13e8e29558EaBA4"
+                            }
+                        },
+                        zksync: {
+                            eid: 30165,
+                            token: {
+                                chainKey: "zksync",
+                                address: "0xB5a58C1D3542A65F93A5a504765CD2Cd3155A418",
+                                decimals: 18,
+                                name: "Aethir Token",
+                                symbol: "ATH"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                address: "Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7",
+                                decimals: 9,
+                                name: "Aethir Token",
+                                symbol: "ATH",
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "HFzERTDFuphN7e6uYGKpk92CBTVqG8CwzbcK6rmrjNXW"
+                            },
+                            oft: {
+                                programId: "5HNxbq5TiMM8YgMHNtLzkMvR6YtJSfkTn857i52aRi1p"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 30083,
+                    coinGeckoId: "aethir"
+                })
+            , es = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x80ca9edce4583b8043351a1046f18244b24ef869",
+                                decimals: 18,
+                                name: "AVA",
+                                symbol: "AVA"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                name: "Ava AI",
+                                symbol: "AVA",
+                                address: "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
+                                decimals: 6,
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "5hJNuJ2ueCVcoKvom2Ge4c3nXaA8erJvG1NjuN9jgrx9"
+                            },
+                            oft: {
+                                programId: "HhawHXUxwurzbrR7n9sR1ungbuNwFj1zMLfMt5BKXbFB"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 34116,
+                    coinGeckoId: "ava-ai"
+                })
+            , ei = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x31ea904A7eca45122890dEb8dA3473A2081bc9d1",
+                                decimals: 18,
+                                name: "Bonsai3",
+                                symbol: "BAI"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x31ea904A7eca45122890dEb8dA3473A2081bc9d1",
+                                decimals: 18,
+                                name: "Bonsai3",
+                                symbol: "BAI"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 28503
+                })
+            , eo = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "BAL",
+                                address: "0xba100000625a3754423978a60c9317c58a424e3D",
+                                decimals: 18
+                            }
+                        },
+                        avalanche: {
+                            eid: 106,
+                            token: {
+                                chainKey: "avalanche",
+                                symbol: "BAL",
+                                address: "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 6,
+                    version: 2,
+                    fee: !0,
+                    coinMarketCapId: 5728
+                })
+            , en = (0,
+                X.C2)({
+                    deployments: {
+                        optimism: {
+                            eid: 111,
+                            token: {
+                                chainKey: "optimism",
+                                symbol: "BEETS",
+                                address: "0xb4Bc46bc6cB217B59ea8F4530BaE26Bf69F677f0",
+                                decimals: 18
+                            }
+                        },
+                        fantom: {
+                            eid: 112,
+                            oftProxy: {
+                                address: "0x8d038dA833b154EBcFB7965a9eE7C4Ad72671b21"
+                            },
+                            token: {
+                                chainKey: "fantom",
+                                symbol: "BEETS",
+                                address: "0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e",
+                                decimals: 18
+                            }
+                        },
+                        sonic: {
+                            eid: 332,
+                            token: {
+                                chainKey: "sonic",
+                                address: "0x1E5fe95fB90ac0530F581C617272cd0864626795",
+                                decimals: 18,
+                                name: "Beethovenx",
+                                symbol: "BEETS"
+                            }
+                        }
+                    },
+                    sharedDecimals: 6,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 13244
+                })
+            , ec = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                chainKey: "bsc",
+                                address: "0x2A73F85024f101F3FAC9FbCBcE60707B6b3A6203",
+                                decimals: 18,
+                                name: "BetaOFT",
+                                symbol: "BETA"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28",
+                                decimals: 18,
+                                name: "Beta Token",
+                                symbol: "BETA"
+                            },
+                            oftProxy: {
+                                address: "0x2a73f85024f101f3fac9fbcbce60707b6b3a6203"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 11307
+                })
+            , er = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0xb92D5bA343396599076A52bb95D0029286b8F463"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "BETS",
+                                address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            oftProxy: {
+                                address: "0xeb90e1256ab885067b4e3264ea431affbc8582e2"
+                            },
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "BETS",
+                                address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
+                                decimals: 18
+                            }
+                        },
+                        avalanche: {
+                            eid: 106,
+                            oftProxy: {
+                                address: "0x73ddb67cb110012676fa3770fe595f85b9ee1ac3"
+                            },
+                            token: {
+                                chainKey: "avalanche",
+                                symbol: "BETS",
+                                address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
+                                decimals: 18
+                            }
+                        },
+                        polygon: {
+                            eid: 109,
+                            oftProxy: {
+                                address: "0xcf3f8622319ace86f1e877f4bf3f586329cdded8"
+                            },
+                            token: {
+                                chainKey: "polygon",
+                                symbol: "BETS",
+                                address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            oftProxy: {
+                                address: "0x63a28da45373619400f8df9a2f9858a845374864"
+                            },
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "BETS",
+                                address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 18,
+                    version: 1,
+                    fee: !1,
+                    coinMarketCapId: 18453
+                })
+            , em = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 35214,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            version: 3,
+                            token: {
+                                chainKey: "bsc",
+                                decimals: 18,
+                                symbol: "BMT",
+                                name: "Bubblemaps",
+                                address: "0x7d814b9eD370Ec0a502EdC3267393bF62d891B62"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            oft: {
+                                programId: "BCE3naS4LHAfGeiN34dTTR42vBcKMC8tafF8SBDTAD5c"
+                            },
+                            token: {
+                                chainKey: "solana",
+                                decimals: 9,
+                                symbol: "BMT",
+                                name: "Bubblemaps",
+                                address: "FQgtfugBdpFN7PZ6NdPrZpVLDBrPGxXesi4gVu3vErhY",
+                                programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+                            },
+                            tokenEscrow: {
+                                address: "CCDxmUAYCUjyEzF7FbyCAWwceQbRyz4KtjoC2mLBUPJG"
+                            }
+                        }
+                    }
+                })
+            , et = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        soneium: {
+                            eid: 30340,
+                            token: {
+                                address: "0xA0aeBd4Ae5F256B72B7D43f67eD934237Adb1AeE",
+                                chainKey: "soneium",
+                                decimals: 18,
+                                name: "BONSAI COIN",
+                                symbol: "BONSAICOIN"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0xA0aeBd4Ae5F256B72B7D43f67eD934237Adb1AeE",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "BONSAI COIN",
+                                symbol: "BONSAICOIN"
+                            }
+                        }
+                    },
+                    coinGeckoId: "bonsai-coin"
+                })
+            , eb = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        sonic: {
+                            eid: 30332,
+                            token: {
+                                chainKey: "sonic",
+                                address: "0x7A0C53F7eb34C5BC8B01691723669adA9D6CB384",
+                                decimals: 18,
+                                name: "SpookyToken",
+                                symbol: "BOO"
+                            }
+                        },
+                        fantom: {
+                            eid: 30112,
+                            token: {
+                                chainKey: "fantom",
+                                address: "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
+                                decimals: 18,
+                                name: "SpookyToken",
+                                symbol: "BOO"
+                            },
+                            oftProxy: {
+                                address: "0x3AF1CF07F9960e06B76D701c0CD7F1120707378A"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 9608,
+                    coinGeckoId: "spookyswap"
+                })
+            , el = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinGeckoId: "boop-4",
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            version: 3,
+                            token: {
+                                chainKey: "bsc",
+                                decimals: 6,
+                                symbol: "HUMA",
+                                name: "HUMA",
+                                address: "0x92516e0DDf1dDBF7FAB1b79CaC26689fDC5ba8e6"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            oft: {
+                                programId: "BRGv9mxfDeZWxJWPUfX687r9f4Kmg1Qhhq5C9cBSKaM"
+                            },
+                            token: {
+                                chainKey: "solana",
+                                decimals: 6,
+                                symbol: "HUMA",
+                                name: "HUMA",
+                                address: "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+                                programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+                            },
+                            tokenEscrow: {
+                                address: "Eae9HsnubBNCJiTyMBVhoiynbRBqpD4GbFcPWwscNwRQ"
+                            }
+                        }
+                    }
+                })
+            , ey = (0,
+                X.C2)({
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0x37d2Adc008118d04f259fc0c16ff66bF5a637D20",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "DeBoxToken",
+                                symbol: "BOX"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0x6386Adc4BC9c21984E34fD916BB349dD861742af",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "DeBoxToken",
+                                symbol: "BOX"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            oftProxy: {
+                                address: "0xe3B60790607AFe418ADCAADcB5E07f8124eD4b26"
+                            },
+                            token: {
+                                address: "0x32B77729cD87F1EF2bEa4C650c16f89f08472c69",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                name: "DeBoxToken",
+                                symbol: "BOX"
+                            }
+                        },
+                        mantle: {
+                            eid: 30181,
+                            token: {
+                                address: "0x3d142CDb27B537AF57a55eE8f54adA953b4b9Ecd",
+                                chainKey: "mantle",
+                                decimals: 18,
+                                name: "DeBoxToken",
+                                symbol: "BOX"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 33116,
+                    coinGeckoId: "debox"
+                })
+            , ef = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 7605,
+                    deployments: {
+                        arbitrum: {
+                            eid: 30110,
+                            version: 3,
+                            token: {
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                symbol: "BPRO",
+                                name: "BitPro",
+                                address: "0xDbae615958708C0Bc61234D2624b95077B017Eb7"
+                            }
+                        },
+                        rootstock: {
+                            eid: 30333,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x1497801FA1C6b9787E4A1FF55Fa9422D0896003B"
+                            },
+                            token: {
+                                chainKey: "rootstock",
+                                decimals: 18,
+                                symbol: "BPRO",
+                                name: "BitPRO",
+                                address: "0x440CD83C160De5C96Ddb20246815eA44C7aBBCa8"
+                            }
+                        }
+                    }
+                })
+            , eC = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                address: "0xBEaB712832112bd7664226db7CD025B153D3af55",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                name: "Bright Union",
+                                symbol: "BRIGHT"
+                            },
+                            oftProxy: {
+                                address: "0x781B40005b308FF254e891F1a552271DD1ED12A6"
+                            }
+                        },
+                        gnosis: {
+                            eid: 30145,
+                            token: {
+                                address: "0xb7e10110EeDCa190da51b22e90a2caEE014C8140",
+                                chainKey: "gnosis",
+                                decimals: 18,
+                                name: "Bright Union",
+                                symbol: "BRIGHT"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0xa26a4611b8313BbB25ccB1A9e227ecC536a2f8F7",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "Bright Union",
+                                symbol: "BRIGHT"
+                            }
+                        }
+                    },
+                    coinGeckoId: "bright-union"
+                })
+            , eD = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0xaB10E517f3138b17108B32129E8C8446AD44a267",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "Battle.tech by Virtuals",
+                                symbol: "BTA"
+                            },
+                            oftProxy: {
+                                address: "0xE66d6054CD609A53669b6F09727Ea9388Ad84077"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                address: "BatJTTdVgREJDaqkaexb2HYKXFfaF9v2HJT3R9WJZtQp",
+                                chainKey: "solana",
+                                decimals: 9,
+                                name: "Battle.Tech",
+                                symbol: "BTA",
+                                programId: V.H_
+                            },
+                            oft: {
+                                programId: "69rfwU6zCSsiP7etSdvs8mW6omheYLAfCy9hDv4y3F1C"
+                            },
+                            tokenEscrow: {
+                                address: "CF87frdrDZJxbBCZ62rp5RkzX8EzD4XaBcBVGPpFPmRp"
+                            }
+                        }
+                    }
+                })
+            , eE = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "BTC.b",
+                                address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
+                                decimals: 8
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "BTC.b",
+                                address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
+                                decimals: 8
+                            }
+                        },
+                        polygon: {
+                            eid: 109,
+                            token: {
+                                chainKey: "polygon",
+                                symbol: "BTC.b",
+                                address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
+                                decimals: 8
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "BTC.b",
+                                address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
+                                decimals: 8
+                            }
+                        },
+                        optimism: {
+                            eid: 111,
+                            token: {
+                                chainKey: "optimism",
+                                symbol: "BTC.b",
+                                address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
+                                decimals: 8
+                            }
+                        },
+                        avalanche: {
+                            eid: 106,
+                            oftProxy: {
+                                address: "0x2297aEbD383787A160DD0d9F71508148769342E3"
+                            },
+                            token: {
+                                chainKey: "avalanche",
+                                symbol: "BTC.b",
+                                address: "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
+                                decimals: 8
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !0,
+                    coinMarketCapId: 20721,
+                    coinGeckoId: "bitcoin-avalanche-bridged-btc-b"
+                })
+            , eA = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "BTCB Token",
+                                symbol: "BTCB"
+                            },
+                            oftProxy: {
+                                address: "0x5b7b01bEBCdf408Dd14429A9b12465AB45204B13"
+                            }
+                        },
+                        goat: {
+                            eid: 30361,
+                            token: {
+                                address: "0xfe41e7e5cB3460c483AB2A38eb605Cda9e2d248E",
+                                chainKey: "goat",
+                                decimals: 18,
+                                name: "BTCB Token",
+                                symbol: "BTCB"
+                            }
+                        }
+                    },
+                    coinGeckoId: "binance-bitcoin"
+                })
+            , eh = (0,
+                X.C2)({
+                    deployments: {
+                        bsc: {
+                            eid: 102,
+                            oftProxy: {
+                                address: "0xb274202daBA6AE180c665B4fbE59857b7c3a8091"
+                            },
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "Cake",
+                                address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+                                decimals: 18
+                            }
+                        },
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "Cake",
+                                address: "0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "Cake",
+                                address: "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
+                                decimals: 18
+                            }
+                        },
+                        zkevm: {
+                            eid: 158,
+                            token: {
+                                chainKey: "zkevm",
+                                symbol: "Cake",
+                                address: "0x0D1E753a25eBda689453309112904807625bEFBe",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !0,
+                    coinMarketCapId: 7186
+                })
+            , ex = (0,
+                X.C2)({
+                    fee: !0,
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            version: 3,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "CAT",
+                                address: "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+                                decimals: 18
+                            },
+                            oftProxy: {
+                                address: "0x27A2914fA4bA0Ec60d42E2bc0726c3A8a6D7B000"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                symbol: "CAT",
+                                address: "3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse",
+                                decimals: 6,
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "FEf59AJ5vbzXGkdZkZrV1pf1GHCaceG7MVC2FP1HN2Vg"
+                            },
+                            oft: {
+                                programId: "CATLZdvDfQcK99YntCaeDs8o342HcXRP1R5t4yTT5dUw"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 32724
+                })
+            , eB = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0xCeFC79C16Cd62cF0c35C1D16D23b9f266f2edA51",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "Catton AI",
+                                symbol: "CATTON"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                address: "EnYkmHKm13mLnBgpvHJZE2T6rqi8weQXoFuPccW9ZiD5",
+                                chainKey: "solana",
+                                decimals: 6,
+                                name: "Catton AI",
+                                symbol: "CATTON",
+                                programId: V.H_
+                            },
+                            oft: {
+                                programId: "6KFkz9jSy6qtXCjrthFr2ao8MyDngjosW1FHuk9VLJ4B"
+                            },
+                            tokenEscrow: {
+                                address: "Bomp5GaYBvaL8QpFtXqisZFBiZbhBpzvmJ3BZWBghUnk"
+                            }
+                        }
+                    },
+                    coinGeckoId: "catton-ai"
+                })
+            , eF = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 4710,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x721C5CB57F5dB41fFA8b276cAe5ed9D58E7fa1C2"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 10,
+                                symbol: "CERE",
+                                name: "CERE Network",
+                                address: "0x2dA719DB753dFA10a62E140f436E1d67F2ddB0d6"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 10,
+                                symbol: "CERE",
+                                name: "CERE Token",
+                                address: "0x9886447Ff4c350f4600E4BF95Db756Bdc629b1cA"
+                            }
+                        }
+                    }
+                })
+            , ek = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 33978,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x4aFA9620D0B79137383A7A9AB3477837d475e948"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "cmETH",
+                                name: "cmETH",
+                                address: "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA"
+                            }
+                        },
+                        hyperliquid: {
+                            eid: 30367,
+                            version: 3,
+                            token: {
+                                chainKey: "hyperliquid",
+                                decimals: 18,
+                                symbol: "cmETH",
+                                name: "cmETH",
+                                address: "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA"
+                            }
+                        },
+                        mantle: {
+                            eid: 30181,
+                            version: 3,
+                            token: {
+                                chainKey: "mantle",
+                                decimals: 18,
+                                symbol: "cmETH",
+                                name: "cmETH",
+                                address: "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA"
+                            }
+                        }
+                    }
+                })
+            , ep = (0,
+                X.C2)({
+                    fee: !0,
+                    sharedDecimals: 8,
+                    version: 2,
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "CMPT",
+                                address: "0x3d000462Fb9826804a45c0EA869b83b69587F2dB",
+                                decimals: 18
+                            },
+                            oftProxy: {
+                                address: "0x1883af6b51fb7f69577880004a82c9d68582022c"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "CMPT",
+                                address: "0x1883aF6b51fb7F69577880004a82c9d68582022C",
+                                decimals: 18
+                            }
+                        },
+                        base: {
+                            eid: 184,
+                            token: {
+                                chainKey: "base",
+                                symbol: "CMPT",
+                                address: "0x1883aF6b51fb7F69577880004a82c9d68582022C",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    coinMarketCapId: 30352
+                })
+            , eK = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        etherlink: {
+                            eid: 30292,
+                            token: {
+                                chainKey: "etherlink",
+                                address: "0x6b43732a9AE9F8654d496c0A075Aa4Aa43057A0B",
+                                decimals: 18,
+                                name: "Sugarverse",
+                                symbol: "CNDY"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0x6b43732a9AE9F8654d496c0A075Aa4Aa43057A0B",
+                                decimals: 18,
+                                name: "Sugarverse",
+                                symbol: "CNDY"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 34376,
+                    coinGeckoId: "sugarverse"
+                })
+            , eu = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 33720,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0xC14459931cF666DCcAd582D63288AefB9f0bDca9"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "COOK",
+                                name: "COOK",
+                                address: "0x9F0C013016E8656bC256f948CD4B79ab25c7b94D"
+                            }
+                        },
+                        hyperliquid: {
+                            eid: 30367,
+                            version: 3,
+                            token: {
+                                chainKey: "hyperliquid",
+                                decimals: 18,
+                                symbol: "COOK",
+                                name: "COOK",
+                                address: "0x9F0C013016E8656bC256f948CD4B79ab25c7b94D"
+                            }
+                        },
+                        mantle: {
+                            eid: 30181,
+                            version: 3,
+                            token: {
+                                chainKey: "mantle",
+                                decimals: 18,
+                                symbol: "COOK",
+                                name: "COOK",
+                                address: "0x9F0C013016E8656bC256f948CD4B79ab25c7b94D"
+                            }
+                        }
+                    }
+                })
+            , eT = (0,
+                X.C2)({
+                    sharedDecimals: 4,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x420FcA0121DC28039145009570975747295f2329",
+                                decimals: 18,
+                                name: "COQINU",
+                                symbol: "COQ"
+                            }
+                        },
+                        avalanche: {
+                            eid: 30106,
+                            token: {
+                                chainKey: "avalanche",
+                                address: "0x420FcA0121DC28039145009570975747295f2329",
+                                decimals: 18,
+                                name: "COQINU",
+                                symbol: "COQ"
+                            },
+                            oftProxy: {
+                                address: "0x347f7268ad43f3f7b68c4d64a8c0523830100c8b"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x420FcA0121DC28039145009570975747295f2329",
+                                decimals: 18,
+                                name: "COQINU",
+                                symbol: "COQ"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0x420FcA0121DC28039145009570975747295f2329",
+                                decimals: 18,
+                                name: "COQINU",
+                                symbol: "COQ"
+                            }
+                        },
+                        mantle: {
+                            eid: 30181,
+                            token: {
+                                chainKey: "mantle",
+                                address: "0x420FcA0121DC28039145009570975747295f2329",
+                                decimals: 18,
+                                name: "COQINU",
+                                symbol: "COQ"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                address: "coqAhf1TXdRRkuNmGYKb57rmkNbExPuM5uHYBi13uXZ",
+                                chainKey: "solana",
+                                decimals: 4,
+                                name: "COQINU",
+                                symbol: "COQ",
+                                programId: V.H_
+                            },
+                            oft: {
+                                programId: "coqrLCXBMK6KVRt7xknMcA9uVJz5t7v6KwWUF5MXuXY"
+                            },
+                            tokenEscrow: {
+                                address: "coqH6oDiA2MZr4wQzGTnGWy2RaC4oxQJ9injeCMKQ5h"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 28675
+                })
+            , eS = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0xC7aE4aB742F6b0b203f6710C87677005Bc45ad01"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "CRV",
+                                address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
+                                decimals: 18
+                            }
+                        },
+                        fantom: {
+                            eid: 112,
+                            token: {
+                                chainKey: "fantom",
+                                symbol: "CRV",
+                                address: "0xC7aE4aB742F6b0b203f6710C87677005Bc45ad01",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 6,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 6538
+                })
+            , ev = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0xaa798BF5eC09B6E3bC059Ea4d36d4Ca53e063EF7"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "crvUSD",
+                                address: "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+                                decimals: 18
+                            }
+                        },
+                        fantom: {
+                            eid: 112,
+                            token: {
+                                chainKey: "fantom",
+                                symbol: "crvUSD",
+                                address: "0xaa798BF5eC09B6E3bC059Ea4d36d4Ca53e063EF7",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 6,
+                    version: 2,
+                    fee: !0,
+                    coinMarketCapId: 24927
+                })
+            , eP = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "CVAI",
+                                name: "CV AGENTLAUNCHER Token",
+                                address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
+                            }
+                        },
+                        polygon: {
+                            eid: 30109,
+                            version: 3,
+                            token: {
+                                chainKey: "polygon",
+                                decimals: 18,
+                                symbol: "CVAI",
+                                name: "CV AGENTLAUNCHER Token",
+                                address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            oft: {
+                                programId: "9N2wyziEDzyuAtfGWb3FrMNjr1LS27CZVMkGWfyKEnEr"
+                            },
+                            token: {
+                                chainKey: "solana",
+                                decimals: 9,
+                                symbol: "CVAI",
+                                name: "AGENTLAUNCHER Token",
+                                address: "8TC4ZJA5cwB5gmLemBfPP95v1Mft82kHGF9a87kepNno",
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "3m8hbvz5BE6Zxtt8Q4kotKWqRGahRvM769tquMUNRECJ"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "CVAI",
+                                name: "CV AGENTLAUNCHER Token",
+                                address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            version: 3,
+                            token: {
+                                chainKey: "bsc",
+                                decimals: 18,
+                                symbol: "CVAI",
+                                name: "CV AGENTLAUNCHER Token",
+                                address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            version: 3,
+                            token: {
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                symbol: "CVAI",
+                                name: "CV AGENTLAUNCHER Token",
+                                address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
+                            }
+                        }
+                    }
+                })
+            , eI = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        optimism: {
+                            eid: 30111,
+                            token: {
+                                chainKey: "optimism",
+                                address: "0x14778860E937f509e651192a90589dE711Fb88a9",
+                                decimals: 18,
+                                name: "CyberConnect",
+                                symbol: "CYBER"
+                            },
+                            oftProxy: {
+                                address: "0x9A9D5a29206Dde4F70825032dF32333De5f63921"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x14778860E937f509e651192a90589dE711Fb88a9",
+                                decimals: 18,
+                                name: "CyberConnect",
+                                symbol: "CYBER"
+                            },
+                            oftProxy: {
+                                address: "0xcb07992de144bdee56fdb66fff2454b43243b052"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                chainKey: "bsc",
+                                address: "0x14778860E937f509e651192a90589dE711Fb88a9",
+                                decimals: 18,
+                                name: "CyberConnect",
+                                symbol: "CYBER"
+                            },
+                            oftProxy: {
+                                address: "0x9a9d5a29206dde4f70825032df32333de5f63921"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 24781
+                })
+            , eg = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 32224,
+                    deployments: {
+                        blast: {
+                            eid: 30243,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x7Bb6cAC7e47E8149C4Ef62b759Ee8b2E56C0304F"
+                            },
+                            token: {
+                                chainKey: "blast",
+                                decimals: 18,
+                                symbol: "CYBRO",
+                                name: "Cybro Token",
+                                address: "0x963eec23618BbC8e1766661d5f263f18094Ae4d5"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "CYBRO",
+                                name: "Cybro Token",
+                                address: "0xD58826d2C0bAbf1A60d8b508160b52E9C19AFf07"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            version: 3,
+                            token: {
+                                chainKey: "bsc",
+                                decimals: 18,
+                                symbol: "CYBRO",
+                                name: "Cybro Token",
+                                address: "0xA9972b1fAC35fdd8cBdbaA315A002B2Ad91d2ad6"
+                            }
+                        }
+                    }
+                })
+            , eM = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0x91a40C733c97a6e1BF876EaF9ed8c08102eB491f"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "DAI",
+                                address: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+                                decimals: 18
+                            }
+                        },
+                        fantom: {
+                            eid: 112,
+                            token: {
+                                chainKey: "fantom",
+                                symbol: "DAI",
+                                address: "0x91a40C733c97a6e1BF876EaF9ed8c08102eB491f",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 18,
+                    version: 1,
+                    fee: !1,
+                    coinMarketCapId: 4943
+                })
+            , eU = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 0,
+                    coinGeckoId: "dawae-2",
+                    deployments: {
+                        sonic: {
+                            eid: 30332,
+                            version: 3,
+                            token: {
+                                chainKey: "sonic",
+                                decimals: 18,
+                                symbol: "DAWAE",
+                                name: "Dawae",
+                                address: "0x7A5C61047aD8fA4a743c75Eb46a01300c7c9dADA"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            oft: {
+                                programId: "BoXzSxwNc9ZhX5RXChRDgageCKRzSZTDb2ZZwHRucmY7"
+                            },
+                            token: {
+                                chainKey: "solana",
+                                decimals: 9,
+                                symbol: "DAWAE",
+                                name: "DAWAE",
+                                address: "DZSs9nHSr9BBunLNWd6PDstesJ4PBLMFVK1GbZ9urYNZ",
+                                programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+                            },
+                            tokenEscrow: {
+                                address: "5gN9by9fg8LBkRs9npF13buu62aAkeL7aehgTzcPKUEt"
+                            }
+                        }
+                    }
+                })
+            , eR = (0,
+                X.C2)({
+                    deployments: {
+                        bsc: {
+                            eid: 102,
+                            oftProxy: {
+                                address: "0x5e6adF21e76F9D4258FC68fD5c8fCb826185f8ef"
+                            },
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "DegenReborn",
+                                name: "DegenReborn",
+                                address: "0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            oftProxy: {
+                                address: "0xcbd78fb59cdae1cd70e4d27c2d9ceb8691589715"
+                            },
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "DegenReborn",
+                                name: "DegenReborn",
+                                address: "0x881ee52679537C6834fDeeB3673da2e3eCb50DF6",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 18,
+                    version: 1,
+                    fee: !1,
+                    coinMarketCapId: 24276
+                })
+            , eG = (0,
+                X.C2)({
+                    coinMarketCapId: 30096,
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0x9F07F8A82cB1af1466252e505b7b7ddee103bC91",
+                                decimals: 18,
+                                name: "DEGEN",
+                                symbol: "DEGEN"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0xfee293840D23B0B2De8C55e1Cf7A9F01C157767c",
+                                decimals: 18,
+                                name: "DEGEN",
+                                symbol: "DEGEN"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+                                decimals: 18,
+                                name: "Degen",
+                                symbol: "DEGEN"
+                            },
+                            oftProxy: {
+                                address: "0xdb8e759859058952c34953c8469f464109826e52"
+                            }
+                        },
+                        degen: {
+                            eid: 30267,
+                            token: {
+                                chainKey: "degen",
+                                decimals: 18,
+                                symbol: "DEGEN",
+                                name: "DEGEN"
+                            },
+                            oftNative: {
+                                address: "0x962311BAF97E6E703f219aE251A181Fb8Cb9F258"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                symbol: "DEGEN",
+                                name: "DEGEN",
+                                address: "A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz",
+                                decimals: 6,
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "Bj4zRevshJHtWzuKawFoRt69ipggMiA48SM4BrxBuveH"
+                            },
+                            oft: {
+                                programId: "DEGENjhEjBFtbdyPCBQRZK32T2jXmzHkBijEgC9esgvU"
+                            }
+                        }
+                    }
+                })
+            , eL = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0xBcF1d3bf77f4D29d9c54AE5dC51d8C2ACea5Be3C",
+                                decimals: 18,
+                                name: "DEGENAI",
+                                symbol: "degenai"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                address: "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump",
+                                decimals: 6,
+                                name: "DEGENAI",
+                                symbol: "degenai",
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "C7TyogQXdRYUg6qefWPNWgHk52oTdFwGnrUd2M3WB9o6"
+                            },
+                            oft: {
+                                programId: "B4bD1RaEwHk5a2BBQPnHjP4ZGgmVFQ1jhJBXgny9h1qC"
+                            }
+                        }
+                    },
+                    coinGeckoId: "degen-spartan-ai"
+                })
+            , eH = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        optimism: {
+                            eid: 30111,
+                            token: {
+                                chainKey: "optimism",
+                                address: "0x09D9420332bff75522a45FcFf4855F82a0a3ff50",
+                                decimals: 18,
+                                name: "Dinero OFT",
+                                symbol: "DINERO"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x6DF0E641FC9847c0c6Fde39bE6253045440c14d3",
+                                decimals: 18,
+                                name: "Dinero Governance Token",
+                                symbol: "DINERO"
+                            },
+                            oftProxy: {
+                                address: "0x09D9420332bff75522a45FcFf4855F82a0a3ff50"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x09D9420332bff75522a45FcFf4855F82a0a3ff50",
+                                decimals: 18,
+                                name: "Dinero OFT",
+                                symbol: "DINERO"
+                            }
+                        },
+                        zksync: {
+                            eid: 30165,
+                            token: {
+                                chainKey: "zksync",
+                                name: "Dinero OFT",
+                                symbol: "DINERO",
+                                address: "0xd0fB453E03f128A35d7409135981C754170378A5",
+                                decimals: 18
+                            }
+                        },
+                        flare: {
+                            eid: 30295,
+                            token: {
+                                chainKey: "flare",
+                                name: "Dinero OFT",
+                                symbol: "DINERO",
+                                address: "0xBE6D2BE4e01D4304a28eDD13038311e112313ec8",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    coinMarketCapId: 32492,
+                    coinGeckoId: "dinero-2"
+                })
+            , eN = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "DMAIL",
+                                address: "0xcC6f1e1B87cfCbe9221808d2d85C501aab0B5192",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "DMAIL",
+                                address: "0xcC6f1e1B87cfCbe9221808d2d85C501aab0B5192",
+                                decimals: 18
+                            }
+                        },
+                        linea: {
+                            eid: 183,
+                            token: {
+                                chainKey: "linea",
+                                symbol: "DMAIL",
+                                address: "0xcC6f1e1B87cfCbe9221808d2d85C501aab0B5192",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 19779
+                })
+            , eO = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "DMT",
+                                address: "0x0B7f0e51Cd1739D6C96982D55aD8fA634dd43A9C",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            oftProxy: {
+                                address: "0xa9Aa07F082D9c15D0B6D7e9e5B68b1f898399C29"
+                            },
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "DMT",
+                                address: "0x8B0E6f19Ee57089F7649A455D89D7bC6314D04e8",
+                                decimals: 18
+                            }
+                        },
+                        sanko: {
+                            eid: 278,
+                            token: {
+                                chainKey: "sanko",
+                                symbol: "DMT",
+                                decimals: 18
+                            },
+                            oftNative: {
+                                address: "0x7393aE4835FDfed4f25E46a10D6bDB2fd49A2706"
+                            }
+                        }
+                    },
+                    sharedDecimals: 6,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 25653
+                })
+            , ew = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 7558,
+                    deployments: {
+                        arbitrum: {
+                            eid: 30110,
+                            version: 3,
+                            token: {
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                symbol: "DOC",
+                                name: "Dollar on Chain",
+                                address: "0x2AD62eb9744c720364F6ac856360a43e8a2229b5"
+                            }
+                        },
+                        rootstock: {
+                            eid: 30333,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x5da928A27283674411eF7e2739efd41EE6E53B53"
+                            },
+                            token: {
+                                chainKey: "rootstock",
+                                decimals: 18,
+                                symbol: "DOC",
+                                name: "Dollar on Chain",
+                                address: "0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db"
+                            }
+                        }
+                    }
+                })
+            , eW = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+                                chainKey: "bsc",
+                                decimals: 8,
+                                name: "Dogecoin",
+                                symbol: "DOGE"
+                            },
+                            oftProxy: {
+                                address: "0x0E9A492Bd9D4241028f794b9580847e5C3444776"
+                            }
+                        },
+                        goat: {
+                            eid: 30361,
+                            token: {
+                                address: "0x1E0d0303a8c4aD428953f5ACB1477dB42bb838cf",
+                                chainKey: "goat",
+                                decimals: 18,
+                                name: "GOAT BSC DOGE",
+                                symbol: "DOGEB"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 74
+                })
+            , eX = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0xd5EB7E91Ae88Ea2550F9bFD04208399c95dF4dC7",
+                                decimals: 18,
+                                name: "DogLibre",
+                                symbol: "DOGL"
+                            },
+                            oftProxy: {
+                                address: "0xA80F36BA18c7f721F3F7ACDbcDEfd3a86869A036"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0xB757977bc882A14db86b048f2abb2F2a14D33184",
+                                decimals: 18,
+                                name: "DogLibre",
+                                symbol: "DOGL"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            token: {
+                                chainKey: "solana",
+                                symbol: "DOGL",
+                                address: "8bk3hKqrq1NgLKck937Fj6PoY9jAJgGpUKQ28qutgqha",
+                                decimals: 6,
+                                name: "DogLibre",
+                                programId: V.H_
+                            },
+                            oft: {
+                                programId: "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 31499,
+                    coinGeckoId: "doglibre"
+                })
+            , eV = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x84054a6b72dd5c58Da8106e410e62658083a80E4",
+                                decimals: 18,
+                                symbol: "DTF"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            token: {
+                                chainKey: "solana",
+                                symbol: "DTF",
+                                address: "EmhVWGUa2Q9PN4QjzFjvuVyzFKg4s3ERwjKR9dQDpump",
+                                decimals: 6
+                            },
+                            tokenEscrow: {
+                                address: "4bB2QifJcaMfw5RVnXR6P3CQJ8kv6cJgAqR9mLpKQ2Vh"
+                            },
+                            oft: {
+                                programId: "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
+                            }
+                        }
+                    },
+                    coinGeckoId: "believe-in-something-2"
+                })
+            , ez = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 2,
+                    fee: !1,
+                    deployments: {
+                        sonic: {
+                            eid: 332,
+                            token: {
+                                chainKey: "sonic",
+                                address: "0x7A08Bf5304094CA4C7b4132Ef62b5EDc4a3478B7",
+                                decimals: 18,
+                                name: "SonicEco",
+                                symbol: "ECO"
+                            }
+                        },
+                        fantom: {
+                            eid: 112,
+                            token: {
+                                chainKey: "fantom",
+                                address: "0xB8a32897016C1B2ee0797090162eAFe58f032795",
+                                decimals: 18,
+                                name: "FantomEco",
+                                symbol: "ECO"
+                            },
+                            oftProxy: {
+                                address: "0xba1c51F4DD0a96BD4ce624a4B0b48Cf039b4f2a5"
+                            }
+                        }
+                    },
+                    coinGeckoId: "fantom-eco-2"
+                })
+            , eZ = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "EDU",
+                                address: "0xf8173a39c56a554837C4C7f104153A005D284D11",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            oftProxy: {
+                                address: "0x67fb304001ad03c282266b965b51e97aa54a2fab"
+                            },
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "EDU",
+                                address: "0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "EDU",
+                                address: "0xf8173a39c56a554837c4c7f104153a005d284d11",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 24613
+                })
+            , eQ = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                address: "0xda71EA8ef58D015de8C5cEA8f7B890db3A103E67",
+                                decimals: 18,
+                                name: "Emdx Token",
+                                symbol: "EMDX"
+                            }
+                        },
+                        avalanche: {
+                            eid: 30106,
+                            token: {
+                                chainKey: "avalanche",
+                                address: "0xe533B81297B820D2Eb2cd837263926596328E8D2",
+                                decimals: 18,
+                                name: "EMDX Token",
+                                symbol: "EMDX"
+                            },
+                            oftProxy: {
+                                address: "0x3CB9aEBE6c9097135E8421B4C7A93e2c0B99200f"
+                            }
+                        }
+                    }
+                })
+            , eY = (0,
+                X.C2)({
+                    fee: !0,
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x57e114B691Db790C35207b2e685D4A43181e6061"
+                            },
+                            oftProxy: {
+                                address: "0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+                            }
+                        },
+                        mode: {
+                            eid: 30260,
+                            token: {
+                                chainKey: "mode",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        blast: {
+                            eid: 30243,
+                            token: {
+                                chainKey: "blast",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        fraxtal: {
+                            eid: 30255,
+                            token: {
+                                chainKey: "fraxtal",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        kava: {
+                            eid: 30177,
+                            token: {
+                                chainKey: "kava",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        scroll: {
+                            eid: 30214,
+                            token: {
+                                chainKey: "scroll",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        metis: {
+                            eid: 30151,
+                            token: {
+                                chainKey: "metis",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        manta: {
+                            eid: 30217,
+                            token: {
+                                chainKey: "manta",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        optimism: {
+                            eid: 30111,
+                            token: {
+                                chainKey: "optimism",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        linea: {
+                            eid: 30183,
+                            token: {
+                                chainKey: "linea",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        mantle: {
+                            eid: 30181,
+                            token: {
+                                chainKey: "mantle",
+                                symbol: "ENA",
+                                decimals: 18,
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
+                            }
+                        },
+                        zksync: {
+                            eid: 30165,
+                            token: {
+                                chainKey: "zksync",
+                                symbol: "ENA",
+                                address: "0x686b311F82b407f0be842652a98e5619F64cC25F",
+                                decimals: 18
+                            }
+                        },
+                        zircuit: {
+                            eid: 30303,
+                            token: {
+                                chainKey: "zircuit",
+                                symbol: "ENA",
+                                address: "0x813635891aA06bd55036bbd8f7d1A34aB3de9a0F",
+                                decimals: 18
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                symbol: "ENA",
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+                                decimals: 18
+                            }
+                        },
+                        swell: {
+                            eid: 30335,
+                            token: {
+                                chainKey: "swell",
+                                symbol: "ENA",
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+                                decimals: 18
+                            }
+                        },
+                        morph: {
+                            eid: 30322,
+                            token: {
+                                chainKey: "morph",
+                                symbol: "ENA",
+                                name: "ENA",
+                                address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+                                decimals: 18
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            token: {
+                                chainKey: "solana",
+                                symbol: "ENA",
+                                address: "72QvBVwpxqmheEPfaCwWSWqEFsUy3rhWt6JhQBMNTwD1",
+                                decimals: 9
+                            },
+                            oft: {
+                                programId: "5sVQd9aeB4GtFA3PFRK7gkGCNCQzovxh7faaGccwQXuU"
+                            }
+                        },
+                        ton: {
+                            eid: 30343,
+                            msgType: 1,
+                            oftProxy: {
+                                address: "0x0f87d442a6b820e642ae9ad262f2e07b9c529cb4f070b9152ef362604c69b392"
+                            },
+                            token: {
+                                chainKey: "ton",
+                                symbol: "ENA",
+                                address: "0x058591596327b4965b25efce4ecce246f504fa3d7c9851d9a20b853de6506e1e",
+                                decimals: 6
+                            },
+                            controller: {
+                                address: "0x1eb2bbea3d8c0d42ff7fd60f0264c866c934bbff727526ca759e7374cae0c166"
+                            },
+                            ulnManager: {
+                                address: "0x150645746e25be5486eb3b2f5d98b44c6b324697c48d495d059f96fc9d3ec368"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 30171
+                })
+            , eq = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+                                decimals: 18,
+                                name: "ETHx",
+                                symbol: "ETHx"
+                            },
+                            oftProxy: {
+                                address: "0x39d0ce7d1509a4f22619D0f666978FBe820665E9"
+                            }
+                        },
+                        gnosis: {
+                            eid: 30145,
+                            token: {
+                                chainKey: "gnosis",
+                                address: "0x01aF04690d17DC27b891A7F67E9EEe4d14DE8EA8",
+                                decimals: 18,
+                                name: "ETHx",
+                                symbol: "ETHx"
+                            },
+                            oftProxy: {
+                                address: "0xac9da18c76d54a744612e72492838227df0308bb"
+                            }
+                        },
+                        xlayer: {
+                            eid: 30274,
+                            token: {
+                                chainKey: "xlayer",
+                                address: "0xDC685bf4b416f8D5cAc64927E9c516be45b81d28",
+                                decimals: 18,
+                                name: "ETHx",
+                                symbol: "ETHx"
+                            },
+                            oftProxy: {
+                                address: "0xC0A0fDD802b2750b7f972C2a7972c8942328099f"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 27566
+                })
+            , eJ = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                address: "0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0x4d7e09f73843Bd4735AaF7A74b6d877bac75a531"
+                            }
+                        },
+                        bob: {
+                            eid: 30279,
+                            token: {
+                                address: "0xDe1763aFA5eB658CfFFfD16835AfeB47e7aC0B8D",
+                                chainKey: "bob",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0x797964F9eB3A733D443810820f56c9ebAab1d1c2"
+                            }
+                        },
+                        bera: {
+                            eid: 30362,
+                            token: {
+                                address: "0xEb9b5f4EB023aE754fF59A04c9C038D58606DAC6",
+                                chainKey: "bera",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0xc1d31b2812Cc920341349a717d14bAdFb1BCab11"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0x2117E8b79e8E176A670c9fCf945d4348556bfFad",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0x1633269308F154fbECBb15F91d72D2aFA6af95B4"
+                            }
+                        },
+                        unichain: {
+                            eid: 30320,
+                            token: {
+                                address: "0xE9C43e09C5FA733bCC2aEAa96063A4a60147AA09",
+                                chainKey: "unichain",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0x41a11d85577Bb21743E11Eca62e2b241DC1eD5C0"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                address: "0x462cD9E0247b2e63831c3189aE738E5E9a5a4b64",
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0x174834a9DE4C2f0c13c7353e62C229E8D607c808"
+                            }
+                        },
+                        sonic: {
+                            eid: 30332,
+                            token: {
+                                address: "0x8e15C8D399e86d4FD7B427D42f06c60cDD9397e7",
+                                chainKey: "sonic",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0x31aA74232A0b0E50e5bF95780b2116710a34c7E9"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0xa153Ad732F831a79b5575Fa02e793EC4E99181b0",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0x9ff7ea0Cf94b8665c2F5d17560Bd34Ab9BbAcd21"
+                            }
+                        },
+                        swell: {
+                            eid: 30335,
+                            token: {
+                                address: "0x80ccFBec4b8c82265abdc226Ad3Df84C0726E7A3",
+                                chainKey: "swell",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0xD0148dDB69f4d8182Ef863d6f81ED6519D8c83a2"
+                            }
+                        },
+                        avalanche: {
+                            eid: 30106,
+                            token: {
+                                address: "0x9ceeD3A7f753608372eeAb300486cc7c2F38AC68",
+                                chainKey: "avalanche",
+                                decimals: 18,
+                                name: "Euler",
+                                symbol: "EUL"
+                            },
+                            oftProxy: {
+                                address: "0xF1A5F97AB84158Cf6d8ba8dEF68780Fc2Fd64310"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 14280
+                })
+            , ej = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                address: "0xaB24c63bee518Ac956c8123389fc538c7e36d82C",
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                name: "Defactor",
+                                symbol: "FACTR"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            oftProxy: {
+                                address: "0xddB9A194722E8940F25AdB87E343A100241Ff8F6"
+                            },
+                            token: {
+                                address: "0xe0bCEEF36F3a6eFDd5EEBFACD591423f8549B9D5",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                name: "Defactor",
+                                symbol: "FACTR"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 13255,
+                    coinGeckoId: "defactor"
+                })
+            , e_ = (0,
+                X.C2)({
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                address: "0xf9Fa60EF4F23F00CCE403cc4d2c11Baf4880A0d6",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "FAR",
+                                name: "Farcana"
+                            }
+                        },
+                        polygon: {
+                            eid: 30109,
+                            token: {
+                                address: "0x5F32AbeeBD3c2fac1E7459A27e1AE9f1C16ccccA",
+                                chainKey: "polygon",
+                                decimals: 18,
+                                symbol: "FAR",
+                                name: "Farcana"
+                            },
+                            oftProxy: {
+                                address: "0x1a53F62A8eeeE5CEa2aa822dD0c8B5ed1FF20159"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0xDC816B6bd4786720e91Eb17D4DaBf0E1eEf5eE91",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "FARCANA",
+                                symbol: "FAR"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 22331,
+                    coinGeckoId: "Farcana"
+                })
+            , e$ = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 8,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                address: "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+                                chainKey: "ethereum",
+                                decimals: 8,
+                                name: "Fire Bitcoin",
+                                symbol: "FBTC"
+                            },
+                            oftProxy: {
+                                address: "0x0b835f07a2a54C0e80c1F585e5b6Dd732816dA3F"
+                            }
+                        },
+                        bera: {
+                            eid: 30362,
+                            token: {
+                                address: "0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B",
+                                chainKey: "bera",
+                                decimals: 8,
+                                name: "Fire Bitcoin",
+                                symbol: "FBTC"
+                            },
+                            oftProxy: {
+                                address: "0x0b835f07a2a54C0e80c1F585e5b6Dd732816dA3F"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 32306
+                })
+            , e0 = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 20077,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x8F57f33e587004Ce3caEF213935E82e490Fca460"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "FLOWER",
+                                name: "Flower",
+                                address: "0x3E12b9d6A4D12cd9b4a6d613872d0Eb32f68b380"
+                            }
+                        },
+                        polygon: {
+                            eid: 30109,
+                            version: 3,
+                            token: {
+                                chainKey: "polygon",
+                                decimals: 18,
+                                symbol: "FLOWER",
+                                name: "Flower",
+                                address: "0x3E12b9d6A4D12cd9b4a6d613872d0Eb32f68b380"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "FLOWER",
+                                name: "Flower",
+                                address: "0x3E12b9d6A4D12cd9b4a6d613872d0Eb32f68b380"
+                            }
+                        }
+                    }
+                })
+            , e1 = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0x53028b435A62fdA4FD6a199193922bE9f6b8a9B7"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "FLUID",
+                                address: "0x4E47951508Fd4A4126F8ff9CF5E6Fa3b7cC8E073",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "FLUID",
+                                address: "0x4E47951508Fd4A4126F8ff9CF5E6Fa3b7cC8E073",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 18,
+                    version: 1,
+                    fee: !1
+                })
+            , e3 = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        blast: {
+                            eid: 30243,
+                            token: {
+                                chainKey: "blast",
+                                address: "0xE41228a455700cAF09E551805A8aB37caa39D08c",
+                                decimals: 18,
+                                name: "Frax Price Index",
+                                symbol: "FPI"
+                            }
+                        },
+                        metis: {
+                            eid: 30151,
+                            token: {
+                                chainKey: "metis",
+                                address: "0xE41228a455700cAF09E551805A8aB37caa39D08c",
+                                decimals: 18,
+                                name: "Frax Price Index",
+                                symbol: "FPI"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+                                decimals: 18,
+                                name: "Frax",
+                                symbol: "FRAX"
+                            },
+                            oftProxy: {
+                                address: "0xE41228a455700cAF09E551805A8aB37caa39D08c"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0xE41228a455700cAF09E551805A8aB37caa39D08c",
+                                decimals: 18,
+                                name: "Frax Price Index",
+                                symbol: "FPI"
+                            }
+                        },
+                        mode: {
+                            eid: 30260,
+                            token: {
+                                chainKey: "mode",
+                                address: "0xEed9DE5E41b53D1C8fAB8AAB4b0e446F828c1483",
+                                decimals: 18,
+                                name: "Frax Price Index",
+                                symbol: "FPI"
+                            }
+                        },
+                        sei: {
+                            eid: 30280,
+                            token: {
+                                chainKey: "sei",
+                                address: "0xEed9DE5E41b53D1C8fAB8AAB4b0e446F828c1483",
+                                decimals: 18,
+                                name: "Frax Price Index",
+                                symbol: "FPI"
+                            }
+                        },
+                        xlayer: {
+                            eid: 30274,
+                            token: {
+                                chainKey: "xlayer",
+                                address: "0xEed9DE5E41b53D1C8fAB8AAB4b0e446F828c1483",
+                                decimals: 18,
+                                name: "Frax Price Index",
+                                symbol: "FPI"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 19425
+                })
+            , e8 = (0,
+                X.C2)({
+                    fee: !0,
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            oftProxy: {
+                                address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "FRAX",
+                                address: "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+                                decimals: 18
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                symbol: "FRAX",
+                                address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
+                                decimals: 18
+                            }
+                        },
+                        mode: {
+                            eid: 30260,
+                            token: {
+                                chainKey: "mode",
+                                symbol: "FRAX",
+                                address: "0x80Eede496655FB9047dd39d9f418d5483ED600df",
+                                decimals: 18
+                            }
+                        },
+                        blast: {
+                            eid: 30243,
+                            token: {
+                                chainKey: "blast",
+                                symbol: "FRAX",
+                                address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
+                                decimals: 18
+                            }
+                        },
+                        metis: {
+                            eid: 30151,
+                            token: {
+                                chainKey: "metis",
+                                symbol: "FRAX",
+                                address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
+                                decimals: 18
+                            }
+                        },
+                        sei: {
+                            eid: 30280,
+                            token: {
+                                chainKey: "sei",
+                                symbol: "FRAX",
+                                address: "0x80Eede496655FB9047dd39d9f418d5483ED600df",
+                                decimals: 18
+                            }
+                        },
+                        xlayer: {
+                            eid: 30274,
+                            token: {
+                                chainKey: "xlayer",
+                                symbol: "FRAX",
+                                address: "0x80eede496655fb9047dd39d9f418d5483ed600df",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    coinMarketCapId: 6952
+                })
+            , e2 = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x5E8422345238F34275888049021821E8E08CAa1f",
+                                decimals: 18,
+                                name: "Frax Ether",
+                                symbol: "frxETH"
+                            },
+                            oftProxy: {
+                                address: "0xF010a7c8877043681D59AD125EbF575633505942"
+                            }
+                        },
+                        metis: {
+                            eid: 30151,
+                            token: {
+                                chainKey: "metis",
+                                address: "0xF010a7c8877043681D59AD125EbF575633505942",
+                                decimals: 18,
+                                name: "Frax Ether",
+                                symbol: "frxETH"
+                            }
+                        },
+                        blast: {
+                            eid: 30243,
+                            token: {
+                                chainKey: "blast",
+                                address: "0xF010a7c8877043681D59AD125EbF575633505942",
+                                decimals: 18,
+                                name: "Frax Ether",
+                                symbol: "frxETH"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0xF010a7c8877043681D59AD125EbF575633505942",
+                                decimals: 18,
+                                name: "Frax Ether",
+                                symbol: "frxETH"
+                            }
+                        },
+                        mode: {
+                            eid: 30260,
+                            token: {
+                                chainKey: "mode",
+                                address: "0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050",
+                                decimals: 18,
+                                name: "Frax Ether",
+                                symbol: "frxETH"
+                            }
+                        },
+                        sei: {
+                            eid: 30280,
+                            token: {
+                                chainKey: "sei",
+                                address: "0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050",
+                                decimals: 18,
+                                name: "Frax Ether",
+                                symbol: "frxETH"
+                            }
+                        },
+                        xlayer: {
+                            eid: 30274,
+                            token: {
+                                chainKey: "xlayer",
+                                address: "0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050",
+                                decimals: 18,
+                                name: "Frax Ether",
+                                symbol: "frxETH"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 23225
+                })
+            , e6 = (0,
+                X.C2)({
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            token: {
+                                address: "0xD6C7bB8531295e88D364EA67D5D1acC7D3F87454",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "FTR",
+                                name: "Fautor"
+                            },
+                            oftProxy: {
+                                address: "0xbCc9a0c41fC42D55270fe45D45e6AF9cc31F71ff"
+                            }
+                        },
+                        avalanche: {
+                            eid: 30106,
+                            token: {
+                                address: "0x61f23250451305f6C4426E81C50aE535Edf94A02",
+                                chainKey: "avalanche",
+                                decimals: 18,
+                                symbol: "FTR",
+                                name: "Fautor"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 31953,
+                    coinGeckoId: "fautor"
+                })
+            , e4 = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                address: "0xAC9eF66dC75E5340304d5cc48E185FF5262Ae3Ac",
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                name: "Fuego",
+                                symbol: "FUEGO"
+                            }
+                        },
+                        avalanche: {
+                            eid: 30106,
+                            token: {
+                                address: "0xAC9eF66dC75E5340304d5cc48E185FF5262Ae3Ac",
+                                chainKey: "avalanche",
+                                decimals: 18,
+                                name: "Fuego",
+                                symbol: "FUEGO"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            oftProxy: {
+                                address: "0x6f756c0437a8c2193456A5bF09a61185a56dcC76"
+                            },
+                            token: {
+                                address: "0x36912b5cf63E509f18E53ac98B3012Fa79e77bf5",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "Fuego",
+                                symbol: "FUEGO"
+                            }
+                        },
+                        sonic: {
+                            eid: 30332,
+                            token: {
+                                chainKey: "sonic",
+                                address: "0xac9ef66dc75e5340304d5cc48e185ff5262ae3ac",
+                                decimals: 18,
+                                name: "Fuego",
+                                symbol: "FUEGO"
+                            }
+                        }
+                    },
+                    coinGeckoId: "fuego"
+                })
+            , e7 = (0,
+                X.C2)({
+                    deployments: {
+                        blast: {
+                            eid: 30243,
+                            token: {
+                                chainKey: "blast",
+                                symbol: "FXS (old)",
+                                name: "FXS (old)",
+                                address: "0x23432452B720C80553458496D4D9d7C5003280d0",
+                                decimals: 18
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            oftProxy: {
+                                address: "0x23432452B720C80553458496D4D9d7C5003280d0"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "FXS (old)",
+                                name: "FXS (old)",
+                                address: "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+                                decimals: 18
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                symbol: "FXS (old)",
+                                name: "FXS (old)",
+                                address: "0x23432452B720C80553458496D4D9d7C5003280d0",
+                                decimals: 18
+                            }
+                        },
+                        metis: {
+                            eid: 30151,
+                            token: {
+                                chainKey: "metis",
+                                symbol: "FXS (old)",
+                                name: "FXS (old)",
+                                address: "0x23432452B720C80553458496D4D9d7C5003280d0",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    coinMarketCapId: 6953
+                })
+            , e5 = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 6953,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0xC6F59a4fD50cAc677B51558489E03138Ac1784EC"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0"
+                            }
+                        },
+                        xlayer: {
+                            eid: 30274,
+                            version: 3,
+                            token: {
+                                chainKey: "xlayer",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        polygon: {
+                            eid: 30109,
+                            version: 3,
+                            token: {
+                                chainKey: "polygon",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        ink: {
+                            eid: 30339,
+                            version: 3,
+                            token: {
+                                chainKey: "ink",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        sei: {
+                            eid: 30280,
+                            version: 3,
+                            token: {
+                                chainKey: "sei",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        fraxtal: {
+                            eid: 30255,
+                            version: 3,
+                            oftProxy: {
+                                address: "0xd86fBBd0c8715d2C1f40e451e5C3514e65E7576A"
+                            },
+                            token: {
+                                chainKey: "fraxtal",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0xFc00000000000000000000000000000000000002"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            version: 3,
+                            token: {
+                                chainKey: "bsc",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            version: 3,
+                            token: {
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        sonic: {
+                            eid: 30332,
+                            version: 3,
+                            token: {
+                                chainKey: "sonic",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x0CEAC003B0d2479BebeC9f4b2EBAd0a803759bbf"
+                            }
+                        },
+                        optimism: {
+                            eid: 30111,
+                            version: 3,
+                            token: {
+                                chainKey: "optimism",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        mode: {
+                            eid: 30260,
+                            version: 3,
+                            token: {
+                                chainKey: "mode",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        blast: {
+                            eid: 30243,
+                            version: 3,
+                            token: {
+                                chainKey: "blast",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        avalanche: {
+                            eid: 30106,
+                            version: 3,
+                            token: {
+                                chainKey: "avalanche",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        },
+                        zkevm: {
+                            eid: 30158,
+                            version: 3,
+                            token: {
+                                chainKey: "zkevm",
+                                decimals: 18,
+                                symbol: "FXS",
+                                name: "Frax Share",
+                                address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
+                            }
+                        }
+                    }
+                })
+            , e9 = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinGeckoId: "fyde",
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x72527FeC7d84764C405F28bD7E00E2693bbCB519"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "FYDE",
+                                name: "Fyde",
+                                address: "0x8a462E6a0051d006E33152FBEaDFB9A14198DE30"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "FYDE",
+                                name: "Fyde",
+                                address: "0xAc80E841Cb4ed3f85436DE84EE1e92cDF00144E6"
+                            }
+                        }
+                    }
+                })
+            , ae = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinGeckoId: "giza",
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x0b0E004b88A9c37453ad75C450F1147E9DEc97c3"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "GIZA",
+                                name: "Giza",
+                                address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "GIZA",
+                                name: "Giza",
+                                address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774"
+                            }
+                        }
+                    }
+                })
+            , aa = (0,
+                X.C2)({
+                    deployments: {
+                        avalanche: {
+                            eid: 106,
+                            token: {
+                                chainKey: "avalanche",
+                                symbol: "GMBL",
+                                address: "0x236626887687bf6a102269207f8f0A08549Ae4f4",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            oftProxy: {
+                                address: "0x236626887687bf6a102269207f8f0a08549ae4f4"
+                            },
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "GMBL",
+                                address: "0xE9A5aF50874c0ef2748b5DB70104B5ccb5557f6d",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1
+                })
+            , ad = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 9103,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0x66BD9B4A80a603a2bBA8962bC210fe15A286426A"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "GMEE",
+                                name: "GAMEE",
+                                address: "0xD9016A907Dc0ECfA3ca425ab20B6b785B42F2373"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            oft: {
+                                programId: "8PVbX6gmTSPsJJzUx6wewK2kBuhVQU7KmV5X8Dtvuh2y"
+                            },
+                            token: {
+                                chainKey: "solana",
+                                decimals: 9,
+                                symbol: "GMEE",
+                                name: "GAMEE",
+                                address: "J324HJvWdpZoXXzckqs5h9BhhZDnp3vp86tnrDwoGwxC",
+                                programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+                            },
+                            tokenEscrow: {
+                                address: "7hGV1HJXxU9KmsG2Ka9XwzSYXVRjBvJdpMMUHpsZnBsG"
+                            }
+                        }
+                    }
+                })
+            , as = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                address: "0xb5130F4767AB0ACC579f25a76e8f9E977CB3F948",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                name: "Godcoin",
+                                symbol: "GOD"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                address: "0xb5130F4767AB0ACC579f25a76e8f9E977CB3F948",
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                name: "Godcoin",
+                                symbol: "GOD"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0xb5130F4767AB0ACC579f25a76e8f9E977CB3F948",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "Godcoin",
+                                symbol: "GOD"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 35489
+                })
+            , ai = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        sonic: {
+                            eid: 30332,
+                            token: {
+                                chainKey: "sonic",
+                                address: "0x9fDbC3f8Abc05Fa8f3Ad3C17D2F806c1230c4564",
+                                decimals: 18,
+                                name: "GOGGLES",
+                                symbol: "GOGLZ"
+                            }
+                        },
+                        fantom: {
+                            eid: 30112,
+                            token: {
+                                chainKey: "fantom",
+                                address: "0x662B3d319e693aA578EDd4BD8a5c9395BC49e9F4",
+                                decimals: 18,
+                                name: "GOGGLES",
+                                symbol: "GOGLZ"
+                            },
+                            oftProxy: {
+                                address: "0x95ae0a728375e293eface67ea94e4b50c3a7a0fd"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 33438,
+                    coinGeckoId: "goggles"
+                })
+            , ao = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "GOLD",
+                                address: "0x9DeB0fc809955b79c85e82918E8586d3b7d2695a",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "GOLD",
+                                address: "0x8b5e4C9a188b1A187f2D1E80b1c2fB17fA2922e1",
+                                decimals: 18
+                            }
+                        },
+                        base: {
+                            eid: 184,
+                            oftProxy: {
+                                address: "0xdee1b2dab488b0d71677200ea1330fdced01e144"
+                            },
+                            token: {
+                                chainKey: "base",
+                                symbol: "GOLD",
+                                address: "0xbeFD5C25A59ef2C1316c5A4944931171F30Cd3E4",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 6,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 27897
+                })
+            , an = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0x30842a9c941d9DE3AF582c41ad12b11D776ba69e",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "QnA3.AI Token",
+                                symbol: "GPT"
+                            },
+                            oftProxy: {
+                                address: "0xE99aE1BEB4aae669F9C4FFcbb90263685fB4C8C3"
+                            }
+                        },
+                        islander: {
+                            eid: 30330,
+                            token: {
+                                address: "0x3C7053d28D986385529d04FB19A5DEaD278C2d8F",
+                                chainKey: "islander",
+                                decimals: 18,
+                                name: "QnA3.AI",
+                                symbol: "GPT"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 29576
+                })
+            , ac = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                address: "0x64d3CAe387405d91f7b0D91fb1D824A281719500",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                name: "GammaSwap",
+                                symbol: "GS"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                address: "0xb08D8BeCAB1bf76A9Ce3d2d5fa946F65EC1d3e83",
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                name: "GammaSwap",
+                                symbol: "GS"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0xc4d44c155f95FD4E94600d191a4a01bb571dF7DF",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "GammaSwap",
+                                symbol: "GS"
+                            }
+                        },
+                        sonic: {
+                            eid: 30332,
+                            token: {
+                                chainKey: "sonic",
+                                decimals: 18,
+                                symbol: "GS",
+                                name: "GammaSwap",
+                                address: "0xf9F143705b2BBDE9b4ABfD0320F328aE59364f5e"
+                            }
+                        }
+                    },
+                    coinGeckoId: "gammaswap"
+                })
+            , ar = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0x7bab349ba33d37ce6b56c117a9d0214e67806336"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "GUILD",
+                                address: "0x83E9F223e1edb3486F876EE888d76bFba26c475A",
+                                decimals: 18
+                            }
+                        },
+                        polygon: {
+                            eid: 109,
+                            token: {
+                                chainKey: "polygon",
+                                symbol: "GUILD",
+                                address: "0xAfF41DA975501E5b71848C975834341777D1a473",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 18,
+                    version: 1,
+                    fee: !1,
+                    coinMarketCapId: 15664
+                })
+            , am = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                chainKey: "bsc",
+                                address: "0x2E72393A57287b1A09857Db589B27bB0fd499922",
+                                decimals: 18,
+                                name: "Happy Cat",
+                                symbol: "HAPPY"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                address: "HAPPYwgFcjEJDzRtfWE6tiHE9zGdzpNky2FvjPHsvvGZ",
+                                decimals: 9,
+                                name: "Happy Cat",
+                                symbol: "HAPPY",
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "FFsA3qxV3mLBXddKxPmkJMmHj6zN8dDWipGzHpp8jHUX"
+                            },
+                            oft: {
+                                programId: "EB1c1XixvsRpRhPcQ9bBsyQuYkB8px5E85McfxfjHgvP"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 33892,
+                    coinGeckoId: "happycat-2"
+                })
+            , at = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        kava: {
+                            eid: 30177,
+                            token: {
+                                chainKey: "kava",
+                                address: "0x25e9171C98Fc1924Fa9415CF50750274F0664764",
+                                decimals: 6,
+                                name: "Hard",
+                                symbol: "HARD"
+                            },
+                            oftProxy: {
+                                address: "0xaDc565C6bC2DcC268abDD4408Ac156E0D00fCb62"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                chainKey: "bsc",
+                                address: "0x0f1E2C34f688d68Af730cBd0b79bb4B5519e00e0",
+                                decimals: 6,
+                                name: "Hard",
+                                symbol: "HARD"
+                            }
+                        },
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x63fE3EB27e98DA740Ee24AB5cc1a17Ebd20fEC1C",
+                                decimals: 6,
+                                name: "Hard",
+                                symbol: "HARD"
+                            }
+                        },
+                        tron: {
+                            eid: 30420,
+                            token: {
+                                chainKey: "tron",
+                                address: "0xe1c8869751fef3aa3500c208fbc01b2b25737be1",
+                                decimals: 6,
+                                name: "Hard",
+                                symbol: "HARD"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                name: "Hard",
+                                symbol: "HARD",
+                                address: "2cxr5BU6XVkDm7qaPFby5fBZaFDC1DyQvjjtb1Qkvnxp",
+                                decimals: 6,
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "FEMGnyMCmygJy2rJeiD4CJEtK93A3JAva1ScaqEq6ghN"
+                            },
+                            oft: {
+                                programId: "5Bu6CcAgMVQ7nmY2faDADpY1No3iBAXDmohAJeuiGzSW"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 7576,
+                    coinGeckoId: "kava-lend"
+                })
+            , ab = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "HERA",
+                                address: "0xA2c2C937333165d4c5f2dC5f31a43E1239FeCfeB",
+                                decimals: 18
+                            }
+                        },
+                        metis: {
+                            eid: 151,
+                            oftProxy: {
+                                address: "0x9c598da94c840147c9a1eabe1ae8df750674ddf6"
+                            },
+                            token: {
+                                chainKey: "metis",
+                                symbol: "HERA",
+                                address: "0x6F05709bc91Bad933346F9E159f0D3FdBc2c9DCE",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 19225
+                })
+            , al = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                address: "0x91dA780BC7f4B7Cf19ABE90411a2a296Ec5FF787",
+                                chainKey: "base",
+                                decimals: 18,
+                                name: "Hive Intelligence",
+                                symbol: "HINT"
+                            },
+                            oftProxy: {
+                                address: "0xc8De92105c01Af3A58791CdBaf14f232621dbE17"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0x91dA780BC7f4B7Cf19ABE90411a2a296Ec5FF787",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "Hive Intelligence",
+                                symbol: "HINT"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 35241
+                })
+            , ay = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 2682,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            oftProxy: {
+                                address: "0xC36c89Fa76336180fFbdD6847378CcE418Da4CF6"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "HOT",
+                                name: "HoloToken",
+                                address: "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            version: 3,
+                            token: {
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                symbol: "HOT",
+                                name: "HoloToken",
+                                address: "0x17E1E5c6bc9ebb11647C94e1c5e3Ba619F2781ea"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            version: 3,
+                            token: {
+                                chainKey: "base",
+                                decimals: 18,
+                                symbol: "HOT",
+                                name: "HoloToken",
+                                address: "0xf3dD141109Dfe8e4c006F88a2A8747a086e7C1f8"
+                            }
+                        }
+                    }
+                })
+            , af = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x12c26138b666360AB2B7A1B149dF9Cf6642CDfBf",
+                                decimals: 18,
+                                symbol: "ICL"
+                            }
+                        },
+                        mode: {
+                            eid: 30260,
+                            token: {
+                                chainKey: "mode",
+                                address: "0x95177295a394f2b9b04545fff58f4af0673e839d",
+                                decimals: 18,
+                                symbol: "ICL"
+                            },
+                            oftProxy: {
+                                address: "0xa52E2bf962b714071064dE9b5eea792ad39f4250"
+                            }
+                        }
+                    },
+                    coinGeckoId: "ironclad-token"
+                })
+            , aC = (0,
+                X.C2)({
+                    deployments: {
+                        bsc: {
+                            eid: 102,
+                            oftProxy: {
+                                address: "0xcF7d4b692c478b77aff32BB1493C54C84F27f85A"
+                            },
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "IDIA",
+                                address: "0x0b15Ddf19D47E6a86A56148fb4aFFFc6929BcB89",
+                                decimals: 18
+                            }
+                        },
+                        polygon: {
+                            eid: 109,
+                            token: {
+                                chainKey: "polygon",
+                                symbol: "IDIA",
+                                address: "0x8255775bea425f910044ddFb7681D6d87fD5489d",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "IDIA",
+                                address: "0x6Db8b088c4d41d622B44CD81B900bA690f2d496C",
+                                decimals: 18
+                            }
+                        },
+                        mantle: {
+                            eid: 181,
+                            token: {
+                                chainKey: "mantle",
+                                symbol: "IDIA",
+                                address: "0x08D1099101De99B14C68975222A235b63e6B8C91",
+                                decimals: 18
+                            }
+                        },
+                        linea: {
+                            eid: 183,
+                            token: {
+                                chainKey: "linea",
+                                symbol: "IDIA",
+                                address: "0x1044F1F2e208e213FBdFfeEbDc4eE0d194307438",
+                                decimals: 18
+                            }
+                        },
+                        base: {
+                            eid: 184,
+                            token: {
+                                chainKey: "base",
+                                symbol: "IDIA",
+                                address: "0x8255775bea425f910044ddFb7681D6d87fD5489d",
+                                decimals: 18
+                            }
+                        },
+                        taiko: {
+                            eid: 290,
+                            token: {
+                                chainKey: "taiko",
+                                symbol: "IDIA",
+                                address: "0x23aaB921D8283f099bc3FE3741Cb369B1ee095a8",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 10933
+                })
+            , aD = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0x8D279274789CceC8af94a430A5996eAaCE9609A9"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "INSP",
+                                address: "0x186eF81fd8E77EEC8BfFC3039e7eC41D5FC0b457",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "INSP",
+                                address: "0x8D279274789CceC8af94a430A5996eAaCE9609A9",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 28610
+                })
+            , aE = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x42e07fA3d31190731368Ca2F88D12D80139DCa42",
+                                decimals: 18,
+                                name: "INT OS",
+                                symbol: "INTOS"
+                            },
+                            oftProxy: {
+                                address: "0xd97E1d6051a2c36Fd9CfD2E1640C699C29724860"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                address: "7YKfh8hFbgHkwtAogfSWjsEGVNH5e1DoFF9Dj31U9CMe",
+                                decimals: 6,
+                                name: "INT OS",
+                                symbol: "INTOS",
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "CkWH4bb2hyZW5nHbzbH1eU3Wr9ATbSHkUkzoKaT7uRcw"
+                            },
+                            oft: {
+                                programId: "9G1nFUBh9sqvyHJByFtTWY1enYN81Z4f2VjeEzX6nZrb"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 35160,
+                    coinGeckoId: "int-os"
+                })
+            , aA = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0x02b88b31492c19d9e3145934cdb63a8a9b5b4b10"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "IRL",
+                                address: "0xa80221D067603e30060F75E2458AA361f8eE5402",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "IRL",
+                                address: "0xa80221D067603e30060F75E2458AA361f8eE5402",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 20858
+                })
+            , ah = (0,
+                X.C2)({
+                    sharedDecimals: 6,
+                    version: 3,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                chainKey: "ethereum",
+                                address: "0x157a6df6b74f4e5e45af4e4615fde7b49225a662",
+                                decimals: 18,
+                                name: "ISLAND",
+                                symbol: "ISLAND"
+                            }
+                        },
+                        base: {
+                            eid: 30184,
+                            token: {
+                                chainKey: "base",
+                                address: "0x157a6df6b74f4e5e45af4e4615fde7b49225a662",
+                                decimals: 18,
+                                name: "ISLAND",
+                                symbol: "ISLAND"
+                            }
+                        },
+                        solana: {
+                            eid: 30168,
+                            version: 4,
+                            token: {
+                                chainKey: "solana",
+                                name: "ISLAND",
+                                symbol: "ISLAND",
+                                address: "HX6zNkjJ7zy653VoDWzbaYpSg7BrgLfq4i4RA7D5nkkz",
+                                decimals: 6,
+                                programId: V.H_
+                            },
+                            tokenEscrow: {
+                                address: "ASQJRNiXHQ4wYPewkXq7RFcY1nmPZB696JoQynbSjPpB"
+                            },
+                            oft: {
+                                programId: "FTPEhpxj7q6tB7SAgoLawurF1zvWxfAoor9rLEGspPop"
+                            }
+                        }
+                    },
+                    coinMarketCapId: 34794,
+                    coinGeckoId: "island-token"
+                })
+            , ax = (0,
+                X.C2)({
+                    deployments: {
+                        ethereum: {
+                            eid: 101,
+                            oftProxy: {
+                                address: "0x8cfa44e930B7743123738Eb2d7e78beaA964732e"
+                            },
+                            token: {
+                                chainKey: "ethereum",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        bsc: {
+                            eid: 102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        avalanche: {
+                            eid: 106,
+                            token: {
+                                chainKey: "avalanche",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        polygon: {
+                            eid: 109,
+                            token: {
+                                chainKey: "polygon",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        optimism: {
+                            eid: 111,
+                            token: {
+                                chainKey: "optimism",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        fantom: {
+                            eid: 112,
+                            token: {
+                                chainKey: "fantom",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        zkevm: {
+                            eid: 158,
+                            token: {
+                                chainKey: "zkevm",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        zksync: {
+                            eid: 165,
+                            token: {
+                                chainKey: "zksync",
+                                symbol: "ITP",
+                                address: "0xd03465338226ea0178337F4abb16FdD6df529F57",
+                                decimals: 18
+                            }
+                        },
+                        linea: {
+                            eid: 183,
+                            token: {
+                                chainKey: "linea",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        base: {
+                            eid: 184,
+                            token: {
+                                chainKey: "base",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        },
+                        scroll: {
+                            eid: 214,
+                            token: {
+                                chainKey: "scroll",
+                                symbol: "ITP",
+                                address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !1,
+                    coinMarketCapId: 22877
+                })
+            , aB = (0,
+                X.C2)({
+                    deployments: {
+                        bsc: {
+                            eid: 102,
+                            token: {
+                                chainKey: "bsc",
+                                symbol: "JOE",
+                                address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
+                                decimals: 18
+                            }
+                        },
+                        arbitrum: {
+                            eid: 110,
+                            token: {
+                                chainKey: "arbitrum",
+                                symbol: "JOE",
+                                address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
+                                decimals: 18
+                            }
+                        },
+                        avalanche: {
+                            eid: 106,
+                            oftProxy: {
+                                address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07"
+                            },
+                            token: {
+                                chainKey: "avalanche",
+                                symbol: "JOE",
+                                address: "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+                                decimals: 18
+                            }
+                        },
+                        mantle: {
+                            eid: 181,
+                            token: {
+                                chainKey: "mantle",
+                                symbol: "JOE",
+                                address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
+                                decimals: 18
+                            }
+                        }
+                    },
+                    sharedDecimals: 8,
+                    version: 2,
+                    fee: !0,
+                    coinMarketCapId: 11396
+                })
+            , aF = (0,
+                X.C2)({
+                    version: 3,
+                    sharedDecimals: 6,
+                    limit: !1,
+                    fee: !0,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            token: {
+                                address: "0x3f80B1c54Ae920Be41a77f8B902259D48cf24cCf",
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                name: "KERNEL",
+                                symbol: "KERNEL"
+                            },
+                            oftProxy: {
+                                address: "0x2A1D74de3027ccE18d31011518C571130a4cd513"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            token: {
+                                address: "0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1",
+                                chainKey: "bsc",
+                                decimals: 18,
+                                name: "KERNEL",
+                                symbol: "KERNEL"
+                            }
+                        },
+                        arbitrum: {
+                            eid: 30110,
+                            token: {
+                                address: "0x6E401189c8A68D05562c9Bab7f674f910821EAcF",
+                                chainKey: "arbitrum",
+                                decimals: 18,
+                                name: "KERNEL",
+                                symbol: "KERNEL"
+                            }
+                        }
+                    }
+                })
+            , ak = (0,
+                X.C2)({
+                    strict: !0,
+                    limit: !1,
+                    version: 3,
+                    fee: !0,
+                    sharedDecimals: 6,
+                    coinMarketCapId: 36053,
+                    deployments: {
+                        ethereum: {
+                            eid: 30101,
+                            version: 3,
+                            token: {
+                                chainKey: "ethereum",
+                                decimals: 18,
+                                symbol: "LA",
+                                name: "Lagrange",
+                                address: "0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467"
+                            }
+                        },
+                        bsc: {
+                            eid: 30102,
+                            version: 3,
+                            token: {
+                                chainKey: "bsc",
+                                decimals: 18,
+                                symbol: "LA",
+                                name: "Lagrange",
+                                address: "0x389AD4bb96d0D6EE5B6eF0EFAF4b7db0bA2e02a0"
+                            }
+                        }
+                    
             }
         })
-          , j = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
-                        decimals: 18,
-                        name: "ApeCoin",
-                        symbol: "APE"
-                    },
-                    oftProxy: {
-                        address: "0x5182feDE730b31a9CF7f49C5781214B4a99F2370"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0x7f9FBf9bDd3F4105C478b996B648FE6e828a1e98",
-                        decimals: 18,
-                        name: "ApeCoin",
-                        symbol: "APE"
-                    }
-                },
-                ape: {
-                    eid: 30312,
-                    token: {
-                        chainKey: "ape",
-                        decimals: 18,
-                        name: "ApeCoin",
-                        symbol: "APE"
-                    },
-                    oftNative: {
-                        address: "0xe4103e80c967f58591a1d7cA443ed7E392FeD862"
-                    }
-                }
-            },
-            coinMarketCapId: 18876
-        })
-          , _ = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                zksync: {
-                    eid: 30165,
-                    token: {
-                        chainKey: "zksync",
-                        address: "0x67154b6a149081E796049F2a3B17e1c356d2bA61",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                blast: {
-                    eid: 30243,
-                    token: {
-                        chainKey: "blast",
-                        address: "0xCd615270aB3a7a3A262A4E49935D002278C76b78",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0x16Ed8E219cde31E14a80dCb6C9127A5EC6e88e46",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                linea: {
-                    eid: 30183,
-                    token: {
-                        chainKey: "linea",
-                        address: "0xEd97D39448D1c3891aAFCb28c9CF63F893D65743",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        chainKey: "bsc",
-                        address: "0x16Ed8E219cde31E14a80dCb6C9127A5EC6e88e46",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x9Ba021B0a9b958B5E75cE9f6dff97C7eE52cb3E6",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether",
-                        symbol: "apxETH"
-                    },
-                    oftProxy: {
-                        address: "0xe5ec9e3fa47d93a8a1062c983227f255bbeaf1f1"
-                    }
-                },
-                mode: {
-                    eid: 30260,
-                    token: {
-                        chainKey: "mode",
-                        address: "0xCd615270aB3a7a3A262A4E49935D002278C76b78",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0xEd97D39448D1c3891aAFCb28c9CF63F893D65743",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                optimism: {
-                    eid: 30111,
-                    token: {
-                        chainKey: "optimism",
-                        address: "0x16Ed8E219cde31E14a80dCb6C9127A5EC6e88e46",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                gnosis: {
-                    eid: 30145,
-                    token: {
-                        chainKey: "gnosis",
-                        address: "0xef2a1BF104a9600eeDEFA9ACe6877E51e5add29D",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                },
-                scroll: {
-                    eid: 30214,
-                    token: {
-                        chainKey: "scroll",
-                        address: "0xCd615270aB3a7a3A262A4E49935D002278C76b78",
-                        decimals: 18,
-                        name: "Autocompounding Pirex Ether OFT",
-                        symbol: "apxETH"
-                    }
-                }
-            }
-        })
-          , $ = (0,
-        X.C2)({
-            deployments: {
-                arbitrum: {
-                    eid: 110,
-                    oftProxy: {
-                        address: "0x64F282290e8d0196c2929a9119250C361e025BAB"
-                    },
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "ARKEN",
-                        address: "0xAf5db6E1CC585ca312E8c8F7c499033590cf5C98",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "ARKEN",
-                        address: "0x1D4268a58ee7EC2cc2Af5d70a2fD2B3a896527a2",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 9,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 23969
-        })
-          , ee = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 7105,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "ASK",
-                        name: "Permission Token",
-                        address: "0xBB146326778227A8498b105a18f84E0987A684b4"
-                    }
-                },
-                polygon: {
-                    eid: 30109,
-                    version: 3,
-                    oftProxy: {
-                        address: "0xBB146326778227A8498b105a18f84E0987A684b4"
-                    },
-                    token: {
-                        chainKey: "polygon",
-                        decimals: 18,
-                        symbol: "ASK",
-                        name: "Permission Token",
-                        address: "0xaA3717090CDDc9B227e49d0D84A28aC0a996e6Ff"
-                    }
-                }
-            }
-        })
-          , ea = (0,
-        X.C2)({
-            fee: !0,
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            deployments: {
-                polygon: {
-                    eid: 30109,
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "ASTRAFER",
-                        address: "0xDfCe1e99A31C4597a3f8A8945cBfa9037655e335",
-                        decimals: 18
-                    },
-                    oftProxy: {
-                        address: "0xa7f18d7a493c80378253b8129cbcfdfa85ddb7c8"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "ASTRAFER",
-                        address: "0xb51B97Dd5569FAB69495316B5a065CCcfF4B829d",
-                        decimals: 18
-                    }
-                }
-            },
-            coinMarketCapId: 20886
-        })
-          , ed = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B",
-                        decimals: 18,
-                        name: "Aethir Token",
-                        symbol: "ATH"
-                    },
-                    oftProxy: {
-                        address: "0x5786C150609a4eF8957bc614a13e8e29558EaBA4"
-                    }
-                },
-                zksync: {
-                    eid: 30165,
-                    token: {
-                        chainKey: "zksync",
-                        address: "0xB5a58C1D3542A65F93A5a504765CD2Cd3155A418",
-                        decimals: 18,
-                        name: "Aethir Token",
-                        symbol: "ATH"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        address: "Dm5BxyMetG3Aq5PaG1BrG7rBYqEMtnkjvPNMExfacVk7",
-                        decimals: 9,
-                        name: "Aethir Token",
-                        symbol: "ATH",
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "HFzERTDFuphN7e6uYGKpk92CBTVqG8CwzbcK6rmrjNXW"
-                    },
-                    oft: {
-                        programId: "5HNxbq5TiMM8YgMHNtLzkMvR6YtJSfkTn857i52aRi1p"
-                    }
-                }
-            },
-            coinMarketCapId: 30083,
-            coinGeckoId: "aethir"
-        })
-          , es = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x80ca9edce4583b8043351a1046f18244b24ef869",
-                        decimals: 18,
-                        name: "AVA",
-                        symbol: "AVA"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        name: "Ava AI",
-                        symbol: "AVA",
-                        address: "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
-                        decimals: 6,
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "5hJNuJ2ueCVcoKvom2Ge4c3nXaA8erJvG1NjuN9jgrx9"
-                    },
-                    oft: {
-                        programId: "HhawHXUxwurzbrR7n9sR1ungbuNwFj1zMLfMt5BKXbFB"
-                    }
-                }
-            },
-            coinMarketCapId: 34116,
-            coinGeckoId: "ava-ai"
-        })
-          , ei = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x31ea904A7eca45122890dEb8dA3473A2081bc9d1",
-                        decimals: 18,
-                        name: "Bonsai3",
-                        symbol: "BAI"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x31ea904A7eca45122890dEb8dA3473A2081bc9d1",
-                        decimals: 18,
-                        name: "Bonsai3",
-                        symbol: "BAI"
-                    }
-                }
-            },
-            coinMarketCapId: 28503
-        })
-          , eo = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "BAL",
-                        address: "0xba100000625a3754423978a60c9317c58a424e3D",
-                        decimals: 18
-                    }
-                },
-                avalanche: {
-                    eid: 106,
-                    token: {
-                        chainKey: "avalanche",
-                        symbol: "BAL",
-                        address: "0xE15bCB9E0EA69e6aB9FA080c4c4A5632896298C3",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 6,
-            version: 2,
-            fee: !0,
-            coinMarketCapId: 5728
-        })
-          , en = (0,
-        X.C2)({
-            deployments: {
-                optimism: {
-                    eid: 111,
-                    token: {
-                        chainKey: "optimism",
-                        symbol: "BEETS",
-                        address: "0xb4Bc46bc6cB217B59ea8F4530BaE26Bf69F677f0",
-                        decimals: 18
-                    }
-                },
-                fantom: {
-                    eid: 112,
-                    oftProxy: {
-                        address: "0x8d038dA833b154EBcFB7965a9eE7C4Ad72671b21"
-                    },
-                    token: {
-                        chainKey: "fantom",
-                        symbol: "BEETS",
-                        address: "0xF24Bcf4d1e507740041C9cFd2DddB29585aDCe1e",
-                        decimals: 18
-                    }
-                },
-                sonic: {
-                    eid: 332,
-                    token: {
-                        chainKey: "sonic",
-                        address: "0x1E5fe95fB90ac0530F581C617272cd0864626795",
-                        decimals: 18,
-                        name: "Beethovenx",
-                        symbol: "BEETS"
-                    }
-                }
-            },
-            sharedDecimals: 6,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 13244
-        })
-          , ec = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        chainKey: "bsc",
-                        address: "0x2A73F85024f101F3FAC9FbCBcE60707B6b3A6203",
-                        decimals: 18,
-                        name: "BetaOFT",
-                        symbol: "BETA"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28",
-                        decimals: 18,
-                        name: "Beta Token",
-                        symbol: "BETA"
-                    },
-                    oftProxy: {
-                        address: "0x2a73f85024f101f3fac9fbcbce60707b6b3a6203"
-                    }
-                }
-            },
-            coinMarketCapId: 11307
-        })
-          , er = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0xb92D5bA343396599076A52bb95D0029286b8F463"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "BETS",
-                        address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    oftProxy: {
-                        address: "0xeb90e1256ab885067b4e3264ea431affbc8582e2"
-                    },
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "BETS",
-                        address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
-                        decimals: 18
-                    }
-                },
-                avalanche: {
-                    eid: 106,
-                    oftProxy: {
-                        address: "0x73ddb67cb110012676fa3770fe595f85b9ee1ac3"
-                    },
-                    token: {
-                        chainKey: "avalanche",
-                        symbol: "BETS",
-                        address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
-                        decimals: 18
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    oftProxy: {
-                        address: "0xcf3f8622319ace86f1e877f4bf3f586329cdded8"
-                    },
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "BETS",
-                        address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    oftProxy: {
-                        address: "0x63a28da45373619400f8df9a2f9858a845374864"
-                    },
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "BETS",
-                        address: "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 18,
-            version: 1,
-            fee: !1,
-            coinMarketCapId: 18453
-        })
-          , em = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 35214,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    version: 3,
-                    token: {
-                        chainKey: "bsc",
-                        decimals: 18,
-                        symbol: "BMT",
-                        name: "Bubblemaps",
-                        address: "0x7d814b9eD370Ec0a502EdC3267393bF62d891B62"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    oft: {
-                        programId: "BCE3naS4LHAfGeiN34dTTR42vBcKMC8tafF8SBDTAD5c"
-                    },
-                    token: {
-                        chainKey: "solana",
-                        decimals: 9,
-                        symbol: "BMT",
-                        name: "Bubblemaps",
-                        address: "FQgtfugBdpFN7PZ6NdPrZpVLDBrPGxXesi4gVu3vErhY",
-                        programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-                    },
-                    tokenEscrow: {
-                        address: "CCDxmUAYCUjyEzF7FbyCAWwceQbRyz4KtjoC2mLBUPJG"
-                    }
-                }
-            }
-        })
-          , et = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                soneium: {
-                    eid: 30340,
-                    token: {
-                        address: "0xA0aeBd4Ae5F256B72B7D43f67eD934237Adb1AeE",
-                        chainKey: "soneium",
-                        decimals: 18,
-                        name: "BONSAI COIN",
-                        symbol: "BONSAICOIN"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0xA0aeBd4Ae5F256B72B7D43f67eD934237Adb1AeE",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "BONSAI COIN",
-                        symbol: "BONSAICOIN"
-                    }
-                }
-            },
-            coinGeckoId: "bonsai-coin"
-        })
-          , eb = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                sonic: {
-                    eid: 30332,
-                    token: {
-                        chainKey: "sonic",
-                        address: "0x7A0C53F7eb34C5BC8B01691723669adA9D6CB384",
-                        decimals: 18,
-                        name: "SpookyToken",
-                        symbol: "BOO"
-                    }
-                },
-                fantom: {
-                    eid: 30112,
-                    token: {
-                        chainKey: "fantom",
-                        address: "0x841FAD6EAe12c286d1Fd18d1d525DFfA75C7EFFE",
-                        decimals: 18,
-                        name: "SpookyToken",
-                        symbol: "BOO"
-                    },
-                    oftProxy: {
-                        address: "0x3AF1CF07F9960e06B76D701c0CD7F1120707378A"
-                    }
-                }
-            },
-            coinMarketCapId: 9608,
-            coinGeckoId: "spookyswap"
-        })
-          , el = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinGeckoId: "boop-4",
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    version: 3,
-                    token: {
-                        chainKey: "bsc",
-                        decimals: 6,
-                        symbol: "HUMA",
-                        name: "HUMA",
-                        address: "0x92516e0DDf1dDBF7FAB1b79CaC26689fDC5ba8e6"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    oft: {
-                        programId: "BRGv9mxfDeZWxJWPUfX687r9f4Kmg1Qhhq5C9cBSKaM"
-                    },
-                    token: {
-                        chainKey: "solana",
-                        decimals: 6,
-                        symbol: "HUMA",
-                        name: "HUMA",
-                        address: "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
-                        programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-                    },
-                    tokenEscrow: {
-                        address: "Eae9HsnubBNCJiTyMBVhoiynbRBqpD4GbFcPWwscNwRQ"
-                    }
-                }
-            }
-        })
-          , ey = (0,
-        X.C2)({
-            version: 3,
-            limit: !1,
-            fee: !0,
-            sharedDecimals: 6,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0x37d2Adc008118d04f259fc0c16ff66bF5a637D20",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "DeBoxToken",
-                        symbol: "BOX"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0x6386Adc4BC9c21984E34fD916BB349dD861742af",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "DeBoxToken",
-                        symbol: "BOX"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    oftProxy: {
-                        address: "0xe3B60790607AFe418ADCAADcB5E07f8124eD4b26"
-                    },
-                    token: {
-                        address: "0x32B77729cD87F1EF2bEa4C650c16f89f08472c69",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        name: "DeBoxToken",
-                        symbol: "BOX"
-                    }
-                },
-                mantle: {
-                    eid: 30181,
-                    token: {
-                        address: "0x3d142CDb27B537AF57a55eE8f54adA953b4b9Ecd",
-                        chainKey: "mantle",
-                        decimals: 18,
-                        name: "DeBoxToken",
-                        symbol: "BOX"
-                    }
-                }
-            },
-            coinMarketCapId: 33116,
-            coinGeckoId: "debox"
-        })
-          , ef = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 7605,
-            deployments: {
-                arbitrum: {
-                    eid: 30110,
-                    version: 3,
-                    token: {
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        symbol: "BPRO",
-                        name: "BitPro",
-                        address: "0xDbae615958708C0Bc61234D2624b95077B017Eb7"
-                    }
-                },
-                rootstock: {
-                    eid: 30333,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x1497801FA1C6b9787E4A1FF55Fa9422D0896003B"
-                    },
-                    token: {
-                        chainKey: "rootstock",
-                        decimals: 18,
-                        symbol: "BPRO",
-                        name: "BitPRO",
-                        address: "0x440CD83C160De5C96Ddb20246815eA44C7aBBCa8"
-                    }
-                }
-            }
-        })
-          , eC = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        address: "0xBEaB712832112bd7664226db7CD025B153D3af55",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        name: "Bright Union",
-                        symbol: "BRIGHT"
-                    },
-                    oftProxy: {
-                        address: "0x781B40005b308FF254e891F1a552271DD1ED12A6"
-                    }
-                },
-                gnosis: {
-                    eid: 30145,
-                    token: {
-                        address: "0xb7e10110EeDCa190da51b22e90a2caEE014C8140",
-                        chainKey: "gnosis",
-                        decimals: 18,
-                        name: "Bright Union",
-                        symbol: "BRIGHT"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0xa26a4611b8313BbB25ccB1A9e227ecC536a2f8F7",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "Bright Union",
-                        symbol: "BRIGHT"
-                    }
-                }
-            },
-            coinGeckoId: "bright-union"
-        })
-          , eD = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0xaB10E517f3138b17108B32129E8C8446AD44a267",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "Battle.tech by Virtuals",
-                        symbol: "BTA"
-                    },
-                    oftProxy: {
-                        address: "0xE66d6054CD609A53669b6F09727Ea9388Ad84077"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        address: "BatJTTdVgREJDaqkaexb2HYKXFfaF9v2HJT3R9WJZtQp",
-                        chainKey: "solana",
-                        decimals: 9,
-                        name: "Battle.Tech",
-                        symbol: "BTA",
-                        programId: V.H_
-                    },
-                    oft: {
-                        programId: "69rfwU6zCSsiP7etSdvs8mW6omheYLAfCy9hDv4y3F1C"
-                    },
-                    tokenEscrow: {
-                        address: "CF87frdrDZJxbBCZ62rp5RkzX8EzD4XaBcBVGPpFPmRp"
-                    }
-                }
-            }
-        })
-          , eE = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "BTC.b",
-                        address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
-                        decimals: 8
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "BTC.b",
-                        address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
-                        decimals: 8
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "BTC.b",
-                        address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
-                        decimals: 8
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "BTC.b",
-                        address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
-                        decimals: 8
-                    }
-                },
-                optimism: {
-                    eid: 111,
-                    token: {
-                        chainKey: "optimism",
-                        symbol: "BTC.b",
-                        address: "0x2297aEbD383787A160DD0d9F71508148769342E3",
-                        decimals: 8
-                    }
-                },
-                avalanche: {
-                    eid: 106,
-                    oftProxy: {
-                        address: "0x2297aEbD383787A160DD0d9F71508148769342E3"
-                    },
-                    token: {
-                        chainKey: "avalanche",
-                        symbol: "BTC.b",
-                        address: "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
-                        decimals: 8
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !0,
-            coinMarketCapId: 20721,
-            coinGeckoId: "bitcoin-avalanche-bridged-btc-b"
-        })
-          , eA = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "BTCB Token",
-                        symbol: "BTCB"
-                    },
-                    oftProxy: {
-                        address: "0x5b7b01bEBCdf408Dd14429A9b12465AB45204B13"
-                    }
-                },
-                goat: {
-                    eid: 30361,
-                    token: {
-                        address: "0xfe41e7e5cB3460c483AB2A38eb605Cda9e2d248E",
-                        chainKey: "goat",
-                        decimals: 18,
-                        name: "BTCB Token",
-                        symbol: "BTCB"
-                    }
-                }
-            },
-            coinGeckoId: "binance-bitcoin"
-        })
-          , eh = (0,
-        X.C2)({
-            deployments: {
-                bsc: {
-                    eid: 102,
-                    oftProxy: {
-                        address: "0xb274202daBA6AE180c665B4fbE59857b7c3a8091"
-                    },
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "Cake",
-                        address: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
-                        decimals: 18
-                    }
-                },
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "Cake",
-                        address: "0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "Cake",
-                        address: "0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c",
-                        decimals: 18
-                    }
-                },
-                zkevm: {
-                    eid: 158,
-                    token: {
-                        chainKey: "zkevm",
-                        symbol: "Cake",
-                        address: "0x0D1E753a25eBda689453309112904807625bEFBe",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !0,
-            coinMarketCapId: 7186
-        })
-          , ex = (0,
-        X.C2)({
-            fee: !0,
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    version: 3,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "CAT",
-                        address: "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
-                        decimals: 18
-                    },
-                    oftProxy: {
-                        address: "0x27A2914fA4bA0Ec60d42E2bc0726c3A8a6D7B000"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        symbol: "CAT",
-                        address: "3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse",
-                        decimals: 6,
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "FEf59AJ5vbzXGkdZkZrV1pf1GHCaceG7MVC2FP1HN2Vg"
-                    },
-                    oft: {
-                        programId: "CATLZdvDfQcK99YntCaeDs8o342HcXRP1R5t4yTT5dUw"
-                    }
-                }
-            },
-            coinMarketCapId: 32724
-        })
-          , eB = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0xCeFC79C16Cd62cF0c35C1D16D23b9f266f2edA51",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "Catton AI",
-                        symbol: "CATTON"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        address: "EnYkmHKm13mLnBgpvHJZE2T6rqi8weQXoFuPccW9ZiD5",
-                        chainKey: "solana",
-                        decimals: 6,
-                        name: "Catton AI",
-                        symbol: "CATTON",
-                        programId: V.H_
-                    },
-                    oft: {
-                        programId: "6KFkz9jSy6qtXCjrthFr2ao8MyDngjosW1FHuk9VLJ4B"
-                    },
-                    tokenEscrow: {
-                        address: "Bomp5GaYBvaL8QpFtXqisZFBiZbhBpzvmJ3BZWBghUnk"
-                    }
-                }
-            },
-            coinGeckoId: "catton-ai"
-        })
-          , eF = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 4710,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x721C5CB57F5dB41fFA8b276cAe5ed9D58E7fa1C2"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 10,
-                        symbol: "CERE",
-                        name: "CERE Network",
-                        address: "0x2dA719DB753dFA10a62E140f436E1d67F2ddB0d6"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 10,
-                        symbol: "CERE",
-                        name: "CERE Token",
-                        address: "0x9886447Ff4c350f4600E4BF95Db756Bdc629b1cA"
-                    }
-                }
-            }
-        })
-          , ek = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 33978,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x4aFA9620D0B79137383A7A9AB3477837d475e948"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "cmETH",
-                        name: "cmETH",
-                        address: "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA"
-                    }
-                },
-                hyperliquid: {
-                    eid: 30367,
-                    version: 3,
-                    token: {
-                        chainKey: "hyperliquid",
-                        decimals: 18,
-                        symbol: "cmETH",
-                        name: "cmETH",
-                        address: "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA"
-                    }
-                },
-                mantle: {
-                    eid: 30181,
-                    version: 3,
-                    token: {
-                        chainKey: "mantle",
-                        decimals: 18,
-                        symbol: "cmETH",
-                        name: "cmETH",
-                        address: "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA"
-                    }
-                }
-            }
-        })
-          , ep = (0,
-        X.C2)({
-            fee: !0,
-            sharedDecimals: 8,
-            version: 2,
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "CMPT",
-                        address: "0x3d000462Fb9826804a45c0EA869b83b69587F2dB",
-                        decimals: 18
-                    },
-                    oftProxy: {
-                        address: "0x1883af6b51fb7f69577880004a82c9d68582022c"
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "CMPT",
-                        address: "0x1883aF6b51fb7F69577880004a82c9d68582022C",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 184,
-                    token: {
-                        chainKey: "base",
-                        symbol: "CMPT",
-                        address: "0x1883aF6b51fb7F69577880004a82c9d68582022C",
-                        decimals: 18
-                    }
-                }
-            },
-            coinMarketCapId: 30352
-        })
-          , eK = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                etherlink: {
-                    eid: 30292,
-                    token: {
-                        chainKey: "etherlink",
-                        address: "0x6b43732a9AE9F8654d496c0A075Aa4Aa43057A0B",
-                        decimals: 18,
-                        name: "Sugarverse",
-                        symbol: "CNDY"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0x6b43732a9AE9F8654d496c0A075Aa4Aa43057A0B",
-                        decimals: 18,
-                        name: "Sugarverse",
-                        symbol: "CNDY"
-                    }
-                }
-            },
-            coinMarketCapId: 34376,
-            coinGeckoId: "sugarverse"
-        })
-          , eu = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 33720,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0xC14459931cF666DCcAd582D63288AefB9f0bDca9"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "COOK",
-                        name: "COOK",
-                        address: "0x9F0C013016E8656bC256f948CD4B79ab25c7b94D"
-                    }
-                },
-                hyperliquid: {
-                    eid: 30367,
-                    version: 3,
-                    token: {
-                        chainKey: "hyperliquid",
-                        decimals: 18,
-                        symbol: "COOK",
-                        name: "COOK",
-                        address: "0x9F0C013016E8656bC256f948CD4B79ab25c7b94D"
-                    }
-                },
-                mantle: {
-                    eid: 30181,
-                    version: 3,
-                    token: {
-                        chainKey: "mantle",
-                        decimals: 18,
-                        symbol: "COOK",
-                        name: "COOK",
-                        address: "0x9F0C013016E8656bC256f948CD4B79ab25c7b94D"
-                    }
-                }
-            }
-        })
-          , eT = (0,
-        X.C2)({
-            sharedDecimals: 4,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x420FcA0121DC28039145009570975747295f2329",
-                        decimals: 18,
-                        name: "COQINU",
-                        symbol: "COQ"
-                    }
-                },
-                avalanche: {
-                    eid: 30106,
-                    token: {
-                        chainKey: "avalanche",
-                        address: "0x420FcA0121DC28039145009570975747295f2329",
-                        decimals: 18,
-                        name: "COQINU",
-                        symbol: "COQ"
-                    },
-                    oftProxy: {
-                        address: "0x347f7268ad43f3f7b68c4d64a8c0523830100c8b"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x420FcA0121DC28039145009570975747295f2329",
-                        decimals: 18,
-                        name: "COQINU",
-                        symbol: "COQ"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0x420FcA0121DC28039145009570975747295f2329",
-                        decimals: 18,
-                        name: "COQINU",
-                        symbol: "COQ"
-                    }
-                },
-                mantle: {
-                    eid: 30181,
-                    token: {
-                        chainKey: "mantle",
-                        address: "0x420FcA0121DC28039145009570975747295f2329",
-                        decimals: 18,
-                        name: "COQINU",
-                        symbol: "COQ"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        address: "coqAhf1TXdRRkuNmGYKb57rmkNbExPuM5uHYBi13uXZ",
-                        chainKey: "solana",
-                        decimals: 4,
-                        name: "COQINU",
-                        symbol: "COQ",
-                        programId: V.H_
-                    },
-                    oft: {
-                        programId: "coqrLCXBMK6KVRt7xknMcA9uVJz5t7v6KwWUF5MXuXY"
-                    },
-                    tokenEscrow: {
-                        address: "coqH6oDiA2MZr4wQzGTnGWy2RaC4oxQJ9injeCMKQ5h"
-                    }
-                }
-            },
-            coinMarketCapId: 28675
-        })
-          , eS = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0xC7aE4aB742F6b0b203f6710C87677005Bc45ad01"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "CRV",
-                        address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
-                        decimals: 18
-                    }
-                },
-                fantom: {
-                    eid: 112,
-                    token: {
-                        chainKey: "fantom",
-                        symbol: "CRV",
-                        address: "0xC7aE4aB742F6b0b203f6710C87677005Bc45ad01",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 6,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 6538
-        })
-          , ev = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0xaa798BF5eC09B6E3bC059Ea4d36d4Ca53e063EF7"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "crvUSD",
-                        address: "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
-                        decimals: 18
-                    }
-                },
-                fantom: {
-                    eid: 112,
-                    token: {
-                        chainKey: "fantom",
-                        symbol: "crvUSD",
-                        address: "0xaa798BF5eC09B6E3bC059Ea4d36d4Ca53e063EF7",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 6,
-            version: 2,
-            fee: !0,
-            coinMarketCapId: 24927
-        })
-          , eP = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "CVAI",
-                        name: "CV AGENTLAUNCHER Token",
-                        address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
-                    }
-                },
-                polygon: {
-                    eid: 30109,
-                    version: 3,
-                    token: {
-                        chainKey: "polygon",
-                        decimals: 18,
-                        symbol: "CVAI",
-                        name: "CV AGENTLAUNCHER Token",
-                        address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    oft: {
-                        programId: "9N2wyziEDzyuAtfGWb3FrMNjr1LS27CZVMkGWfyKEnEr"
-                    },
-                    token: {
-                        chainKey: "solana",
-                        decimals: 9,
-                        symbol: "CVAI",
-                        name: "AGENTLAUNCHER Token",
-                        address: "8TC4ZJA5cwB5gmLemBfPP95v1Mft82kHGF9a87kepNno",
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "3m8hbvz5BE6Zxtt8Q4kotKWqRGahRvM769tquMUNRECJ"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "CVAI",
-                        name: "CV AGENTLAUNCHER Token",
-                        address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    version: 3,
-                    token: {
-                        chainKey: "bsc",
-                        decimals: 18,
-                        symbol: "CVAI",
-                        name: "CV AGENTLAUNCHER Token",
-                        address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    version: 3,
-                    token: {
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        symbol: "CVAI",
-                        name: "CV AGENTLAUNCHER Token",
-                        address: "0x6b34D1C35689DbA179C2eDdF6a01530BBb1D28a8"
-                    }
-                }
-            }
-        })
-          , eI = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                optimism: {
-                    eid: 30111,
-                    token: {
-                        chainKey: "optimism",
-                        address: "0x14778860E937f509e651192a90589dE711Fb88a9",
-                        decimals: 18,
-                        name: "CyberConnect",
-                        symbol: "CYBER"
-                    },
-                    oftProxy: {
-                        address: "0x9A9D5a29206Dde4F70825032dF32333De5f63921"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x14778860E937f509e651192a90589dE711Fb88a9",
-                        decimals: 18,
-                        name: "CyberConnect",
-                        symbol: "CYBER"
-                    },
-                    oftProxy: {
-                        address: "0xcb07992de144bdee56fdb66fff2454b43243b052"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        chainKey: "bsc",
-                        address: "0x14778860E937f509e651192a90589dE711Fb88a9",
-                        decimals: 18,
-                        name: "CyberConnect",
-                        symbol: "CYBER"
-                    },
-                    oftProxy: {
-                        address: "0x9a9d5a29206dde4f70825032df32333de5f63921"
-                    }
-                }
-            },
-            coinMarketCapId: 24781
-        })
-          , eg = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 32224,
-            deployments: {
-                blast: {
-                    eid: 30243,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x7Bb6cAC7e47E8149C4Ef62b759Ee8b2E56C0304F"
-                    },
-                    token: {
-                        chainKey: "blast",
-                        decimals: 18,
-                        symbol: "CYBRO",
-                        name: "Cybro Token",
-                        address: "0x963eec23618BbC8e1766661d5f263f18094Ae4d5"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "CYBRO",
-                        name: "Cybro Token",
-                        address: "0xD58826d2C0bAbf1A60d8b508160b52E9C19AFf07"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    version: 3,
-                    token: {
-                        chainKey: "bsc",
-                        decimals: 18,
-                        symbol: "CYBRO",
-                        name: "Cybro Token",
-                        address: "0xA9972b1fAC35fdd8cBdbaA315A002B2Ad91d2ad6"
-                    }
-                }
-            }
-        })
-          , eM = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0x91a40C733c97a6e1BF876EaF9ed8c08102eB491f"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "DAI",
-                        address: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-                        decimals: 18
-                    }
-                },
-                fantom: {
-                    eid: 112,
-                    token: {
-                        chainKey: "fantom",
-                        symbol: "DAI",
-                        address: "0x91a40C733c97a6e1BF876EaF9ed8c08102eB491f",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 18,
-            version: 1,
-            fee: !1,
-            coinMarketCapId: 4943
-        })
-          , eU = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 0,
-            coinGeckoId: "dawae-2",
-            deployments: {
-                sonic: {
-                    eid: 30332,
-                    version: 3,
-                    token: {
-                        chainKey: "sonic",
-                        decimals: 18,
-                        symbol: "DAWAE",
-                        name: "Dawae",
-                        address: "0x7A5C61047aD8fA4a743c75Eb46a01300c7c9dADA"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    oft: {
-                        programId: "BoXzSxwNc9ZhX5RXChRDgageCKRzSZTDb2ZZwHRucmY7"
-                    },
-                    token: {
-                        chainKey: "solana",
-                        decimals: 9,
-                        symbol: "DAWAE",
-                        name: "DAWAE",
-                        address: "DZSs9nHSr9BBunLNWd6PDstesJ4PBLMFVK1GbZ9urYNZ",
-                        programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-                    },
-                    tokenEscrow: {
-                        address: "5gN9by9fg8LBkRs9npF13buu62aAkeL7aehgTzcPKUEt"
-                    }
-                }
-            }
-        })
-          , eR = (0,
-        X.C2)({
-            deployments: {
-                bsc: {
-                    eid: 102,
-                    oftProxy: {
-                        address: "0x5e6adF21e76F9D4258FC68fD5c8fCb826185f8ef"
-                    },
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "DegenReborn",
-                        name: "DegenReborn",
-                        address: "0x1a131F7B106D58f33eAf0fE5B47DB2f2045E5732",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    oftProxy: {
-                        address: "0xcbd78fb59cdae1cd70e4d27c2d9ceb8691589715"
-                    },
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "DegenReborn",
-                        name: "DegenReborn",
-                        address: "0x881ee52679537C6834fDeeB3673da2e3eCb50DF6",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 18,
-            version: 1,
-            fee: !1,
-            coinMarketCapId: 24276
-        })
-          , eG = (0,
-        X.C2)({
-            coinMarketCapId: 30096,
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0x9F07F8A82cB1af1466252e505b7b7ddee103bC91",
-                        decimals: 18,
-                        name: "DEGEN",
-                        symbol: "DEGEN"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0xfee293840D23B0B2De8C55e1Cf7A9F01C157767c",
-                        decimals: 18,
-                        name: "DEGEN",
-                        symbol: "DEGEN"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
-                        decimals: 18,
-                        name: "Degen",
-                        symbol: "DEGEN"
-                    },
-                    oftProxy: {
-                        address: "0xdb8e759859058952c34953c8469f464109826e52"
-                    }
-                },
-                degen: {
-                    eid: 30267,
-                    token: {
-                        chainKey: "degen",
-                        decimals: 18,
-                        symbol: "DEGEN",
-                        name: "DEGEN"
-                    },
-                    oftNative: {
-                        address: "0x962311BAF97E6E703f219aE251A181Fb8Cb9F258"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        symbol: "DEGEN",
-                        name: "DEGEN",
-                        address: "A7n89LqW67HJKzJkdWZa2xojuK4N5GBKHz3dfjATCZPz",
-                        decimals: 6,
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "Bj4zRevshJHtWzuKawFoRt69ipggMiA48SM4BrxBuveH"
-                    },
-                    oft: {
-                        programId: "DEGENjhEjBFtbdyPCBQRZK32T2jXmzHkBijEgC9esgvU"
-                    }
-                }
-            }
-        })
-          , eL = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0xBcF1d3bf77f4D29d9c54AE5dC51d8C2ACea5Be3C",
-                        decimals: 18,
-                        name: "DEGENAI",
-                        symbol: "degenai"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        address: "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump",
-                        decimals: 6,
-                        name: "DEGENAI",
-                        symbol: "degenai",
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "C7TyogQXdRYUg6qefWPNWgHk52oTdFwGnrUd2M3WB9o6"
-                    },
-                    oft: {
-                        programId: "B4bD1RaEwHk5a2BBQPnHjP4ZGgmVFQ1jhJBXgny9h1qC"
-                    }
-                }
-            },
-            coinGeckoId: "degen-spartan-ai"
-        })
-          , eH = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                optimism: {
-                    eid: 30111,
-                    token: {
-                        chainKey: "optimism",
-                        address: "0x09D9420332bff75522a45FcFf4855F82a0a3ff50",
-                        decimals: 18,
-                        name: "Dinero OFT",
-                        symbol: "DINERO"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x6DF0E641FC9847c0c6Fde39bE6253045440c14d3",
-                        decimals: 18,
-                        name: "Dinero Governance Token",
-                        symbol: "DINERO"
-                    },
-                    oftProxy: {
-                        address: "0x09D9420332bff75522a45FcFf4855F82a0a3ff50"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x09D9420332bff75522a45FcFf4855F82a0a3ff50",
-                        decimals: 18,
-                        name: "Dinero OFT",
-                        symbol: "DINERO"
-                    }
-                },
-                zksync: {
-                    eid: 30165,
-                    token: {
-                        chainKey: "zksync",
-                        name: "Dinero OFT",
-                        symbol: "DINERO",
-                        address: "0xd0fB453E03f128A35d7409135981C754170378A5",
-                        decimals: 18
-                    }
-                },
-                flare: {
-                    eid: 30295,
-                    token: {
-                        chainKey: "flare",
-                        name: "Dinero OFT",
-                        symbol: "DINERO",
-                        address: "0xBE6D2BE4e01D4304a28eDD13038311e112313ec8",
-                        decimals: 18
-                    }
-                }
-            },
-            coinMarketCapId: 32492,
-            coinGeckoId: "dinero-2"
-        })
-          , eN = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "DMAIL",
-                        address: "0xcC6f1e1B87cfCbe9221808d2d85C501aab0B5192",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "DMAIL",
-                        address: "0xcC6f1e1B87cfCbe9221808d2d85C501aab0B5192",
-                        decimals: 18
-                    }
-                },
-                linea: {
-                    eid: 183,
-                    token: {
-                        chainKey: "linea",
-                        symbol: "DMAIL",
-                        address: "0xcC6f1e1B87cfCbe9221808d2d85C501aab0B5192",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 19779
-        })
-          , eO = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "DMT",
-                        address: "0x0B7f0e51Cd1739D6C96982D55aD8fA634dd43A9C",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    oftProxy: {
-                        address: "0xa9Aa07F082D9c15D0B6D7e9e5B68b1f898399C29"
-                    },
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "DMT",
-                        address: "0x8B0E6f19Ee57089F7649A455D89D7bC6314D04e8",
-                        decimals: 18
-                    }
-                },
-                sanko: {
-                    eid: 278,
-                    token: {
-                        chainKey: "sanko",
-                        symbol: "DMT",
-                        decimals: 18
-                    },
-                    oftNative: {
-                        address: "0x7393aE4835FDfed4f25E46a10D6bDB2fd49A2706"
-                    }
-                }
-            },
-            sharedDecimals: 6,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 25653
-        })
-          , ew = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 7558,
-            deployments: {
-                arbitrum: {
-                    eid: 30110,
-                    version: 3,
-                    token: {
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        symbol: "DOC",
-                        name: "Dollar on Chain",
-                        address: "0x2AD62eb9744c720364F6ac856360a43e8a2229b5"
-                    }
-                },
-                rootstock: {
-                    eid: 30333,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x5da928A27283674411eF7e2739efd41EE6E53B53"
-                    },
-                    token: {
-                        chainKey: "rootstock",
-                        decimals: 18,
-                        symbol: "DOC",
-                        name: "Dollar on Chain",
-                        address: "0xe700691dA7b9851F2F35f8b8182c69c53CcaD9Db"
-                    }
-                }
-            }
-        })
-          , eW = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
-                        chainKey: "bsc",
-                        decimals: 8,
-                        name: "Dogecoin",
-                        symbol: "DOGE"
-                    },
-                    oftProxy: {
-                        address: "0x0E9A492Bd9D4241028f794b9580847e5C3444776"
-                    }
-                },
-                goat: {
-                    eid: 30361,
-                    token: {
-                        address: "0x1E0d0303a8c4aD428953f5ACB1477dB42bb838cf",
-                        chainKey: "goat",
-                        decimals: 18,
-                        name: "GOAT BSC DOGE",
-                        symbol: "DOGEB"
-                    }
-                }
-            },
-            coinMarketCapId: 74
-        })
-          , eX = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0xd5EB7E91Ae88Ea2550F9bFD04208399c95dF4dC7",
-                        decimals: 18,
-                        name: "DogLibre",
-                        symbol: "DOGL"
-                    },
-                    oftProxy: {
-                        address: "0xA80F36BA18c7f721F3F7ACDbcDEfd3a86869A036"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0xB757977bc882A14db86b048f2abb2F2a14D33184",
-                        decimals: 18,
-                        name: "DogLibre",
-                        symbol: "DOGL"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    token: {
-                        chainKey: "solana",
-                        symbol: "DOGL",
-                        address: "8bk3hKqrq1NgLKck937Fj6PoY9jAJgGpUKQ28qutgqha",
-                        decimals: 6,
-                        name: "DogLibre",
-                        programId: V.H_
-                    },
-                    oft: {
-                        programId: "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
-                    }
-                }
-            },
-            coinMarketCapId: 31499,
-            coinGeckoId: "doglibre"
-        })
-          , eV = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x84054a6b72dd5c58Da8106e410e62658083a80E4",
-                        decimals: 18,
-                        symbol: "DTF"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    token: {
-                        chainKey: "solana",
-                        symbol: "DTF",
-                        address: "EmhVWGUa2Q9PN4QjzFjvuVyzFKg4s3ERwjKR9dQDpump",
-                        decimals: 6
-                    },
-                    tokenEscrow: {
-                        address: "4bB2QifJcaMfw5RVnXR6P3CQJ8kv6cJgAqR9mLpKQ2Vh"
-                    },
-                    oft: {
-                        programId: "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
-                    }
-                }
-            },
-            coinGeckoId: "believe-in-something-2"
-        })
-          , ez = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 2,
-            fee: !1,
-            deployments: {
-                sonic: {
-                    eid: 332,
-                    token: {
-                        chainKey: "sonic",
-                        address: "0x7A08Bf5304094CA4C7b4132Ef62b5EDc4a3478B7",
-                        decimals: 18,
-                        name: "SonicEco",
-                        symbol: "ECO"
-                    }
-                },
-                fantom: {
-                    eid: 112,
-                    token: {
-                        chainKey: "fantom",
-                        address: "0xB8a32897016C1B2ee0797090162eAFe58f032795",
-                        decimals: 18,
-                        name: "FantomEco",
-                        symbol: "ECO"
-                    },
-                    oftProxy: {
-                        address: "0xba1c51F4DD0a96BD4ce624a4B0b48Cf039b4f2a5"
-                    }
-                }
-            },
-            coinGeckoId: "fantom-eco-2"
-        })
-          , eZ = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "EDU",
-                        address: "0xf8173a39c56a554837C4C7f104153A005D284D11",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    oftProxy: {
-                        address: "0x67fb304001ad03c282266b965b51e97aa54a2fab"
-                    },
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "EDU",
-                        address: "0xBdEAe1cA48894A1759A8374D63925f21f2Ee2639",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "EDU",
-                        address: "0xf8173a39c56a554837c4c7f104153a005d284d11",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 24613
-        })
-          , eQ = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        address: "0xda71EA8ef58D015de8C5cEA8f7B890db3A103E67",
-                        decimals: 18,
-                        name: "Emdx Token",
-                        symbol: "EMDX"
-                    }
-                },
-                avalanche: {
-                    eid: 30106,
-                    token: {
-                        chainKey: "avalanche",
-                        address: "0xe533B81297B820D2Eb2cd837263926596328E8D2",
-                        decimals: 18,
-                        name: "EMDX Token",
-                        symbol: "EMDX"
-                    },
-                    oftProxy: {
-                        address: "0x3CB9aEBE6c9097135E8421B4C7A93e2c0B99200f"
-                    }
-                }
-            }
-        })
-          , eY = (0,
-        X.C2)({
-            fee: !0,
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x57e114B691Db790C35207b2e685D4A43181e6061"
-                    },
-                    oftProxy: {
-                        address: "0x58538e6a46e07434d7e7375bc268d3cb839c0133"
-                    }
-                },
-                mode: {
-                    eid: 30260,
-                    token: {
-                        chainKey: "mode",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                blast: {
-                    eid: 30243,
-                    token: {
-                        chainKey: "blast",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                fraxtal: {
-                    eid: 30255,
-                    token: {
-                        chainKey: "fraxtal",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                kava: {
-                    eid: 30177,
-                    token: {
-                        chainKey: "kava",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                scroll: {
-                    eid: 30214,
-                    token: {
-                        chainKey: "scroll",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                metis: {
-                    eid: 30151,
-                    token: {
-                        chainKey: "metis",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                manta: {
-                    eid: 30217,
-                    token: {
-                        chainKey: "manta",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                optimism: {
-                    eid: 30111,
-                    token: {
-                        chainKey: "optimism",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                linea: {
-                    eid: 30183,
-                    token: {
-                        chainKey: "linea",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                mantle: {
-                    eid: 30181,
-                    token: {
-                        chainKey: "mantle",
-                        symbol: "ENA",
-                        decimals: 18,
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133"
-                    }
-                },
-                zksync: {
-                    eid: 30165,
-                    token: {
-                        chainKey: "zksync",
-                        symbol: "ENA",
-                        address: "0x686b311F82b407f0be842652a98e5619F64cC25F",
-                        decimals: 18
-                    }
-                },
-                zircuit: {
-                    eid: 30303,
-                    token: {
-                        chainKey: "zircuit",
-                        symbol: "ENA",
-                        address: "0x813635891aA06bd55036bbd8f7d1A34aB3de9a0F",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        symbol: "ENA",
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-                        decimals: 18
-                    }
-                },
-                swell: {
-                    eid: 30335,
-                    token: {
-                        chainKey: "swell",
-                        symbol: "ENA",
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-                        decimals: 18
-                    }
-                },
-                morph: {
-                    eid: 30322,
-                    token: {
-                        chainKey: "morph",
-                        symbol: "ENA",
-                        name: "ENA",
-                        address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-                        decimals: 18
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    token: {
-                        chainKey: "solana",
-                        symbol: "ENA",
-                        address: "72QvBVwpxqmheEPfaCwWSWqEFsUy3rhWt6JhQBMNTwD1",
-                        decimals: 9
-                    },
-                    oft: {
-                        programId: "5sVQd9aeB4GtFA3PFRK7gkGCNCQzovxh7faaGccwQXuU"
-                    }
-                },
-                ton: {
-                    eid: 30343,
-                    msgType: 1,
-                    oftProxy: {
-                        address: "0x0f87d442a6b820e642ae9ad262f2e07b9c529cb4f070b9152ef362604c69b392"
-                    },
-                    token: {
-                        chainKey: "ton",
-                        symbol: "ENA",
-                        address: "0x058591596327b4965b25efce4ecce246f504fa3d7c9851d9a20b853de6506e1e",
-                        decimals: 6
-                    },
-                    controller: {
-                        address: "0x1eb2bbea3d8c0d42ff7fd60f0264c866c934bbff727526ca759e7374cae0c166"
-                    },
-                    ulnManager: {
-                        address: "0x150645746e25be5486eb3b2f5d98b44c6b324697c48d495d059f96fc9d3ec368"
-                    }
-                }
-            },
-            coinMarketCapId: 30171
-        })
-          , eq = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
-                        decimals: 18,
-                        name: "ETHx",
-                        symbol: "ETHx"
-                    },
-                    oftProxy: {
-                        address: "0x39d0ce7d1509a4f22619D0f666978FBe820665E9"
-                    }
-                },
-                gnosis: {
-                    eid: 30145,
-                    token: {
-                        chainKey: "gnosis",
-                        address: "0x01aF04690d17DC27b891A7F67E9EEe4d14DE8EA8",
-                        decimals: 18,
-                        name: "ETHx",
-                        symbol: "ETHx"
-                    },
-                    oftProxy: {
-                        address: "0xac9da18c76d54a744612e72492838227df0308bb"
-                    }
-                },
-                xlayer: {
-                    eid: 30274,
-                    token: {
-                        chainKey: "xlayer",
-                        address: "0xDC685bf4b416f8D5cAc64927E9c516be45b81d28",
-                        decimals: 18,
-                        name: "ETHx",
-                        symbol: "ETHx"
-                    },
-                    oftProxy: {
-                        address: "0xC0A0fDD802b2750b7f972C2a7972c8942328099f"
-                    }
-                }
-            },
-            coinMarketCapId: 27566
-        })
-          , eJ = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        address: "0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0x4d7e09f73843Bd4735AaF7A74b6d877bac75a531"
-                    }
-                },
-                bob: {
-                    eid: 30279,
-                    token: {
-                        address: "0xDe1763aFA5eB658CfFFfD16835AfeB47e7aC0B8D",
-                        chainKey: "bob",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0x797964F9eB3A733D443810820f56c9ebAab1d1c2"
-                    }
-                },
-                bera: {
-                    eid: 30362,
-                    token: {
-                        address: "0xEb9b5f4EB023aE754fF59A04c9C038D58606DAC6",
-                        chainKey: "bera",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0xc1d31b2812Cc920341349a717d14bAdFb1BCab11"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0x2117E8b79e8E176A670c9fCf945d4348556bfFad",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0x1633269308F154fbECBb15F91d72D2aFA6af95B4"
-                    }
-                },
-                unichain: {
-                    eid: 30320,
-                    token: {
-                        address: "0xE9C43e09C5FA733bCC2aEAa96063A4a60147AA09",
-                        chainKey: "unichain",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0x41a11d85577Bb21743E11Eca62e2b241DC1eD5C0"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        address: "0x462cD9E0247b2e63831c3189aE738E5E9a5a4b64",
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0x174834a9DE4C2f0c13c7353e62C229E8D607c808"
-                    }
-                },
-                sonic: {
-                    eid: 30332,
-                    token: {
-                        address: "0x8e15C8D399e86d4FD7B427D42f06c60cDD9397e7",
-                        chainKey: "sonic",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0x31aA74232A0b0E50e5bF95780b2116710a34c7E9"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0xa153Ad732F831a79b5575Fa02e793EC4E99181b0",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0x9ff7ea0Cf94b8665c2F5d17560Bd34Ab9BbAcd21"
-                    }
-                },
-                swell: {
-                    eid: 30335,
-                    token: {
-                        address: "0x80ccFBec4b8c82265abdc226Ad3Df84C0726E7A3",
-                        chainKey: "swell",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0xD0148dDB69f4d8182Ef863d6f81ED6519D8c83a2"
-                    }
-                },
-                avalanche: {
-                    eid: 30106,
-                    token: {
-                        address: "0x9ceeD3A7f753608372eeAb300486cc7c2F38AC68",
-                        chainKey: "avalanche",
-                        decimals: 18,
-                        name: "Euler",
-                        symbol: "EUL"
-                    },
-                    oftProxy: {
-                        address: "0xF1A5F97AB84158Cf6d8ba8dEF68780Fc2Fd64310"
-                    }
-                }
-            },
-            coinMarketCapId: 14280
-        })
-          , ej = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        address: "0xaB24c63bee518Ac956c8123389fc538c7e36d82C",
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        name: "Defactor",
-                        symbol: "FACTR"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    oftProxy: {
-                        address: "0xddB9A194722E8940F25AdB87E343A100241Ff8F6"
-                    },
-                    token: {
-                        address: "0xe0bCEEF36F3a6eFDd5EEBFACD591423f8549B9D5",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        name: "Defactor",
-                        symbol: "FACTR"
-                    }
-                }
-            },
-            coinMarketCapId: 13255,
-            coinGeckoId: "defactor"
-        })
-          , e_ = (0,
-        X.C2)({
-            version: 3,
-            limit: !1,
-            fee: !0,
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        address: "0xf9Fa60EF4F23F00CCE403cc4d2c11Baf4880A0d6",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "FAR",
-                        name: "Farcana"
-                    }
-                },
-                polygon: {
-                    eid: 30109,
-                    token: {
-                        address: "0x5F32AbeeBD3c2fac1E7459A27e1AE9f1C16ccccA",
-                        chainKey: "polygon",
-                        decimals: 18,
-                        symbol: "FAR",
-                        name: "Farcana"
-                    },
-                    oftProxy: {
-                        address: "0x1a53F62A8eeeE5CEa2aa822dD0c8B5ed1FF20159"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0xDC816B6bd4786720e91Eb17D4DaBf0E1eEf5eE91",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "FARCANA",
-                        symbol: "FAR"
-                    }
-                }
-            },
-            coinMarketCapId: 22331,
-            coinGeckoId: "Farcana"
-        })
-          , e$ = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 8,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        address: "0xC96dE26018A54D51c097160568752c4E3BD6C364",
-                        chainKey: "ethereum",
-                        decimals: 8,
-                        name: "Fire Bitcoin",
-                        symbol: "FBTC"
-                    },
-                    oftProxy: {
-                        address: "0x0b835f07a2a54C0e80c1F585e5b6Dd732816dA3F"
-                    }
-                },
-                bera: {
-                    eid: 30362,
-                    token: {
-                        address: "0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B",
-                        chainKey: "bera",
-                        decimals: 8,
-                        name: "Fire Bitcoin",
-                        symbol: "FBTC"
-                    },
-                    oftProxy: {
-                        address: "0x0b835f07a2a54C0e80c1F585e5b6Dd732816dA3F"
-                    }
-                }
-            },
-            coinMarketCapId: 32306
-        })
-          , e0 = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 20077,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x8F57f33e587004Ce3caEF213935E82e490Fca460"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "FLOWER",
-                        name: "Flower",
-                        address: "0x3E12b9d6A4D12cd9b4a6d613872d0Eb32f68b380"
-                    }
-                },
-                polygon: {
-                    eid: 30109,
-                    version: 3,
-                    token: {
-                        chainKey: "polygon",
-                        decimals: 18,
-                        symbol: "FLOWER",
-                        name: "Flower",
-                        address: "0x3E12b9d6A4D12cd9b4a6d613872d0Eb32f68b380"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "FLOWER",
-                        name: "Flower",
-                        address: "0x3E12b9d6A4D12cd9b4a6d613872d0Eb32f68b380"
-                    }
-                }
-            }
-        })
-          , e1 = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0x53028b435A62fdA4FD6a199193922bE9f6b8a9B7"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "FLUID",
-                        address: "0x4E47951508Fd4A4126F8ff9CF5E6Fa3b7cC8E073",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "FLUID",
-                        address: "0x4E47951508Fd4A4126F8ff9CF5E6Fa3b7cC8E073",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 18,
-            version: 1,
-            fee: !1
-        })
-          , e3 = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                blast: {
-                    eid: 30243,
-                    token: {
-                        chainKey: "blast",
-                        address: "0xE41228a455700cAF09E551805A8aB37caa39D08c",
-                        decimals: 18,
-                        name: "Frax Price Index",
-                        symbol: "FPI"
-                    }
-                },
-                metis: {
-                    eid: 30151,
-                    token: {
-                        chainKey: "metis",
-                        address: "0xE41228a455700cAF09E551805A8aB37caa39D08c",
-                        decimals: 18,
-                        name: "Frax Price Index",
-                        symbol: "FPI"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-                        decimals: 18,
-                        name: "Frax",
-                        symbol: "FRAX"
-                    },
-                    oftProxy: {
-                        address: "0xE41228a455700cAF09E551805A8aB37caa39D08c"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0xE41228a455700cAF09E551805A8aB37caa39D08c",
-                        decimals: 18,
-                        name: "Frax Price Index",
-                        symbol: "FPI"
-                    }
-                },
-                mode: {
-                    eid: 30260,
-                    token: {
-                        chainKey: "mode",
-                        address: "0xEed9DE5E41b53D1C8fAB8AAB4b0e446F828c1483",
-                        decimals: 18,
-                        name: "Frax Price Index",
-                        symbol: "FPI"
-                    }
-                },
-                sei: {
-                    eid: 30280,
-                    token: {
-                        chainKey: "sei",
-                        address: "0xEed9DE5E41b53D1C8fAB8AAB4b0e446F828c1483",
-                        decimals: 18,
-                        name: "Frax Price Index",
-                        symbol: "FPI"
-                    }
-                },
-                xlayer: {
-                    eid: 30274,
-                    token: {
-                        chainKey: "xlayer",
-                        address: "0xEed9DE5E41b53D1C8fAB8AAB4b0e446F828c1483",
-                        decimals: 18,
-                        name: "Frax Price Index",
-                        symbol: "FPI"
-                    }
-                }
-            },
-            coinMarketCapId: 19425
-        })
-          , e8 = (0,
-        X.C2)({
-            fee: !0,
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    oftProxy: {
-                        address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "FRAX",
-                        address: "0x853d955aCEf822Db058eb8505911ED77F175b99e",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        symbol: "FRAX",
-                        address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
-                        decimals: 18
-                    }
-                },
-                mode: {
-                    eid: 30260,
-                    token: {
-                        chainKey: "mode",
-                        symbol: "FRAX",
-                        address: "0x80Eede496655FB9047dd39d9f418d5483ED600df",
-                        decimals: 18
-                    }
-                },
-                blast: {
-                    eid: 30243,
-                    token: {
-                        chainKey: "blast",
-                        symbol: "FRAX",
-                        address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
-                        decimals: 18
-                    }
-                },
-                metis: {
-                    eid: 30151,
-                    token: {
-                        chainKey: "metis",
-                        symbol: "FRAX",
-                        address: "0x909DBdE1eBE906Af95660033e478D59EFe831fED",
-                        decimals: 18
-                    }
-                },
-                sei: {
-                    eid: 30280,
-                    token: {
-                        chainKey: "sei",
-                        symbol: "FRAX",
-                        address: "0x80Eede496655FB9047dd39d9f418d5483ED600df",
-                        decimals: 18
-                    }
-                },
-                xlayer: {
-                    eid: 30274,
-                    token: {
-                        chainKey: "xlayer",
-                        symbol: "FRAX",
-                        address: "0x80eede496655fb9047dd39d9f418d5483ed600df",
-                        decimals: 18
-                    }
-                }
-            },
-            coinMarketCapId: 6952
-        })
-          , e2 = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x5E8422345238F34275888049021821E8E08CAa1f",
-                        decimals: 18,
-                        name: "Frax Ether",
-                        symbol: "frxETH"
-                    },
-                    oftProxy: {
-                        address: "0xF010a7c8877043681D59AD125EbF575633505942"
-                    }
-                },
-                metis: {
-                    eid: 30151,
-                    token: {
-                        chainKey: "metis",
-                        address: "0xF010a7c8877043681D59AD125EbF575633505942",
-                        decimals: 18,
-                        name: "Frax Ether",
-                        symbol: "frxETH"
-                    }
-                },
-                blast: {
-                    eid: 30243,
-                    token: {
-                        chainKey: "blast",
-                        address: "0xF010a7c8877043681D59AD125EbF575633505942",
-                        decimals: 18,
-                        name: "Frax Ether",
-                        symbol: "frxETH"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0xF010a7c8877043681D59AD125EbF575633505942",
-                        decimals: 18,
-                        name: "Frax Ether",
-                        symbol: "frxETH"
-                    }
-                },
-                mode: {
-                    eid: 30260,
-                    token: {
-                        chainKey: "mode",
-                        address: "0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050",
-                        decimals: 18,
-                        name: "Frax Ether",
-                        symbol: "frxETH"
-                    }
-                },
-                sei: {
-                    eid: 30280,
-                    token: {
-                        chainKey: "sei",
-                        address: "0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050",
-                        decimals: 18,
-                        name: "Frax Ether",
-                        symbol: "frxETH"
-                    }
-                },
-                xlayer: {
-                    eid: 30274,
-                    token: {
-                        chainKey: "xlayer",
-                        address: "0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050",
-                        decimals: 18,
-                        name: "Frax Ether",
-                        symbol: "frxETH"
-                    }
-                }
-            },
-            coinMarketCapId: 23225
-        })
-          , e6 = (0,
-        X.C2)({
-            version: 3,
-            limit: !1,
-            fee: !0,
-            sharedDecimals: 6,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    token: {
-                        address: "0xD6C7bB8531295e88D364EA67D5D1acC7D3F87454",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "FTR",
-                        name: "Fautor"
-                    },
-                    oftProxy: {
-                        address: "0xbCc9a0c41fC42D55270fe45D45e6AF9cc31F71ff"
-                    }
-                },
-                avalanche: {
-                    eid: 30106,
-                    token: {
-                        address: "0x61f23250451305f6C4426E81C50aE535Edf94A02",
-                        chainKey: "avalanche",
-                        decimals: 18,
-                        symbol: "FTR",
-                        name: "Fautor"
-                    }
-                }
-            },
-            coinMarketCapId: 31953,
-            coinGeckoId: "fautor"
-        })
-          , e4 = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        address: "0xAC9eF66dC75E5340304d5cc48E185FF5262Ae3Ac",
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        name: "Fuego",
-                        symbol: "FUEGO"
-                    }
-                },
-                avalanche: {
-                    eid: 30106,
-                    token: {
-                        address: "0xAC9eF66dC75E5340304d5cc48E185FF5262Ae3Ac",
-                        chainKey: "avalanche",
-                        decimals: 18,
-                        name: "Fuego",
-                        symbol: "FUEGO"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    oftProxy: {
-                        address: "0x6f756c0437a8c2193456A5bF09a61185a56dcC76"
-                    },
-                    token: {
-                        address: "0x36912b5cf63E509f18E53ac98B3012Fa79e77bf5",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "Fuego",
-                        symbol: "FUEGO"
-                    }
-                },
-                sonic: {
-                    eid: 30332,
-                    token: {
-                        chainKey: "sonic",
-                        address: "0xac9ef66dc75e5340304d5cc48e185ff5262ae3ac",
-                        decimals: 18,
-                        name: "Fuego",
-                        symbol: "FUEGO"
-                    }
-                }
-            },
-            coinGeckoId: "fuego"
-        })
-          , e7 = (0,
-        X.C2)({
-            deployments: {
-                blast: {
-                    eid: 30243,
-                    token: {
-                        chainKey: "blast",
-                        symbol: "FXS (old)",
-                        name: "FXS (old)",
-                        address: "0x23432452B720C80553458496D4D9d7C5003280d0",
-                        decimals: 18
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    oftProxy: {
-                        address: "0x23432452B720C80553458496D4D9d7C5003280d0"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "FXS (old)",
-                        name: "FXS (old)",
-                        address: "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        symbol: "FXS (old)",
-                        name: "FXS (old)",
-                        address: "0x23432452B720C80553458496D4D9d7C5003280d0",
-                        decimals: 18
-                    }
-                },
-                metis: {
-                    eid: 30151,
-                    token: {
-                        chainKey: "metis",
-                        symbol: "FXS (old)",
-                        name: "FXS (old)",
-                        address: "0x23432452B720C80553458496D4D9d7C5003280d0",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            coinMarketCapId: 6953
-        })
-          , e5 = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 6953,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0xC6F59a4fD50cAc677B51558489E03138Ac1784EC"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0"
-                    }
-                },
-                xlayer: {
-                    eid: 30274,
-                    version: 3,
-                    token: {
-                        chainKey: "xlayer",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                polygon: {
-                    eid: 30109,
-                    version: 3,
-                    token: {
-                        chainKey: "polygon",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                ink: {
-                    eid: 30339,
-                    version: 3,
-                    token: {
-                        chainKey: "ink",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                sei: {
-                    eid: 30280,
-                    version: 3,
-                    token: {
-                        chainKey: "sei",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                fraxtal: {
-                    eid: 30255,
-                    version: 3,
-                    oftProxy: {
-                        address: "0xd86fBBd0c8715d2C1f40e451e5C3514e65E7576A"
-                    },
-                    token: {
-                        chainKey: "fraxtal",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0xFc00000000000000000000000000000000000002"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    version: 3,
-                    token: {
-                        chainKey: "bsc",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    version: 3,
-                    token: {
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                sonic: {
-                    eid: 30332,
-                    version: 3,
-                    token: {
-                        chainKey: "sonic",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x0CEAC003B0d2479BebeC9f4b2EBAd0a803759bbf"
-                    }
-                },
-                optimism: {
-                    eid: 30111,
-                    version: 3,
-                    token: {
-                        chainKey: "optimism",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                mode: {
-                    eid: 30260,
-                    version: 3,
-                    token: {
-                        chainKey: "mode",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                blast: {
-                    eid: 30243,
-                    version: 3,
-                    token: {
-                        chainKey: "blast",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                avalanche: {
-                    eid: 30106,
-                    version: 3,
-                    token: {
-                        chainKey: "avalanche",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                },
-                zkevm: {
-                    eid: 30158,
-                    version: 3,
-                    token: {
-                        chainKey: "zkevm",
-                        decimals: 18,
-                        symbol: "FXS",
-                        name: "Frax Share",
-                        address: "0x64445f0aecC51E94aD52d8AC56b7190e764E561a"
-                    }
-                }
-            }
-        })
-          , e9 = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinGeckoId: "fyde",
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x72527FeC7d84764C405F28bD7E00E2693bbCB519"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "FYDE",
-                        name: "Fyde",
-                        address: "0x8a462E6a0051d006E33152FBEaDFB9A14198DE30"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "FYDE",
-                        name: "Fyde",
-                        address: "0xAc80E841Cb4ed3f85436DE84EE1e92cDF00144E6"
-                    }
-                }
-            }
-        })
-          , ae = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinGeckoId: "giza",
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x0b0E004b88A9c37453ad75C450F1147E9DEc97c3"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "GIZA",
-                        name: "Giza",
-                        address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "GIZA",
-                        name: "Giza",
-                        address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774"
-                    }
-                }
-            }
-        })
-          , aa = (0,
-        X.C2)({
-            deployments: {
-                avalanche: {
-                    eid: 106,
-                    token: {
-                        chainKey: "avalanche",
-                        symbol: "GMBL",
-                        address: "0x236626887687bf6a102269207f8f0A08549Ae4f4",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    oftProxy: {
-                        address: "0x236626887687bf6a102269207f8f0a08549ae4f4"
-                    },
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "GMBL",
-                        address: "0xE9A5aF50874c0ef2748b5DB70104B5ccb5557f6d",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1
-        })
-          , ad = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 9103,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0x66BD9B4A80a603a2bBA8962bC210fe15A286426A"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "GMEE",
-                        name: "GAMEE",
-                        address: "0xD9016A907Dc0ECfA3ca425ab20B6b785B42F2373"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    oft: {
-                        programId: "8PVbX6gmTSPsJJzUx6wewK2kBuhVQU7KmV5X8Dtvuh2y"
-                    },
-                    token: {
-                        chainKey: "solana",
-                        decimals: 9,
-                        symbol: "GMEE",
-                        name: "GAMEE",
-                        address: "J324HJvWdpZoXXzckqs5h9BhhZDnp3vp86tnrDwoGwxC",
-                        programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
-                    },
-                    tokenEscrow: {
-                        address: "7hGV1HJXxU9KmsG2Ka9XwzSYXVRjBvJdpMMUHpsZnBsG"
-                    }
-                }
-            }
-        })
-          , as = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        address: "0xb5130F4767AB0ACC579f25a76e8f9E977CB3F948",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        name: "Godcoin",
-                        symbol: "GOD"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        address: "0xb5130F4767AB0ACC579f25a76e8f9E977CB3F948",
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        name: "Godcoin",
-                        symbol: "GOD"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0xb5130F4767AB0ACC579f25a76e8f9E977CB3F948",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "Godcoin",
-                        symbol: "GOD"
-                    }
-                }
-            },
-            coinMarketCapId: 35489
-        })
-          , ai = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                sonic: {
-                    eid: 30332,
-                    token: {
-                        chainKey: "sonic",
-                        address: "0x9fDbC3f8Abc05Fa8f3Ad3C17D2F806c1230c4564",
-                        decimals: 18,
-                        name: "GOGGLES",
-                        symbol: "GOGLZ"
-                    }
-                },
-                fantom: {
-                    eid: 30112,
-                    token: {
-                        chainKey: "fantom",
-                        address: "0x662B3d319e693aA578EDd4BD8a5c9395BC49e9F4",
-                        decimals: 18,
-                        name: "GOGGLES",
-                        symbol: "GOGLZ"
-                    },
-                    oftProxy: {
-                        address: "0x95ae0a728375e293eface67ea94e4b50c3a7a0fd"
-                    }
-                }
-            },
-            coinMarketCapId: 33438,
-            coinGeckoId: "goggles"
-        })
-          , ao = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "GOLD",
-                        address: "0x9DeB0fc809955b79c85e82918E8586d3b7d2695a",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "GOLD",
-                        address: "0x8b5e4C9a188b1A187f2D1E80b1c2fB17fA2922e1",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 184,
-                    oftProxy: {
-                        address: "0xdee1b2dab488b0d71677200ea1330fdced01e144"
-                    },
-                    token: {
-                        chainKey: "base",
-                        symbol: "GOLD",
-                        address: "0xbeFD5C25A59ef2C1316c5A4944931171F30Cd3E4",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 6,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 27897
-        })
-          , an = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0x30842a9c941d9DE3AF582c41ad12b11D776ba69e",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "QnA3.AI Token",
-                        symbol: "GPT"
-                    },
-                    oftProxy: {
-                        address: "0xE99aE1BEB4aae669F9C4FFcbb90263685fB4C8C3"
-                    }
-                },
-                islander: {
-                    eid: 30330,
-                    token: {
-                        address: "0x3C7053d28D986385529d04FB19A5DEaD278C2d8F",
-                        chainKey: "islander",
-                        decimals: 18,
-                        name: "QnA3.AI",
-                        symbol: "GPT"
-                    }
-                }
-            },
-            coinMarketCapId: 29576
-        })
-          , ac = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        address: "0x64d3CAe387405d91f7b0D91fb1D824A281719500",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        name: "GammaSwap",
-                        symbol: "GS"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        address: "0xb08D8BeCAB1bf76A9Ce3d2d5fa946F65EC1d3e83",
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        name: "GammaSwap",
-                        symbol: "GS"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0xc4d44c155f95FD4E94600d191a4a01bb571dF7DF",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "GammaSwap",
-                        symbol: "GS"
-                    }
-                },
-                sonic: {
-                    eid: 30332,
-                    token: {
-                        chainKey: "sonic",
-                        decimals: 18,
-                        symbol: "GS",
-                        name: "GammaSwap",
-                        address: "0xf9F143705b2BBDE9b4ABfD0320F328aE59364f5e"
-                    }
-                }
-            },
-            coinGeckoId: "gammaswap"
-        })
-          , ar = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0x7bab349ba33d37ce6b56c117a9d0214e67806336"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "GUILD",
-                        address: "0x83E9F223e1edb3486F876EE888d76bFba26c475A",
-                        decimals: 18
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "GUILD",
-                        address: "0xAfF41DA975501E5b71848C975834341777D1a473",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 18,
-            version: 1,
-            fee: !1,
-            coinMarketCapId: 15664
-        })
-          , am = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        chainKey: "bsc",
-                        address: "0x2E72393A57287b1A09857Db589B27bB0fd499922",
-                        decimals: 18,
-                        name: "Happy Cat",
-                        symbol: "HAPPY"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        address: "HAPPYwgFcjEJDzRtfWE6tiHE9zGdzpNky2FvjPHsvvGZ",
-                        decimals: 9,
-                        name: "Happy Cat",
-                        symbol: "HAPPY",
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "FFsA3qxV3mLBXddKxPmkJMmHj6zN8dDWipGzHpp8jHUX"
-                    },
-                    oft: {
-                        programId: "EB1c1XixvsRpRhPcQ9bBsyQuYkB8px5E85McfxfjHgvP"
-                    }
-                }
-            },
-            coinMarketCapId: 33892,
-            coinGeckoId: "happycat-2"
-        })
-          , at = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                kava: {
-                    eid: 30177,
-                    token: {
-                        chainKey: "kava",
-                        address: "0x25e9171C98Fc1924Fa9415CF50750274F0664764",
-                        decimals: 6,
-                        name: "Hard",
-                        symbol: "HARD"
-                    },
-                    oftProxy: {
-                        address: "0xaDc565C6bC2DcC268abDD4408Ac156E0D00fCb62"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        chainKey: "bsc",
-                        address: "0x0f1E2C34f688d68Af730cBd0b79bb4B5519e00e0",
-                        decimals: 6,
-                        name: "Hard",
-                        symbol: "HARD"
-                    }
-                },
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x63fE3EB27e98DA740Ee24AB5cc1a17Ebd20fEC1C",
-                        decimals: 6,
-                        name: "Hard",
-                        symbol: "HARD"
-                    }
-                },
-                tron: {
-                    eid: 30420,
-                    token: {
-                        chainKey: "tron",
-                        address: "0xe1c8869751fef3aa3500c208fbc01b2b25737be1",
-                        decimals: 6,
-                        name: "Hard",
-                        symbol: "HARD"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        name: "Hard",
-                        symbol: "HARD",
-                        address: "2cxr5BU6XVkDm7qaPFby5fBZaFDC1DyQvjjtb1Qkvnxp",
-                        decimals: 6,
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "FEMGnyMCmygJy2rJeiD4CJEtK93A3JAva1ScaqEq6ghN"
-                    },
-                    oft: {
-                        programId: "5Bu6CcAgMVQ7nmY2faDADpY1No3iBAXDmohAJeuiGzSW"
-                    }
-                }
-            },
-            coinMarketCapId: 7576,
-            coinGeckoId: "kava-lend"
-        })
-          , ab = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "HERA",
-                        address: "0xA2c2C937333165d4c5f2dC5f31a43E1239FeCfeB",
-                        decimals: 18
-                    }
-                },
-                metis: {
-                    eid: 151,
-                    oftProxy: {
-                        address: "0x9c598da94c840147c9a1eabe1ae8df750674ddf6"
-                    },
-                    token: {
-                        chainKey: "metis",
-                        symbol: "HERA",
-                        address: "0x6F05709bc91Bad933346F9E159f0D3FdBc2c9DCE",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 19225
-        })
-          , al = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        address: "0x91dA780BC7f4B7Cf19ABE90411a2a296Ec5FF787",
-                        chainKey: "base",
-                        decimals: 18,
-                        name: "Hive Intelligence",
-                        symbol: "HINT"
-                    },
-                    oftProxy: {
-                        address: "0xc8De92105c01Af3A58791CdBaf14f232621dbE17"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0x91dA780BC7f4B7Cf19ABE90411a2a296Ec5FF787",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "Hive Intelligence",
-                        symbol: "HINT"
-                    }
-                }
-            },
-            coinMarketCapId: 35241
-        })
-          , ay = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 2682,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0xC36c89Fa76336180fFbdD6847378CcE418Da4CF6"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "HOT",
-                        name: "HoloToken",
-                        address: "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    version: 3,
-                    token: {
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        symbol: "HOT",
-                        name: "HoloToken",
-                        address: "0x17E1E5c6bc9ebb11647C94e1c5e3Ba619F2781ea"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    version: 3,
-                    token: {
-                        chainKey: "base",
-                        decimals: 18,
-                        symbol: "HOT",
-                        name: "HoloToken",
-                        address: "0xf3dD141109Dfe8e4c006F88a2A8747a086e7C1f8"
-                    }
-                }
-            }
-        })
-          , af = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x12c26138b666360AB2B7A1B149dF9Cf6642CDfBf",
-                        decimals: 18,
-                        symbol: "ICL"
-                    }
-                },
-                mode: {
-                    eid: 30260,
-                    token: {
-                        chainKey: "mode",
-                        address: "0x95177295a394f2b9b04545fff58f4af0673e839d",
-                        decimals: 18,
-                        symbol: "ICL"
-                    },
-                    oftProxy: {
-                        address: "0xa52E2bf962b714071064dE9b5eea792ad39f4250"
-                    }
-                }
-            },
-            coinGeckoId: "ironclad-token"
-        })
-          , aC = (0,
-        X.C2)({
-            deployments: {
-                bsc: {
-                    eid: 102,
-                    oftProxy: {
-                        address: "0xcF7d4b692c478b77aff32BB1493C54C84F27f85A"
-                    },
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "IDIA",
-                        address: "0x0b15Ddf19D47E6a86A56148fb4aFFFc6929BcB89",
-                        decimals: 18
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "IDIA",
-                        address: "0x8255775bea425f910044ddFb7681D6d87fD5489d",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "IDIA",
-                        address: "0x6Db8b088c4d41d622B44CD81B900bA690f2d496C",
-                        decimals: 18
-                    }
-                },
-                mantle: {
-                    eid: 181,
-                    token: {
-                        chainKey: "mantle",
-                        symbol: "IDIA",
-                        address: "0x08D1099101De99B14C68975222A235b63e6B8C91",
-                        decimals: 18
-                    }
-                },
-                linea: {
-                    eid: 183,
-                    token: {
-                        chainKey: "linea",
-                        symbol: "IDIA",
-                        address: "0x1044F1F2e208e213FBdFfeEbDc4eE0d194307438",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 184,
-                    token: {
-                        chainKey: "base",
-                        symbol: "IDIA",
-                        address: "0x8255775bea425f910044ddFb7681D6d87fD5489d",
-                        decimals: 18
-                    }
-                },
-                taiko: {
-                    eid: 290,
-                    token: {
-                        chainKey: "taiko",
-                        symbol: "IDIA",
-                        address: "0x23aaB921D8283f099bc3FE3741Cb369B1ee095a8",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 10933
-        })
-          , aD = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0x8D279274789CceC8af94a430A5996eAaCE9609A9"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "INSP",
-                        address: "0x186eF81fd8E77EEC8BfFC3039e7eC41D5FC0b457",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "INSP",
-                        address: "0x8D279274789CceC8af94a430A5996eAaCE9609A9",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 28610
-        })
-          , aE = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x42e07fA3d31190731368Ca2F88D12D80139DCa42",
-                        decimals: 18,
-                        name: "INT OS",
-                        symbol: "INTOS"
-                    },
-                    oftProxy: {
-                        address: "0xd97E1d6051a2c36Fd9CfD2E1640C699C29724860"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        address: "7YKfh8hFbgHkwtAogfSWjsEGVNH5e1DoFF9Dj31U9CMe",
-                        decimals: 6,
-                        name: "INT OS",
-                        symbol: "INTOS",
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "CkWH4bb2hyZW5nHbzbH1eU3Wr9ATbSHkUkzoKaT7uRcw"
-                    },
-                    oft: {
-                        programId: "9G1nFUBh9sqvyHJByFtTWY1enYN81Z4f2VjeEzX6nZrb"
-                    }
-                }
-            },
-            coinMarketCapId: 35160,
-            coinGeckoId: "int-os"
-        })
-          , aA = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0x02b88b31492c19d9e3145934cdb63a8a9b5b4b10"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "IRL",
-                        address: "0xa80221D067603e30060F75E2458AA361f8eE5402",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "IRL",
-                        address: "0xa80221D067603e30060F75E2458AA361f8eE5402",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 20858
-        })
-          , ah = (0,
-        X.C2)({
-            sharedDecimals: 6,
-            version: 3,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x157a6df6b74f4e5e45af4e4615fde7b49225a662",
-                        decimals: 18,
-                        name: "ISLAND",
-                        symbol: "ISLAND"
-                    }
-                },
-                base: {
-                    eid: 30184,
-                    token: {
-                        chainKey: "base",
-                        address: "0x157a6df6b74f4e5e45af4e4615fde7b49225a662",
-                        decimals: 18,
-                        name: "ISLAND",
-                        symbol: "ISLAND"
-                    }
-                },
-                solana: {
-                    eid: 30168,
-                    version: 4,
-                    token: {
-                        chainKey: "solana",
-                        name: "ISLAND",
-                        symbol: "ISLAND",
-                        address: "HX6zNkjJ7zy653VoDWzbaYpSg7BrgLfq4i4RA7D5nkkz",
-                        decimals: 6,
-                        programId: V.H_
-                    },
-                    tokenEscrow: {
-                        address: "ASQJRNiXHQ4wYPewkXq7RFcY1nmPZB696JoQynbSjPpB"
-                    },
-                    oft: {
-                        programId: "FTPEhpxj7q6tB7SAgoLawurF1zvWxfAoor9rLEGspPop"
-                    }
-                }
-            },
-            coinMarketCapId: 34794,
-            coinGeckoId: "island-token"
-        })
-          , ax = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0x8cfa44e930B7743123738Eb2d7e78beaA964732e"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                avalanche: {
-                    eid: 106,
-                    token: {
-                        chainKey: "avalanche",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                optimism: {
-                    eid: 111,
-                    token: {
-                        chainKey: "optimism",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                fantom: {
-                    eid: 112,
-                    token: {
-                        chainKey: "fantom",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                zkevm: {
-                    eid: 158,
-                    token: {
-                        chainKey: "zkevm",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                zksync: {
-                    eid: 165,
-                    token: {
-                        chainKey: "zksync",
-                        symbol: "ITP",
-                        address: "0xd03465338226ea0178337F4abb16FdD6df529F57",
-                        decimals: 18
-                    }
-                },
-                linea: {
-                    eid: 183,
-                    token: {
-                        chainKey: "linea",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 184,
-                    token: {
-                        chainKey: "base",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                },
-                scroll: {
-                    eid: 214,
-                    token: {
-                        chainKey: "scroll",
-                        symbol: "ITP",
-                        address: "0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 22877
-        })
-          , aB = (0,
-        X.C2)({
-            deployments: {
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "JOE",
-                        address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "JOE",
-                        address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
-                        decimals: 18
-                    }
-                },
-                avalanche: {
-                    eid: 106,
-                    oftProxy: {
-                        address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07"
-                    },
-                    token: {
-                        chainKey: "avalanche",
-                        symbol: "JOE",
-                        address: "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
-                        decimals: 18
-                    }
-                },
-                mantle: {
-                    eid: 181,
-                    token: {
-                        chainKey: "mantle",
-                        symbol: "JOE",
-                        address: "0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07",
-                        decimals: 18
-                    }
-                }
-            },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !0,
-            coinMarketCapId: 11396
-        })
-          , aF = (0,
-        X.C2)({
-            version: 3,
-            sharedDecimals: 6,
-            limit: !1,
-            fee: !0,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        address: "0x3f80B1c54Ae920Be41a77f8B902259D48cf24cCf",
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        name: "KERNEL",
-                        symbol: "KERNEL"
-                    },
-                    oftProxy: {
-                        address: "0x2A1D74de3027ccE18d31011518C571130a4cd513"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    token: {
-                        address: "0x9eCaf80c1303CCA8791aFBc0AD405c8a35e8d9f1",
-                        chainKey: "bsc",
-                        decimals: 18,
-                        name: "KERNEL",
-                        symbol: "KERNEL"
-                    }
-                },
-                arbitrum: {
-                    eid: 30110,
-                    token: {
-                        address: "0x6E401189c8A68D05562c9Bab7f674f910821EAcF",
-                        chainKey: "arbitrum",
-                        decimals: 18,
-                        name: "KERNEL",
-                        symbol: "KERNEL"
-                    }
-                }
-            }
-        })
-          , ak = (0,
-        X.C2)({
-            strict: !0,
-            limit: !1,
-            version: 3,
-            fee: !0,
-            sharedDecimals: 6,
-            coinMarketCapId: 36053,
-            deployments: {
-                ethereum: {
-                    eid: 30101,
-                    version: 3,
-                    oftProxy: {
-                        address: "0xd100F83d565f03C9E74F454A683201Fc1A882d08"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        decimals: 18,
-                        symbol: "KILO",
-                        name: "KiloEx Token",
-                        address: "0xe3F28f11F76c62e965fFE5be8e62CDe3e8e7a7Cc"
-                    }
-                },
-                bsc: {
-                    eid: 30102,
-                    version: 3,
-                    token: {
-                        chainKey: "bsc",
-                        decimals: 18,
-                        symbol: "KILO",
-                        name: "KiloEx Token",
-                        address: "0x9ff59ffc463736520aA465b2CA9C5D047bE919BA"
-                    }
-                },
-                opbnb: {
-                    eid: 30202,
-                    version: 3,
-                    token: {
-                        chainKey: "opbnb",
-                        decimals: 18,
-                        symbol: "KILO",
-                        name: "KiloEx Token",
-                        address: "0x9ff59ffc463736520aA465b2CA9C5D047bE919BA"
-                    }
-                },
-                manta: {
-                    eid: 30217,
-                    version: 3,
-                    token: {
-                        chainKey: "manta",
-                        decimals: 18,
-                        symbol: "KILO",
-                        name: "KiloEx Token",
-                        address: "0x9ff59ffc463736520aA465b2CA9C5D047bE919BA"
-                    }
-                }
-            }
-        })
-          , ap = (0,
+    , ap = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -5656,7 +5632,7 @@
             },
             coinMarketCapId: 31455
         })
-          , aK = (0,
+    , aK = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -5687,7 +5663,7 @@
             coinMarketCapId: 34067,
             coinGeckoId: "kolz"
         })
-          , au = (0,
+    , au = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -5726,7 +5702,7 @@
                 }
             }
         })
-          , aT = (0,
+    , aT = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -5782,7 +5758,7 @@
             },
             coinMarketCapId: 33652
         })
-          , aS = (0,
+    , aS = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -5830,7 +5806,7 @@
             fee: !0,
             coinMarketCapId: 20611
         })
-          , av = (0,
+    , av = (0,
         X.C2)({
             fee: !0,
             sharedDecimals: 6,
@@ -5871,7 +5847,7 @@
             },
             coinMarketCapId: 33718
         })
-          , aP = (0,
+    , aP = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -5918,7 +5894,7 @@
             version: 2,
             fee: !0
         })
-          , aI = (0,
+    , aI = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -5951,7 +5927,7 @@
             },
             coinGeckoId: "1127"
         })
-          , ag = (0,
+    , ag = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -5992,7 +5968,7 @@
             },
             coinMarketCapId: 2554
         })
-          , aM = (0,
+    , aM = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6045,7 +6021,7 @@
             },
             coinMarketCapId: 8043
         })
-          , aU = (0,
+    , aU = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -6099,7 +6075,7 @@
             fee: !1,
             coinMarketCapId: 18037
         })
-          , aR = (0,
+    , aR = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -6130,7 +6106,7 @@
             fee: !1,
             coinMarketCapId: 28829
         })
-          , aG = (0,
+    , aG = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6163,7 +6139,7 @@
             },
             coinGeckoId: "manta-mbtc"
         })
-          , aL = (0,
+    , aL = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6205,7 +6181,7 @@
             coinMarketCapId: 31165,
             coinGeckoId: "metalcore"
         })
-          , aH = (0,
+    , aH = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6242,7 +6218,7 @@
             },
             coinMarketCapId: 35347
         })
-          , aN = (0,
+    , aN = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6275,7 +6251,7 @@
             },
             coinGeckoId: "manta-meth"
         })
-          , aO = (0,
+    , aO = (0,
         X.C2)({
             deployments: {
                 bsc: {
@@ -6314,7 +6290,7 @@
             fee: !0,
             coinMarketCapId: 9640
         })
-          , aw = (0,
+    , aw = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -6443,7 +6419,7 @@
             fee: !1,
             coinMarketCapId: 162
         })
-          , aW = (0,
+    , aW = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -6488,7 +6464,7 @@
             fee: !1,
             coinMarketCapId: 28094
         })
-          , aX = (0,
+    , aX = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -6528,7 +6504,7 @@
                 }
             }
         })
-          , aV = (0,
+    , aV = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -6564,7 +6540,7 @@
                 }
             }
         })
-          , az = (0,
+    , az = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6617,7 +6593,7 @@
             },
             coinMarketCapId: 31016
         })
-          , aZ = (0,
+    , aZ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6647,7 +6623,7 @@
             },
             coinMarketCapId: 30490
         })
-          , aQ = (0,
+    , aQ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6680,7 +6656,7 @@
             },
             coinMarketCapId: 30950
         })
-          , aY = (0,
+    , aY = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6714,7 +6690,7 @@
             coinMarketCapId: 34163,
             coinGeckoId: "moongate"
         })
-          , aq = (0,
+    , aq = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6754,7 +6730,7 @@
             },
             coinMarketCapId: 31656
         })
-          , aJ = (0,
+    , aJ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6787,7 +6763,7 @@
             },
             coinMarketCapId: 24839
         })
-          , aj = (0,
+    , aj = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -6832,7 +6808,7 @@
             fee: !1,
             coinMarketCapId: 2396
         })
-          , a_ = (0,
+    , a_ = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -6877,7 +6853,7 @@
             fee: !1,
             coinMarketCapId: 3408
         })
-          , a$ = (0,
+    , a$ = (0,
         X.C2)({
             deployments: {
                 bsc: {
@@ -6907,7 +6883,7 @@
             fee: !1,
             coinMarketCapId: 15974
         })
-          , a0 = (0,
+    , a0 = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -6940,7 +6916,7 @@
             },
             coinGeckoId: "manta-musd"
         })
-          , a1 = (0,
+    , a1 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -6976,7 +6952,7 @@
                 }
             }
         })
-          , a3 = (0,
+    , a3 = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -7012,7 +6988,7 @@
             fee: !1,
             coinMarketCapId: 20719
         })
-          , a8 = (0,
+    , a8 = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -7069,7 +7045,7 @@
             fee: !1,
             coinMarketCapId: 28827
         })
-          , a2 = (0,
+    , a2 = (0,
         X.C2)({
             deployments: {
                 bsc: {
@@ -7099,7 +7075,7 @@
             fee: !1,
             coinMarketCapId: 9938
         })
-          , a6 = (0,
+    , a6 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -7138,7 +7114,7 @@
                 }
             }
         })
-          , a4 = (0,
+    , a4 = (0,
         X.C2)({
             deployments: {
                 avalanche: {
@@ -7178,7 +7154,7 @@
             fee: !1,
             coinMarketCapId: 11840
         })
-          , a7 = (0,
+    , a7 = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -7250,7 +7226,7 @@
             coinMarketCapId: 34165,
             coinGeckoId: "ora-coin"
         })
-          , a5 = (0,
+    , a5 = (0,
         X.C2)({
             strict: !1,
             sharedDecimals: 10,
@@ -7355,7 +7331,7 @@
             coinMarketCapId: 32809,
             coinGeckoId: "orderly-network"
         })
-          , a9 = (0,
+    , a9 = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -7430,7 +7406,7 @@
             fee: !0,
             coinMarketCapId: 27533
         })
-          , de = (0,
+    , de = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -7505,7 +7481,7 @@
             fee: !1,
             coinMarketCapId: 29530
         })
-          , da = (0,
+    , da = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -7562,7 +7538,7 @@
             fee: !1,
             coinMarketCapId: 26543
         })
-          , dd = (0,
+    , dd = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -7595,7 +7571,7 @@
             },
             coinGeckoId: "paladin"
         })
-          , ds = (0,
+    , ds = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -7631,7 +7607,7 @@
                 }
             }
         })
-          , di = (0,
+    , di = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -7665,7 +7641,7 @@
             coinMarketCapId: 8320,
             coinGeckoId: "polkabridge"
         })
-          , dn = (0,
+    , dn = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -7696,7 +7672,7 @@
             fee: !0,
             coinMarketCapId: 14588
         })
-          , dc = (0,
+    , dc = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -7757,7 +7733,7 @@
             },
             coinMarketCapId: 34466
         })
-          , dr = (0,
+    , dr = (0,
         X.C2)({
             deployments: {
                 arbitrum: {
@@ -7796,7 +7772,7 @@
             fee: !0,
             coinMarketCapId: 24478
         })
-          , dm = (0,
+    , dm = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -7829,7 +7805,7 @@
             },
             coinMarketCapId: 17837
         })
-          , dt = (0,
+    , dt = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -7887,7 +7863,7 @@
             },
             coinMarketCapId: 33060
         })
-          , db = (0,
+    , db = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -7927,7 +7903,7 @@
             },
             coinGeckoId: "pichi-finance"
         })
-          , dl = (0,
+    , dl = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -7960,7 +7936,7 @@
             },
             coinGeckoId: "pipo-2"
         })
-          , dy = (0,
+    , dy = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -7994,7 +7970,7 @@
             },
             coinMarketCapId: 35364
         })
-          , df = (0,
+    , df = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -8058,7 +8034,7 @@
             coinMarketCapId: 20738,
             coinGeckoId: "primex-finance"
         })
-          , dC = (0,
+    , dC = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -8091,7 +8067,7 @@
             },
             coinGeckoId: "polter-finance"
         })
-          , dD = (0,
+    , dD = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -8157,7 +8133,7 @@
                 }
             }
         })
-          , dE = (0,
+    , dE = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -8190,7 +8166,7 @@
                 }
             }
         })
-          , dA = (0,
+    , dA = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -8231,7 +8207,7 @@
             coinMarketCapId: 8255,
             coinGeckoId: "prosper"
         })
-          , dh = (0,
+    , dh = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -8292,7 +8268,7 @@
             },
             coinMarketCapId: 29945
         })
-          , dx = (0,
+    , dx = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -8328,7 +8304,7 @@
                 }
             }
         })
-          , dB = (0,
+    , dB = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 8,
@@ -8358,7 +8334,7 @@
             },
             coinMarketCapId: 32722
         })
-          , dF = (0,
+    , dF = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -8491,137 +8467,137 @@
             },
             coinGeckoId: "dinero-staked-eth"
         });
-        var dk = d(20218);
-        let dp = (0,
-        X.C2)({
-            deployments: {
-                ethereum: {
-                    eid: 101,
-                    oftProxy: {
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7"
-                    },
-                    token: {
-                        chainKey: "ethereum",
-                        symbol: "QI",
-                        address: "0x559b7bfC48a5274754b08819F75C5F27aF53D53b",
-                        decimals: 18
-                    }
+var dk = d(20218);
+let dp = (0,
+    X.C2)({
+        deployments: {
+            ethereum: {
+                eid: 101,
+                oftProxy: {
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7"
                 },
-                bsc: {
-                    eid: 102,
-                    token: {
-                        chainKey: "bsc",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                avalanche: {
-                    eid: 106,
-                    token: {
-                        chainKey: "avalanche",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                polygon: {
-                    eid: 109,
-                    token: {
-                        chainKey: "polygon",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                arbitrum: {
-                    eid: 110,
-                    token: {
-                        chainKey: "arbitrum",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                optimism: {
-                    eid: 111,
-                    token: {
-                        chainKey: "optimism",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                fantom: {
-                    eid: 112,
-                    token: {
-                        chainKey: "fantom",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                moonbeam: {
-                    eid: 126,
-                    token: {
-                        chainKey: "moonbeam",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                metis: {
-                    eid: 151,
-                    token: {
-                        chainKey: "metis",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                kava: {
-                    eid: 177,
-                    token: {
-                        chainKey: "kava",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                mantle: {
-                    eid: 181,
-                    token: {
-                        chainKey: "mantle",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                linea: {
-                    eid: 183,
-                    token: {
-                        chainKey: "linea",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
-                },
-                base: {
-                    eid: 184,
-                    token: {
-                        chainKey: "base",
-                        symbol: "QI",
-                        address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
-                        decimals: 18
-                    }
+                token: {
+                    chainKey: "ethereum",
+                    symbol: "QI",
+                    address: "0x559b7bfC48a5274754b08819F75C5F27aF53D53b",
+                    decimals: 18
                 }
             },
-            sharedDecimals: 8,
-            version: 2,
-            fee: !1,
-            coinMarketCapId: 10237
-        })
-          , dK = (0,
+            bsc: {
+                eid: 102,
+                token: {
+                    chainKey: "bsc",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            avalanche: {
+                eid: 106,
+                token: {
+                    chainKey: "avalanche",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            polygon: {
+                eid: 109,
+                token: {
+                    chainKey: "polygon",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            arbitrum: {
+                eid: 110,
+                token: {
+                    chainKey: "arbitrum",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            optimism: {
+                eid: 111,
+                token: {
+                    chainKey: "optimism",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            fantom: {
+                eid: 112,
+                token: {
+                    chainKey: "fantom",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            moonbeam: {
+                eid: 126,
+                token: {
+                    chainKey: "moonbeam",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            metis: {
+                eid: 151,
+                token: {
+                    chainKey: "metis",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            kava: {
+                eid: 177,
+                token: {
+                    chainKey: "kava",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            mantle: {
+                eid: 181,
+                token: {
+                    chainKey: "mantle",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            linea: {
+                eid: 183,
+                token: {
+                    chainKey: "linea",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            },
+            base: {
+                eid: 184,
+                token: {
+                    chainKey: "base",
+                    symbol: "QI",
+                    address: "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7",
+                    decimals: 18
+                }
+            }
+        },
+        sharedDecimals: 8,
+        version: 2,
+        fee: !1,
+        coinMarketCapId: 10237
+    })
+    , dK = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -8671,7 +8647,7 @@
             coinMarketCapId: 15188,
             coinGeckoId: "dappradar"
         })
-          , du = (0,
+    , du = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -8701,7 +8677,7 @@
             fee: !0,
             coinMarketCapId: 27319
         })
-          , dT = (0,
+    , dT = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -8772,7 +8748,7 @@
             coinMarketCapId: 3626,
             coinGeckoId: "rootstock"
         })
-          , dS = (0,
+    , dS = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -8817,7 +8793,7 @@
             fee: !1,
             coinMarketCapId: 21106
         })
-          , dv = (0,
+    , dv = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -8865,7 +8841,7 @@
                 }
             }
         })
-          , dP = (0,
+    , dP = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -8937,7 +8913,7 @@
             fee: !1,
             coinMarketCapId: 23996
         })
-          , dI = (0,
+    , dI = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -8980,7 +8956,7 @@
                 }
             }
         })
-          , dg = (0,
+    , dg = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -9051,7 +9027,7 @@
             },
             coinMarketCapId: 3701
         })
-          , dM = (0,
+    , dM = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -9084,7 +9060,7 @@
             },
             coinGeckoId: "onering"
         })
-          , dU = (0,
+    , dU = (0,
         X.C2)({
             coinGeckoId: "resolv-rlp",
             sharedDecimals: 6,
@@ -9158,7 +9134,7 @@
                 }
             }
         })
-          , dR = (0,
+    , dR = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -9326,7 +9302,7 @@
             fee: !1,
             coinMarketCapId: 29242
         })
-          , dG = (0,
+    , dG = (0,
         X.C2)({
             fee: !0,
             sharedDecimals: 6,
@@ -9393,7 +9369,7 @@
             },
             coinMarketCapId: 29974
         })
-          , dL = (0,
+    , dL = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -9432,7 +9408,7 @@
             },
             coinGeckoId: "reservoir-rusd"
         })
-          , dH = (0,
+    , dH = (0,
         X.C2)({
             coinMarketCapId: 33611,
             sharedDecimals: 6,
@@ -9472,7 +9448,7 @@
                 }
             }
         })
-          , dN = (0,
+    , dN = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -9508,7 +9484,7 @@
             },
             coinGeckoId: "rwax"
         })
-          , dO = (0,
+    , dO = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -9549,7 +9525,7 @@
             coinMarketCapId: 32684,
             coinGeckoId: "sonic-3"
         })
-          , dw = (0,
+    , dw = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -9585,7 +9561,7 @@
                 }
             }
         })
-          , dW = (0,
+    , dW = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -9628,7 +9604,7 @@
             },
             coinMarketCapId: 6210
         })
-          , dX = (0,
+    , dX = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -9756,7 +9732,7 @@
                 }
             }
         })
-          , dV = (0,
+    , dV = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -9819,7 +9795,7 @@
             },
             coinMarketCapId: 32492
         })
-          , dz = (0,
+    , dz = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -9864,7 +9840,7 @@
             },
             coinMarketCapId: 23149
         })
-          , dZ = (0,
+    , dZ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -9898,7 +9874,7 @@
             coinMarketCapId: 27838,
             coinGeckoId: "kryptonite"
         })
-          , dQ = (0,
+    , dQ = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -9965,7 +9941,7 @@
             fee: !0,
             coinMarketCapId: 6952
         })
-          , dY = (0,
+    , dY = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -10032,7 +10008,7 @@
             fee: !0,
             coinMarketCapId: 23177
         })
-          , dq = (0,
+    , dq = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -10071,7 +10047,7 @@
             fee: !1,
             coinMarketCapId: 8972
         })
-          , dJ = (0,
+    , dJ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -10100,7 +10076,7 @@
                 }
             }
         })
-          , dj = (0,
+    , dj = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -10136,7 +10112,7 @@
             fee: !1,
             coinMarketCapId: 28363
         })
-          , d_ = (0,
+    , d_ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -10176,7 +10152,7 @@
             },
             coinGeckoId: "simmi-token"
         })
-          , d$ = (0,
+    , d$ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -10211,7 +10187,7 @@
             coinMarketCapId: 35433,
             coinGeckoId: "silencio"
         })
-          , d0 = (0,
+    , d0 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -10244,7 +10220,7 @@
             },
             coinGeckoId: "level-staked-usd"
         })
-          , d1 = (0,
+    , d1 = (0,
         X.C2)({
             fee: !0,
             sharedDecimals: 6,
@@ -10281,7 +10257,7 @@
             },
             coinMarketCapId: 30156
         })
-          , d3 = (0,
+    , d3 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 8,
@@ -10343,7 +10319,7 @@
             },
             coinMarketCapId: 33312
         })
-          , d8 = (0,
+    , d8 = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -10384,7 +10360,7 @@
             },
             coinGeckoId: "smoovie-phone"
         })
-          , d2 = (0,
+    , d2 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -10417,7 +10393,7 @@
             },
             coinMarketCapId: 32341
         })
-          , d6 = (0,
+    , d6 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -10450,7 +10426,7 @@
             },
             coinGeckoId: "reservoir-srusd"
         })
-          , d4 = (0,
+    , d4 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -10508,7 +10484,7 @@
             },
             coinGeckoId: "lorenzo-stbtc"
         })
-          , d7 = (0,
+    , d7 = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -10634,7 +10610,7 @@
             fee: !1,
             coinMarketCapId: 18934
         })
-          , d5 = (0,
+    , d5 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -10683,7 +10659,7 @@
             },
             coinMarketCapId: 35538
         })
-          , d9 = (0,
+    , d9 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -10723,7 +10699,7 @@
                 }
             }
         })
-          , se = (0,
+    , se = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -10942,7 +10918,7 @@
             fee: !1,
             coinMarketCapId: 29471
         })
-          , sa = (0,
+    , sa = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -10999,7 +10975,7 @@
             fee: !1,
             coinMarketCapId: 25147
         })
-          , sd = (0,
+    , sd = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -11077,7 +11053,7 @@
             },
             coinMarketCapId: 33571
         })
-          , ss = (0,
+    , ss = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -11110,7 +11086,7 @@
             },
             coinMarketCapId: 33824
         })
-          , si = (0,
+    , si = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -11173,7 +11149,7 @@
             },
             coinMarketCapId: 29680
         })
-          , so = (0,
+    , so = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -11236,7 +11212,7 @@
             fee: !0,
             coinMarketCapId: 24892
         })
-          , sn = (0,
+    , sn = (0,
         X.C2)({
             coinMarketCapId: 4660,
             sharedDecimals: 4,
@@ -11307,7 +11283,7 @@
                 }
             }
         })
-          , sc = (0,
+    , sc = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -11357,7 +11333,7 @@
             },
             coinMarketCapId: 21066
         })
-          , sr = (0,
+    , sr = (0,
         X.C2)({
             deployments: {
                 arbitrum: {
@@ -11393,7 +11369,7 @@
             fee: !1,
             coinMarketCapId: 23580
         })
-          , sm = (0,
+    , sm = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -11460,7 +11436,7 @@
             },
             coinMarketCapId: 35336
         })
-          , st = (0,
+    , st = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -11538,7 +11514,7 @@
             },
             coinMarketCapId: 34853
         })
-          , sb = (0,
+    , sb = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -11586,7 +11562,7 @@
             fee: !1,
             coinMarketCapId: 7846
         })
-          , sl = (0,
+    , sl = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -11628,7 +11604,7 @@
             },
             coinGeckoId: "universal-btc"
         })
-          , sy = (0,
+    , sy = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -11658,7 +11634,7 @@
             fee: !1,
             coinMarketCapId: 14915
         })
-          , sf = (0,
+    , sf = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -11697,7 +11673,7 @@
             fee: !1,
             coinMarketCapId: 1027
         })
-          , sC = (0,
+    , sC = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -11732,7 +11708,7 @@
             },
             coinGeckoId: "usual-usd"
         })
-          , sD = (0,
+    , sD = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -11767,7 +11743,7 @@
             },
             coinGeckoId: "usd0-liquid-bond"
         })
-          , sE = (0,
+    , sE = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -11816,7 +11792,7 @@
             },
             coinMarketCapId: 35368
         })
-          , sA = (0,
+    , sA = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -11846,7 +11822,7 @@
             fee: !1,
             coinMarketCapId: 3408
         })
-          , sh = (0,
+    , sh = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -12056,7 +12032,7 @@
             fee: !1,
             coinMarketCapId: 29470
         })
-          , sx = (0,
+    , sx = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -12124,7 +12100,7 @@
             fee: !1,
             coinMarketCapId: 29470
         })
-          , sB = (0,
+    , sB = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -12167,7 +12143,7 @@
             },
             coinMarketCapId: 33793
         })
-          , sF = (0,
+    , sF = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -12197,7 +12173,7 @@
             fee: !1,
             coinMarketCapId: 825
         })
-          , sk = (0,
+    , sk = (0,
         X.C2)({
             coinMarketCapId: 825,
             version: 3,
@@ -12262,7 +12238,7 @@
                 }
             }
         })
-          , sp = (0,
+    , sp = (0,
         X.C2)({
             version: 3,
             fee: !1,
@@ -12378,7 +12354,7 @@
             },
             coinMarketCapId: 825
         })
-          , sK = (0,
+    , sK = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -12487,7 +12463,7 @@
             },
             coinMarketCapId: 825
         })
-          , su = (0,
+    , su = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -12547,7 +12523,7 @@
             },
             coinGeckoId: "usdtb"
         })
-          , sT = (0,
+    , sT = (0,
         X.C2)({
             coinMarketCapId: 29256,
             sharedDecimals: 6,
@@ -12623,7 +12599,7 @@
                 }
             }
         })
-          , sS = (0,
+    , sS = (0,
         X.C2)({
             fee: !0,
             sharedDecimals: 8,
@@ -12651,7 +12627,7 @@
             },
             coinGeckoId: "anzen-usdz"
         })
-          , sv = (0,
+    , sv = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -12690,7 +12666,7 @@
             fee: !1,
             coinMarketCapId: 23837
         })
-          , sP = (0,
+    , sP = (0,
         X.C2)({
             coinMarketCapId: 32873,
             sharedDecimals: 6,
@@ -12764,7 +12740,7 @@
                 }
             }
         })
-          , sI = (0,
+    , sI = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -12803,7 +12779,7 @@
                 }
             }
         })
-          , sg = (0,
+    , sg = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -12896,7 +12872,7 @@
             coinGeckoId: "vana",
             coinMarketCapId: 34619
         })
-          , sM = (0,
+    , sM = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 2,
@@ -12928,7 +12904,7 @@
             },
             coinGeckoId: "bifrost-voucher-astr"
         })
-          , sU = (0,
+    , sU = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -12970,7 +12946,7 @@
             coinMarketCapId: 29420,
             coinGeckoId: "virtual-protocol"
         })
-          , sR = (0,
+    , sR = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -13010,7 +12986,7 @@
             },
             coinGeckoId: "vitai"
         })
-          , sG = (0,
+    , sG = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 2,
@@ -13042,7 +13018,7 @@
             },
             coinGeckoId: "bifrost-voucher-manta"
         })
-          , sL = (0,
+    , sL = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 8,
@@ -13080,7 +13056,7 @@
                 }
             }
         })
-          , sH = (0,
+    , sH = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -13170,7 +13146,7 @@
             fee: !1,
             coinMarketCapId: 28184
         })
-          , sN = (0,
+    , sN = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -13212,7 +13188,7 @@
             coinMarketCapId: 28184,
             coinGeckoId: "wagmi-2"
         })
-          , sO = (0,
+    , sO = (0,
         X.C2)({
             deployments: {
                 bsc: {
@@ -13251,7 +13227,7 @@
             fee: !0,
             coinMarketCapId: 7192
         })
-          , sw = (0,
+    , sw = (0,
         X.C2)({
             sharedDecimals: 8,
             version: 3,
@@ -13364,7 +13340,7 @@
             },
             coinMarketCapId: 3717
         })
-          , sW = (0,
+    , sW = (0,
         X.C2)({
             coinMarketCapId: 25653,
             deployments: {
@@ -13403,7 +13379,7 @@
             limit: !1,
             fee: !1
         })
-          , sX = (0,
+    , sX = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -13539,7 +13515,7 @@
             },
             coinMarketCapId: 28568
         })
-          , sV = (0,
+    , sV = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -13569,7 +13545,7 @@
             fee: !1,
             coinMarketCapId: 2396
         })
-          , sz = (0,
+    , sz = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -13599,7 +13575,7 @@
             fee: !1,
             coinMarketCapId: 2396
         })
-          , sZ = (0,
+    , sZ = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -13892,7 +13868,7 @@
                 }
             }
         })
-          , sQ = (0,
+    , sQ = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -13948,7 +13924,7 @@
             },
             coinMarketCapId: 28752
         })
-          , sY = (0,
+    , sY = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14013,7 +13989,7 @@
                 }
             }
         })
-          , sq = (0,
+    , sq = (0,
         X.C2)({
             deployments: {
                 ethereum: {
@@ -14043,7 +14019,7 @@
             fee: !0,
             coinMarketCapId: 11222
         })
-          , sJ = (0,
+    , sJ = (0,
         X.C2)({
             sharedDecimals: 8,
             version: 2,
@@ -14075,7 +14051,7 @@
             },
             coinMarketCapId: 23371
         })
-          , sj = (0,
+    , sj = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14111,7 +14087,7 @@
                 }
             }
         })
-          , s_ = (0,
+    , s_ = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -14171,7 +14147,7 @@
             },
             coinGeckoId: "wrapped-xtz"
         })
-          , s$ = (0,
+    , s$ = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14216,7 +14192,7 @@
                 }
             }
         })
-          , s0 = (0,
+    , s0 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 8,
@@ -14278,7 +14254,7 @@
             },
             coinMarketCapId: 33310
         })
-          , s1 = (0,
+    , s1 = (0,
         X.C2)({
             fee: !1,
             sharedDecimals: 8,
@@ -14347,7 +14323,7 @@
             },
             coinMarketCapId: 7288
         })
-          , s3 = (0,
+    , s3 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14386,7 +14362,7 @@
                 }
             }
         })
-          , s8 = (0,
+    , s8 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14425,7 +14401,7 @@
                 }
             }
         })
-          , s2 = (0,
+    , s2 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14534,7 +14510,7 @@
                 }
             }
         })
-          , s6 = (0,
+    , s6 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14573,7 +14549,7 @@
                 }
             }
         })
-          , s4 = (0,
+    , s4 = (0,
         X.C2)({
             version: 3,
             sharedDecimals: 6,
@@ -14754,7 +14730,7 @@
             },
             coinGeckoId: "yneth-max"
         })
-          , s7 = (0,
+    , s7 = (0,
         X.C2)({
             strict: !0,
             limit: !1,
@@ -14797,7 +14773,7 @@
                 }
             }
         })
-          , s5 = (0,
+    , s5 = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -14835,7 +14811,7 @@
             coinMarketCapId: 34083,
             coinGeckoId: "zerebro"
         })
-          , s9 = (0,
+    , s9 = (0,
         X.C2)({
             sharedDecimals: 6,
             version: 3,
@@ -14939,131 +14915,131 @@
             coinMarketCapId: 31076,
             coinGeckoId: "zerolend"
         })
-          , ie = {
-            ANON: q,
-            BEETS: en,
-            BRIGHT: eC,
-            USDC: sA,
-            USDT: sF,
-            USDT_TON: sk,
-            WETH: sV,
-            WETH_KAVA: sz,
-            WBTC: sw,
-            WBNB: sO,
-            FBTC: e$,
-            DAI: eM,
-            CRV: eS,
-            CVAI: eP,
-            CERE: eF,
-            PMX: df,
-            crvUSD: ev,
-            IDIA: aC,
-            MGT: aY,
-            mkUSD: aW,
-            rUSD: dL,
-            BAL: eo,
-            stBTC: d4,
-            STG: d7,
-            USR: sP,
-            ARKEN: $,
-            Cake: eh,
-            BETS: er,
-            WNCG: sq,
-            ANYONE: J,
-            MTVT: a$,
-            SFUND: dq,
-            PROS: dA,
-            swETH: sa,
-            USDY: sT,
-            TENET: so,
-            TROVE: sr,
-            WAGMI: sH,
-            WAGMI_V2: sN,
-            LBTC: aT,
-            QI: dp,
-            GOLD: ao,
-            msUSD: a_,
-            msETH: aj,
-            METIS: aO,
-            wstETH: sj,
-            SHRAP: dj,
-            FAR: e_,
-            JOE: aB,
-            FTR: e6,
-            POLTER: dC,
-            BTC_b: eE,
-            BTCB: eA,
-            RWA: dH,
-            DAWAE: eU,
-            RDNT: dS,
-            REUNI: dP,
-            USH: sv,
-            unshETH: sf,
-            PEPE: dr,
-            SOLVBTC: d3,
-            MIM: aw,
-            TRUMP: sm,
-            DEGEN: eG,
-            DEGEN_REBORN: eR,
-            CAT: ex,
-            DMT: eO,
-            RLP: dU,
-            WDMT: sW,
-            MAV: aU,
-            TLOS: sn,
-            KERNEL: aF,
-            KILO: ak,
-            OLE: a3,
-            GUILD: ar,
-            LIF3: aS,
-            lvlUSD: aI,
-            UNB: sb,
-            LSHARE: aP,
-            LILY: av,
-            UNIX: sy,
-            OMNI: a8,
-            MELANIA: aH,
-            IRL: aA,
-            OOE: a2,
-            INSP: aD,
-            OSAK: a9,
-            HERA: ab,
-            GMBL: aa,
-            ABOND: Q,
-            DMAIL: eN,
-            rsETH: dR,
-            SEI: dz,
-            ITP: ax,
-            ALT: Y,
-            EDU: eZ,
-            OX: de,
-            S: dO,
-            OX_old: da,
-            FLUID: e1,
-            vASTR: sM,
-            MAVIA: aR,
-            OP: a4,
-            FUEGO: e4,
-            USDe: sh,
-            USDe_ton: sx,
-            sUSDe: se,
-            RAIN: du,
-            FACTR: ej,
-            sfrxETH: dY,
-            SEILOR: dZ,
-            sFRAX: dQ,
-            USDA: sE,
-            FXS: e5,
-            FXS_DEPRECATED: e7,
-            BMT: em,
-            weETH: sX,
-            ASTRAFER: ea,
-            CMPT: ep,
-            ENA: eY,
-            SNSY: d1,
-            waBTC: sL,
-            XVS: s1,
-            ZRO: (0,
+    , ie = {
+        ANON: q,
+        BEETS: en,
+        BRIGHT: eC,
+        USDC: sA,
+        USDT: sF,
+        USDT_TON: sk,
+        WETH: sV,
+        WETH_KAVA: sz,
+        WBTC: sw,
+        WBNB: sO,
+        FBTC: e$,
+        DAI: eM,
+        CRV: eS,
+        CVAI: eP,
+        CERE: eF,
+        PMX: df,
+        crvUSD: ev,
+        IDIA: aC,
+        MGT: aY,
+        mkUSD: aW,
+        rUSD: dL,
+        BAL: eo,
+        stBTC: d4,
+        STG: d7,
+        USR: sP,
+        ARKEN: $,
+        Cake: eh,
+        BETS: er,
+        WNCG: sq,
+        ANYONE: J,
+        MTVT: a$,
+        SFUND: dq,
+        PROS: dA,
+        swETH: sa,
+        USDY: sT,
+        TENET: so,
+        TROVE: sr,
+        WAGMI: sH,
+        WAGMI_V2: sN,
+        LBTC: aT,
+        QI: dp,
+        GOLD: ao,
+        msUSD: a_,
+        msETH: aj,
+        METIS: aO,
+        wstETH: sj,
+        SHRAP: dj,
+        FAR: e_,
+        JOE: aB,
+        FTR: e6,
+        POLTER: dC,
+        BTC_b: eE,
+        BTCB: eA,
+        RWA: dH,
+        DAWAE: eU,
+        RDNT: dS,
+        REUNI: dP,
+        USH: sv,
+        unshETH: sf,
+        PEPE: dr,
+        SOLVBTC: d3,
+        MIM: aw,
+        TRUMP: sm,
+        DEGEN: eG,
+        DEGEN_REBORN: eR,
+        CAT: ex,
+        DMT: eO,
+        RLP: dU,
+        WDMT: sW,
+        MAV: aU,
+        TLOS: sn,
+        KERNEL: aF,
+        KILO: ak,
+        OLE: a3,
+        GUILD: ar,
+        LIF3: aS,
+        lvlUSD: aI,
+        UNB: sb,
+        LSHARE: aP,
+        LILY: av,
+        UNIX: sy,
+        OMNI: a8,
+        MELANIA: aH,
+        IRL: aA,
+        OOE: a2,
+        INSP: aD,
+        OSAK: a9,
+        HERA: ab,
+        GMBL: aa,
+        ABOND: Q,
+        DMAIL: eN,
+        rsETH: dR,
+        SEI: dz,
+        ITP: ax,
+        ALT: Y,
+        EDU: eZ,
+        OX: de,
+        S: dO,
+        OX_old: da,
+        FLUID: e1,
+        vASTR: sM,
+        MAVIA: aR,
+        OP: a4,
+        FUEGO: e4,
+        USDe: sh,
+        USDe_ton: sx,
+        sUSDe: se,
+        RAIN: du,
+        FACTR: ej,
+        sfrxETH: dY,
+        SEILOR: dZ,
+        sFRAX: dQ,
+        USDA: sE,
+        FXS: e5,
+        FXS_DEPRECATED: e7,
+        BMT: em,
+        weETH: sX,
+        ASTRAFER: ea,
+        CMPT: ep,
+        ENA: eY,
+        SNSY: d1,
+        waBTC: sL,
+        XVS: s1,
+        ZRO: (0,
             X.C2)({
                 deployments: {
                     ethereum: {
@@ -15136,405 +15112,405 @@
                 fee: !0,
                 coinMarketCapId: 26997
             }),
-            FRAX: e8,
-            USDz: sS,
-            rswETH: dG,
-            FPI: e3,
-            frxETH: e2,
-            MOZ: aJ,
-            COQ: eT,
-            MODE: az,
-            BOOP: el,
-            SLVL_USD: d0,
-            TOS: sc,
-            EMDX: eQ,
-            BAI: ei,
-            TECH: si,
-            BETA: ec,
-            MOJO: aZ,
-            mUSD: a0,
-            mETH: aN,
-            mBTC: aG,
-            FLOWER: e0,
-            pxETH: dF,
-            ETHx: eq,
-            SAND: dW,
-            CYBER: eI,
-            WIF: sQ,
-            USDG: sB,
-            WXTZ: s_,
-            APE: j,
-            ORDER: a5,
-            PICHI: db,
-            MAHA: aM,
-            apxETH: _,
-            SHELL: dJ,
-            vMANTA: sG,
-            OL: a1,
-            MON: aQ,
-            PUFF: dh,
-            WOOF: sJ,
-            DINERO: eH,
-            sDINERO: dV,
-            SOLVBTC_BBN: s0,
-            INTOS: aE,
-            PUMP_BTC_BERA: dB,
-            KIM: ap,
-            PHAVERCOIN: dt,
-            USD0: sC,
-            USD0PP: sD,
-            GOGLZ: ai,
-            MOR: aq,
-            ICL: af,
-            SWORLD: sd,
-            BOX: ey,
-            USDT0: sp,
-            USDT0_bridged: sK,
-            Token7007: Z,
-            CNDY: eK,
-            SYRUP: ss,
-            PYUSD: dk.ZL,
-            PYUSD_FLOW: dk.vF,
-            PYUSD_BERA: dk.y$,
-            PIPO: dl,
-            SC: z,
-            PEAQ: dn,
-            HAPPY: am,
-            ynCoBtcK: s6,
-            KOLZ: aK,
-            ATH: ed,
-            REVV: dI,
-            DEGENAI: eL,
-            SP: d8,
-            sUSDA: d5,
-            MCG: aL,
-            BTA: eD,
-            ECO: ez,
-            MNSRY: aX,
-            VITAI: sR,
-            DOGL: eX,
-            DOGEB: eW,
-            ISLAND: ah,
-            BOO: eb,
-            USUAL: sI,
-            ynBTCk: s2,
-            ynBfBBTCk: s3,
-            ynBNBx: s8,
-            ORA: a7,
-            GMEE: ad,
-            GIZA: ae,
-            PRFI: dD,
-            PBR: di,
-            VANA: sg,
-            SPARKLET: d2,
-            GPT: an,
-            RWAX: dN,
-            HARD: at,
-            BPRO: ef,
-            ASK: ee,
-            HINT: al,
-            RADAR: dK,
-            AVA: es,
-            DOC: ew,
-            SUEDE: d9,
-            ZEREBRO: s5,
-            SLC: d$,
-            FYDE: e9,
-            RING: dM,
-            SAM: dw,
-            OORT: a6,
-            UNI_BTC: sl,
-            HOT: ay,
-            UFD: st,
-            USDTB: su,
-            SIMMI: d_,
-            SBC: dX,
-            PENGU: dc,
-            PayUSD: ds,
-            WGC: sZ,
-            CYBRO: eg,
-            GOD: as,
-            VIRTUAL: sU,
-            DTF: eV,
-            COOK: eu,
-            ZERO: s9,
-            cmETH: ek,
-            RBTC: dT,
-            RECORD: dv,
-            LAIR: au,
-            MOCA: aV,
-            srUSD: d6,
-            BONSAICOIN: et,
-            PERC: dm,
-            PLUME: dy,
-            PUFFER: dx,
-            RIF: dg,
-            PAL: dd,
-            EUL: eJ,
-            CATTON: eB,
-            PROMPT: dE,
-            WILD: sY,
-            LYM: ag,
-            XPLA: s$,
-            ZENBTC: s7,
-            ynETHx: s4,
-            GS: ac
-        };
-        var ia = d(90372)
-          , id = d(12728)
-          , is = d(59346);
-        let ii = {
-            SHRAP: {
-                direct: !0
-            },
-            OX: {
-                direct: !0
-            },
-            XVS: {
-                direct: !0
-            },
-            USDY: {
-                patchDuration: !1
-            },
-            swETH: {
-                direct: !0
-            },
-            DMT: {
-                direct: !0
-            },
-            BEETS: {
-                direct: !0
-            },
-            TLOS: {
-                direct: !0
-            },
-            ECO: {
-                direct: !0
-            },
-            vASTR: {
-                direct: !0
-            },
-            vMANTA: {
-                direct: !0
-            }
-        }
-          , io = function() {
-            var e;
-            let a = [];
-            for (let[e,d] of Object.entries(ie)) {
-                let s = ii[e];
-                for (let e of (0,
+        FRAX: e8,
+        USDz: sS,
+        rswETH: dG,
+        FPI: e3,
+        frxETH: e2,
+        MOZ: aJ,
+        COQ: eT,
+        MODE: az,
+        BOOP: el,
+        SLVL_USD: d0,
+        TOS: sc,
+        EMDX: eQ,
+        BAI: ei,
+        TECH: si,
+        BETA: ec,
+        MOJO: aZ,
+        mUSD: a0,
+        mETH: aN,
+        mBTC: aG,
+        FLOWER: e0,
+        pxETH: dF,
+        ETHx: eq,
+        SAND: dW,
+        CYBER: eI,
+        WIF: sQ,
+        USDG: sB,
+        WXTZ: s_,
+        APE: j,
+        ORDER: a5,
+        PICHI: db,
+        MAHA: aM,
+        apxETH: _,
+        SHELL: dJ,
+        vMANTA: sG,
+        OL: a1,
+        MON: aQ,
+        PUFF: dh,
+        WOOF: sJ,
+        DINERO: eH,
+        sDINERO: dV,
+        SOLVBTC_BBN: s0,
+        INTOS: aE,
+        PUMP_BTC_BERA: dB,
+        KIM: ap,
+        PHAVERCOIN: dt,
+        USD0: sC,
+        USD0PP: sD,
+        GOGLZ: ai,
+        MOR: aq,
+        ICL: af,
+        SWORLD: sd,
+        BOX: ey,
+        USDT0: sp,
+        USDT0_bridged: sK,
+        Token7007: Z,
+        CNDY: eK,
+        SYRUP: ss,
+        PYUSD: dk.ZL,
+        PYUSD_FLOW: dk.vF,
+        PYUSD_BERA: dk.y$,
+        PIPO: dl,
+        SC: z,
+        PEAQ: dn,
+        HAPPY: am,
+        ynCoBtcK: s6,
+        KOLZ: aK,
+        ATH: ed,
+        REVV: dI,
+        DEGENAI: eL,
+        SP: d8,
+        sUSDA: d5,
+        MCG: aL,
+        BTA: eD,
+        ECO: ez,
+        MNSRY: aX,
+        VITAI: sR,
+        DOGL: eX,
+        DOGEB: eW,
+        ISLAND: ah,
+        BOO: eb,
+        USUAL: sI,
+        ynBTCk: s2,
+        ynBfBBTCk: s3,
+        ynBNBx: s8,
+        ORA: a7,
+        GMEE: ad,
+        GIZA: ae,
+        PRFI: dD,
+        PBR: di,
+        VANA: sg,
+        SPARKLET: d2,
+        GPT: an,
+        RWAX: dN,
+        HARD: at,
+        BPRO: ef,
+        ASK: ee,
+        HINT: al,
+        RADAR: dK,
+        AVA: es,
+        DOC: ew,
+        SUEDE: d9,
+        ZEREBRO: s5,
+        SLC: d$,
+        FYDE: e9,
+        RING: dM,
+        SAM: dw,
+        OORT: a6,
+        UNI_BTC: sl,
+        HOT: ay,
+        UFD: st,
+        USDTB: su,
+        SIMMI: d_,
+        SBC: dX,
+        PENGU: dc,
+        PayUSD: ds,
+        WGC: sZ,
+        CYBRO: eg,
+        GOD: as,
+        VIRTUAL: sU,
+        DTF: eV,
+        COOK: eu,
+        ZERO: s9,
+        cmETH: ek,
+        RBTC: dT,
+        RECORD: dv,
+        LAIR: au,
+        MOCA: aV,
+        srUSD: d6,
+        BONSAICOIN: et,
+        PERC: dm,
+        PLUME: dy,
+        PUFFER: dx,
+        RIF: dg,
+        PAL: dd,
+        EUL: eJ,
+        CATTON: eB,
+        PROMPT: dE,
+        WILD: sY,
+        LYM: ag,
+        XPLA: s$,
+        ZENBTC: s7,
+        ynETHx: s4,
+        GS: ac
+    };
+var ia = d(90372)
+    , id = d(12728)
+    , is = d(59346);
+let ii = {
+    SHRAP: {
+        direct: !0
+    },
+    OX: {
+        direct: !0
+    },
+    XVS: {
+        direct: !0
+    },
+    USDY: {
+        patchDuration: !1
+    },
+    swETH: {
+        direct: !0
+    },
+    DMT: {
+        direct: !0
+    },
+    BEETS: {
+        direct: !0
+    },
+    TLOS: {
+        direct: !0
+    },
+    ECO: {
+        direct: !0
+    },
+    vASTR: {
+        direct: !0
+    },
+    vMANTA: {
+        direct: !0
+    }
+}
+    , io = function () {
+        var e;
+        let a = [];
+        for (let [e, d] of Object.entries(ie)) {
+            let s = ii[e];
+            for (let e of (0,
                 G.A)(d, s))
-                    (null == s ? void 0 : s.patchDuration) !== !1 && (0,
+                (null == s ? void 0 : s.patchDuration) !== !1 && (0,
                     W.d)(e),
                     a.push(e)
-            }
-            return a.push(...(0,
+        }
+        return a.push(...(0,
             H.L)(id.H).map(W.d)),
             a.push(...(0,
-            L.T)(ia.SK).map(W.d)),
+                L.T)(ia.SK).map(W.d)),
             a.push(...U(E), ...U(A), ...U(x), ...U(F), ...U(h), ...U(B)),
             a.push(...(e = w.RJ,
-            [new w.st(e,o.s), new w.r7(e,i.p), new w.lk(e,O.getPublicConnection)].map(e => (0,
-            s.$)(e, N.X.USDC_CCTP_V1)))),
+                [new w.st(e, o.s), new w.r7(e, i.p), new w.lk(e, O.getPublicConnection)].map(e => (0,
+                    s.$)(e, N.X.USDC_CCTP_V1)))),
             a.push(...(0,
-            R.$)(is.RJ.ETH)),
+                R.$)(is.RJ.ETH)),
             a
-        }()
+    }()
     },
-    76908: function(e, a, d) {
-        d.d(a, {
-            q: function() {
-                return o
-            }
-        });
-        var s = d(6479)
-          , i = d(41270);
-        let o = i.z.object({
-            deployments: i.z.record(i.z.object({
-                votingEscrow: i.z.object({
-                    address: i.z.string()
-                }),
-                rewardTokens: i.z.array(s.iK),
-                feeDistributor: i.z.object({
-                    address: i.z.string()
-                })
-            }))
-        }).transform(e => {
-            let a = {
-                deployments: {}
-            };
-            for (let d in e.deployments) {
-                let s = e.deployments[d];
-                a.deployments[d] = {
-                    chainKey: d,
-                    ...s
-                }
-            }
-            return a
+76908: function(e, a, d) {
+    d.d(a, {
+        q: function () {
+            return o
         }
-        ).parse({
-            deployments: {
-                ethereum: {
-                    feeDistributor: {
-                        address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
-                    },
-                    votingEscrow: {
-                        address: "0x0e42acBD23FAee03249DAFF896b78d7e79fBD58E"
-                    },
-                    rewardTokens: [{
-                        chainKey: "ethereum",
-                        address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-                        symbol: "USDC",
-                        decimals: 6,
-                        name: "USD Coin"
-                    }]
-                },
-                bsc: {
-                    feeDistributor: {
-                        address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
-                    },
-                    votingEscrow: {
-                        address: "0xD4888870C8686c748232719051b677791dBDa26D"
-                    },
-                    rewardTokens: [{
-                        chainKey: "bsc",
-                        address: "0x55d398326f99059fF775485246999027B3197955",
-                        symbol: "USDT",
-                        decimals: 18,
-                        name: "Tether USD"
-                    }]
-                },
-                avalanche: {
-                    feeDistributor: {
-                        address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
-                    },
-                    votingEscrow: {
-                        address: "0xCa0F57D295bbcE554DA2c07b005b7d6565a58fCE"
-                    },
-                    rewardTokens: [{
-                        chainKey: "avalanche",
-                        address: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
-                        symbol: "USDC",
-                        decimals: 6,
-                        name: "USD Coin"
-                    }]
-                },
-                polygon: {
-                    feeDistributor: {
-                        address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
-                    },
-                    votingEscrow: {
-                        address: "0x3AB2DA31bBD886A7eDF68a6b60D3CDe657D3A15D"
-                    },
-                    rewardTokens: [{
-                        chainKey: "polygon",
-                        address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-                        symbol: "USDC",
-                        decimals: 6,
-                        name: "USD Coin (PoS)"
-                    }]
-                },
-                arbitrum: {
-                    feeDistributor: {
-                        address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
-                    },
-                    votingEscrow: {
-                        address: "0xfBd849E6007f9BC3CC2D6Eb159c045B8dc660268"
-                    },
-                    rewardTokens: [{
-                        chainKey: "arbitrum",
-                        address: "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
-                        symbol: "USDC",
-                        decimals: 6,
-                        name: "USD Coin (Arb1)"
-                    }]
-                },
-                optimism: {
-                    feeDistributor: {
-                        address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
-                    },
-                    votingEscrow: {
-                        address: "0x43d2761ed16C89A2C4342e2B16A3C61Ccf88f05B"
-                    },
-                    rewardTokens: [{
-                        chainKey: "optimism",
-                        address: "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
-                        symbol: "USDC",
-                        decimals: 6,
-                        name: "USD Coin"
-                    }]
-                },
-                fantom: {
-                    feeDistributor: {
-                        address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
-                    },
-                    votingEscrow: {
-                        address: "0x933421675cDC8c280e5F21f0e061E77849293dba"
-                    },
-                    rewardTokens: [{
-                        chainKey: "fantom",
-                        address: "0x28a92dde19D9989F39A49905d7C9C2FAc7799bDf",
-                        symbol: "USDC",
-                        decimals: 6,
-                        name: "USD Coin"
-                    }]
-                }
-            }
-        })
-    },
-    90372: function(e, a, d) {
-        d.d(a, {
-            xH: function() {
-                return y
-            },
-            bQ: function() {
-                return f
-            },
-            SK: function() {
-                return l
-            }
-        });
-        var s = d(6479)
-          , i = d(24906);
-        let o = {
-            ethereum: s.WU.from({
-                chainKey: "ethereum",
-                decimals: 6,
-                symbol: "USDC",
-                name: "USD Coin",
-                address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    });
+    var s = d(6479)
+        , i = d(41270);
+    let o = i.z.object({
+        deployments: i.z.record(i.z.object({
+            votingEscrow: i.z.object({
+                address: i.z.string()
             }),
-            avalanche: s.WU.from({
-                chainKey: "avalanche",
-                decimals: 6,
-                symbol: "USDC",
-                name: "USD Coin",
-                address: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
-            }),
-            polygon: s.WU.from({
-                chainKey: "polygon",
-                decimals: 6,
-                symbol: "USDC",
-                name: "USD Coin (PoS)",
-                address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
-            }),
-            arbitrum: s.WU.from({
-                chainKey: "arbitrum",
-                decimals: 6,
-                symbol: "USDC",
-                name: "USD Coin (Arb1)",
-                address: "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
-            }),
-            optimism: s.WU.from({
-                chainKey: "optimism",
-                decimals: 6,
-                symbol: "USDC",
-                name: "USD Coin",
-                address: "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+            rewardTokens: i.z.array(s.iK),
+            feeDistributor: i.z.object({
+                address: i.z.string()
             })
+        }))
+    }).transform(e => {
+        let a = {
+            deployments: {}
+        };
+        for (let d in e.deployments) {
+            let s = e.deployments[d];
+            a.deployments[d] = {
+                chainKey: d,
+                ...s
+            }
         }
-          , n = {
+        return a
+    }
+    ).parse({
+        deployments: {
+            ethereum: {
+                feeDistributor: {
+                    address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
+                },
+                votingEscrow: {
+                    address: "0x0e42acBD23FAee03249DAFF896b78d7e79fBD58E"
+                },
+                rewardTokens: [{
+                    chainKey: "ethereum",
+                    address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    symbol: "USDC",
+                    decimals: 6,
+                    name: "USD Coin"
+                }]
+            },
+            bsc: {
+                feeDistributor: {
+                    address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
+                },
+                votingEscrow: {
+                    address: "0xD4888870C8686c748232719051b677791dBDa26D"
+                },
+                rewardTokens: [{
+                    chainKey: "bsc",
+                    address: "0x55d398326f99059fF775485246999027B3197955",
+                    symbol: "USDT",
+                    decimals: 18,
+                    name: "Tether USD"
+                }]
+            },
+            avalanche: {
+                feeDistributor: {
+                    address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
+                },
+                votingEscrow: {
+                    address: "0xCa0F57D295bbcE554DA2c07b005b7d6565a58fCE"
+                },
+                rewardTokens: [{
+                    chainKey: "avalanche",
+                    address: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                    symbol: "USDC",
+                    decimals: 6,
+                    name: "USD Coin"
+                }]
+            },
+            polygon: {
+                feeDistributor: {
+                    address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
+                },
+                votingEscrow: {
+                    address: "0x3AB2DA31bBD886A7eDF68a6b60D3CDe657D3A15D"
+                },
+                rewardTokens: [{
+                    chainKey: "polygon",
+                    address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    symbol: "USDC",
+                    decimals: 6,
+                    name: "USD Coin (PoS)"
+                }]
+            },
+            arbitrum: {
+                feeDistributor: {
+                    address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
+                },
+                votingEscrow: {
+                    address: "0xfBd849E6007f9BC3CC2D6Eb159c045B8dc660268"
+                },
+                rewardTokens: [{
+                    chainKey: "arbitrum",
+                    address: "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+                    symbol: "USDC",
+                    decimals: 6,
+                    name: "USD Coin (Arb1)"
+                }]
+            },
+            optimism: {
+                feeDistributor: {
+                    address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
+                },
+                votingEscrow: {
+                    address: "0x43d2761ed16C89A2C4342e2B16A3C61Ccf88f05B"
+                },
+                rewardTokens: [{
+                    chainKey: "optimism",
+                    address: "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+                    symbol: "USDC",
+                    decimals: 6,
+                    name: "USD Coin"
+                }]
+            },
+            fantom: {
+                feeDistributor: {
+                    address: "0xAF667811A7eDcD5B0066CD4cA0da51637DB76D09"
+                },
+                votingEscrow: {
+                    address: "0x933421675cDC8c280e5F21f0e061E77849293dba"
+                },
+                rewardTokens: [{
+                    chainKey: "fantom",
+                    address: "0x28a92dde19D9989F39A49905d7C9C2FAc7799bDf",
+                    symbol: "USDC",
+                    decimals: 6,
+                    name: "USD Coin"
+                }]
+            }
+        }
+    })
+},
+90372: function(e, a, d) {
+    d.d(a, {
+        xH: function () {
+            return y
+        },
+        bQ: function () {
+            return f
+        },
+        SK: function () {
+            return l
+        }
+    });
+    var s = d(6479)
+        , i = d(24906);
+    let o = {
+        ethereum: s.WU.from({
+            chainKey: "ethereum",
+            decimals: 6,
+            symbol: "USDC",
+            name: "USD Coin",
+            address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        }),
+        avalanche: s.WU.from({
+            chainKey: "avalanche",
+            decimals: 6,
+            symbol: "USDC",
+            name: "USD Coin",
+            address: "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+        }),
+        polygon: s.WU.from({
+            chainKey: "polygon",
+            decimals: 6,
+            symbol: "USDC",
+            name: "USD Coin (PoS)",
+            address: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+        }),
+        arbitrum: s.WU.from({
+            chainKey: "arbitrum",
+            decimals: 6,
+            symbol: "USDC",
+            name: "USD Coin (Arb1)",
+            address: "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8"
+        }),
+        optimism: s.WU.from({
+            chainKey: "optimism",
+            decimals: 6,
+            symbol: "USDC",
+            name: "USD Coin",
+            address: "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+        })
+    }
+        , n = {
             bsc: s.WU.from({
                 chainKey: "bsc",
                 decimals: 18,
@@ -15543,21 +15519,21 @@
                 address: "0x55d398326f99059fF775485246999027B3197955"
             })
         };
-        var c = d(3566)
-          , r = d(41270);
-        let m = d(72270).D.extend({
-            type: r.ZP.enum(["lpStaking", "lpStakingTime"]),
-            pid: r.ZP.number(),
-            rewards: s.iK.array().nonempty(),
-            stargateVersion: r.ZP.literal(c.C.V1)
-        });
-        var t = JSON.parse('[{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"USDC","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDC","name":"USD Coin (Arb1)-LP","address":"0x892785f33CdeE22A30AEF750F285E18c18040c3e"},"disabled":true,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"USDT","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0xB6CfcF89a7B22988bfC96632aC2A9D6daB60d641"},"disabled":true,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"ETH","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x915A55e36A01285A14f05dE6e81ED9cE89772f8e"},"disabled":true,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"FRAX","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0xaa4BF442F024820B2C28Cd0FD72b82c63e66F56C"},"disabled":true,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"USDC","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDC","name":"USD Coin (Arb1)-LP","address":"0x892785f33CdeE22A30AEF750F285E18c18040c3e"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"USDT","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0xB6CfcF89a7B22988bfC96632aC2A9D6daB60d641"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"ETH","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x915A55e36A01285A14f05dE6e81ED9cE89772f8e"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"FRAX","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0xaa4BF442F024820B2C28Cd0FD72b82c63e66F56C"},"disabled":false,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDC","chainKey":"avalanche","lpToken":{"chainKey":"avalanche","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0x1205f31718499dBf1fCa446663B532Ef87481fe1"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"avalanche","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDt","chainKey":"avalanche","lpToken":{"chainKey":"avalanche","decimals":6,"symbol":"S*USDt","name":"TetherToken-LP","address":"0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"avalanche","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"FRAX","chainKey":"avalanche","lpToken":{"chainKey":"avalanche","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0x1c272232Df0bb6225dA87f4dEcD9d37c32f63Eea"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"avalanche","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStakingTime","address":"0x06Eb48763f117c7Be887296CDcdfad2E4092739C","symbol":"ETH","chainKey":"base","lpToken":{"chainKey":"base","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x28fc411f9e1c480AD312b3d9C60c22b965015c6B"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"base","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xE3B53AF74a4BF62Ae5511055290838050bf764Df"}]},{"type":"lpStakingTime","address":"0x06Eb48763f117c7Be887296CDcdfad2E4092739C","symbol":"USDbC","chainKey":"base","lpToken":{"chainKey":"base","decimals":6,"symbol":"S*USDbC","name":"USD Base Coin-LP","address":"0x4c80E24119CFB836cdF0a6b53dc23F04F7e652CA"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"base","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xE3B53AF74a4BF62Ae5511055290838050bf764Df"}]},{"type":"lpStaking","address":"0x3052A0F6ab15b4AE1df39962d5DdEFacA86DaB47","symbol":"USDT","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x9aA83081AA06AF7208Dcc7A4cB72C94d057D2cda"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b"}]},{"type":"lpStaking","address":"0x3052A0F6ab15b4AE1df39962d5DdEFacA86DaB47","symbol":"BUSD","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*BUSD","name":"BUSD Token-LP","address":"0x98a5737749490856b401DB5Dc27F522fC314A4e1"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b"}]},{"type":"lpStakingTime","address":"0x18E08773daFfF53e84dDF4CEfC10c094f33671F4","symbol":"USDT","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x68C6c27fB0e02285829e69240BE16f32C5f8bEFe"},"disabled":true,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"Metis","name":"Metis Token","address":"0xe552Fb52a4F19e44ef5A967632DBc320B0820639"}]},{"type":"lpStakingTime","address":"0x447f2078a1b6b2C1190B7b7aF98ef4B139d41F70","symbol":"USDT","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x68C6c27fB0e02285829e69240BE16f32C5f8bEFe"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"METIS","name":"Metis","address":"0xceCB301c2e2A04dD631428C386DD21db70716F8a"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"USDC","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xdf0770dF86a8034b3EFEf0A1Bb3c889B8332FF56"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"USDT","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x38EA452219524Bb87e18dE1C24D3bB59510BD783"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"ETH","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x101816545F6bd2b1076434B54383a1E633390A2E"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"DAI","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*DAI","name":"Dai Stablecoin-LP","address":"0x0Faf1d2d3CED330824de3B8200fc8dc6E397850d"},"disabled":false,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"FRAX","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0xfA0F307783AC21C39E939ACFF795e27b650F6e68"},"disabled":false,"stargateVersion":"v1","pid":4,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"sUSD","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*sUSD","name":"Synth sUSD-LP","address":"0x590d4f8A68583639f215f675F3a259Ed84790580"},"disabled":false,"stargateVersion":"v1","pid":5,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"LUSD","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*LUSD","name":"LUSD Stablecoin-LP","address":"0xE8F55368C82D38bbbbDb5533e7F56AfC2E978CC2"},"disabled":false,"stargateVersion":"v1","pid":6,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStakingTime","address":"0x1c3000b8f475A958b87c73a5cc5780Ab763122FC","symbol":"USDT","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x430Ebff5E3E80A6C58E7e6ADA1d90F5c28AA116d"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"Metis","name":"Metis Token","address":"0x9E32b13ce7f2E80A01932B42553652E053D6ed8e"}]},{"type":"lpStaking","address":"0x224D8Fd7aB6AD4c6eb4611Ce56EF35Dec2277F03","symbol":"USDC","chainKey":"fantom","lpToken":{"chainKey":"fantom","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0x12edeA9cd262006cC3C4E77c90d2CD2DD4b1eb97"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"fantom","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x224D8Fd7aB6AD4c6eb4611Ce56EF35Dec2277F03","symbol":"USDC","chainKey":"fantom","lpToken":{"chainKey":"fantom","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xc647CE76ec30033Aa319d472Ae9f4462068f2AD7"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"fantom","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStakingTime","address":"0x35F78Adf283Fe87732AbC9747d9f6630dF33276C","symbol":"USDt","chainKey":"kava","lpToken":{"chainKey":"kava","decimals":6,"symbol":"S*USDt","name":"TetherUSDt-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"kava","decimals":18,"symbol":"WKAVA","name":"Wrapped Kava","address":"0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b"}]},{"type":"lpStakingTime","address":"0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8","symbol":"ETH","chainKey":"linea","lpToken":{"chainKey":"linea","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"linea","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x808d7c71ad2ba3FA531b068a2417C63106BC0949"}]},{"type":"lpStakingTime","address":"0x352d8275AAE3e0c2404d9f68f6cEE084B5bEB3DD","symbol":"USDC","chainKey":"mantle","lpToken":{"chainKey":"mantle","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"mantle","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]},{"type":"lpStakingTime","address":"0x352d8275AAE3e0c2404d9f68f6cEE084B5bEB3DD","symbol":"USDT","chainKey":"mantle","lpToken":{"chainKey":"mantle","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x2b60473a7C41Deb80EDdaafD5560e963440eb632"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"mantle","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]},{"type":"lpStakingTime","address":"0x45A01E4e04F14f7A4a6702c74187c5F6222033cd","symbol":"USDT","chainKey":"metis","lpToken":{"chainKey":"metis","decimals":6,"symbol":"S*USDT","name":"USDT Token-LP","address":"0x2b60473a7C41Deb80EDdaafD5560e963440eb632"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"metis","decimals":18,"symbol":"Metis","name":"Metis Token","address":"0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"}]},{"type":"lpStaking","address":"0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8","symbol":"USDC","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xDecC0c09c3B5f6e92EF4184125D5648a66E35298"},"disabled":true,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97"}]},{"type":"lpStaking","address":"0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8","symbol":"ETH","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0xd22363e3762cA7339569F3d33EADe20127D5F98C"},"disabled":true,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"USDC","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xDecC0c09c3B5f6e92EF4184125D5648a66E35298"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"ETH","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0xd22363e3762cA7339569F3d33EADe20127D5F98C"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"DAI","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*DAI","name":"Dai Stablecoin-LP","address":"0x165137624F1f692e69659f944BF69DE02874ee27"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"FRAX","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0x368605D9C6243A80903b9e326f1Cddde088B8924"},"disabled":false,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"sUSD","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*sUSD","name":"Synth sUSD-LP","address":"0x2F8bC9081c7FCFeC25b9f41a50d97EaA592058ae"},"disabled":false,"stargateVersion":"v1","pid":4,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"LUSD","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*LUSD","name":"LUSD Stablecoin-LP","address":"0x3533F5e279bDBf550272a199a223dA798D9eff78"},"disabled":false,"stargateVersion":"v1","pid":5,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDC","chainKey":"polygon","lpToken":{"chainKey":"polygon","decimals":6,"symbol":"S*USDC","name":"USD Coin (PoS)-LP","address":"0x1205f31718499dBf1fCa446663B532Ef87481fe1"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"polygon","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDT","chainKey":"polygon","lpToken":{"chainKey":"polygon","decimals":6,"symbol":"S*USDT","name":"(PoS) Tether USD-LP","address":"0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"polygon","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"DAI","chainKey":"polygon","lpToken":{"chainKey":"polygon","decimals":6,"symbol":"S*DAI","name":"(PoS) Dai Stablecoin-LP","address":"0x1c272232Df0bb6225dA87f4dEcD9d37c32f63Eea"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"polygon","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStakingTime","address":"0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614","symbol":"USDC","chainKey":"scroll","lpToken":{"chainKey":"scroll","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"scroll","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]},{"type":"lpStakingTime","address":"0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614","symbol":"ETH","chainKey":"scroll","lpToken":{"chainKey":"scroll","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x2b60473a7C41Deb80EDdaafD5560e963440eb632"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"scroll","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]}]');
-        let b = m.array().parse(t);
-        d(76908),
+    var c = d(3566)
+        , r = d(41270);
+    let m = d(72270).D.extend({
+        type: r.ZP.enum(["lpStaking", "lpStakingTime"]),
+        pid: r.ZP.number(),
+        rewards: s.iK.array().nonempty(),
+        stargateVersion: r.ZP.literal(c.C.V1)
+    });
+    var t = JSON.parse('[{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"USDC","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDC","name":"USD Coin (Arb1)-LP","address":"0x892785f33CdeE22A30AEF750F285E18c18040c3e"},"disabled":true,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"USDT","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0xB6CfcF89a7B22988bfC96632aC2A9D6daB60d641"},"disabled":true,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"ETH","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x915A55e36A01285A14f05dE6e81ED9cE89772f8e"},"disabled":true,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStaking","address":"0xeA8DfEE1898a7e0a59f7527F076106d7e44c2176","symbol":"FRAX","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0xaa4BF442F024820B2C28Cd0FD72b82c63e66F56C"},"disabled":true,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x6694340fc020c5E6B96567843da2df01b2CE1eb6"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"USDC","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDC","name":"USD Coin (Arb1)-LP","address":"0x892785f33CdeE22A30AEF750F285E18c18040c3e"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"USDT","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0xB6CfcF89a7B22988bfC96632aC2A9D6daB60d641"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"ETH","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x915A55e36A01285A14f05dE6e81ED9cE89772f8e"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStakingTime","address":"0x9774558534036Ff2E236331546691b4eB70594b1","symbol":"FRAX","chainKey":"arbitrum","lpToken":{"chainKey":"arbitrum","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0xaa4BF442F024820B2C28Cd0FD72b82c63e66F56C"},"disabled":false,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"arbitrum","decimals":18,"symbol":"ARB","name":"Arbitrum","address":"0x912CE59144191C1204E64559FE8253a0e49E6548"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDC","chainKey":"avalanche","lpToken":{"chainKey":"avalanche","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0x1205f31718499dBf1fCa446663B532Ef87481fe1"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"avalanche","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDt","chainKey":"avalanche","lpToken":{"chainKey":"avalanche","decimals":6,"symbol":"S*USDt","name":"TetherToken-LP","address":"0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"avalanche","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"FRAX","chainKey":"avalanche","lpToken":{"chainKey":"avalanche","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0x1c272232Df0bb6225dA87f4dEcD9d37c32f63Eea"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"avalanche","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStakingTime","address":"0x06Eb48763f117c7Be887296CDcdfad2E4092739C","symbol":"ETH","chainKey":"base","lpToken":{"chainKey":"base","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x28fc411f9e1c480AD312b3d9C60c22b965015c6B"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"base","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xE3B53AF74a4BF62Ae5511055290838050bf764Df"}]},{"type":"lpStakingTime","address":"0x06Eb48763f117c7Be887296CDcdfad2E4092739C","symbol":"USDbC","chainKey":"base","lpToken":{"chainKey":"base","decimals":6,"symbol":"S*USDbC","name":"USD Base Coin-LP","address":"0x4c80E24119CFB836cdF0a6b53dc23F04F7e652CA"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"base","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xE3B53AF74a4BF62Ae5511055290838050bf764Df"}]},{"type":"lpStaking","address":"0x3052A0F6ab15b4AE1df39962d5DdEFacA86DaB47","symbol":"USDT","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x9aA83081AA06AF7208Dcc7A4cB72C94d057D2cda"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b"}]},{"type":"lpStaking","address":"0x3052A0F6ab15b4AE1df39962d5DdEFacA86DaB47","symbol":"BUSD","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*BUSD","name":"BUSD Token-LP","address":"0x98a5737749490856b401DB5Dc27F522fC314A4e1"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b"}]},{"type":"lpStakingTime","address":"0x18E08773daFfF53e84dDF4CEfC10c094f33671F4","symbol":"USDT","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x68C6c27fB0e02285829e69240BE16f32C5f8bEFe"},"disabled":true,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"Metis","name":"Metis Token","address":"0xe552Fb52a4F19e44ef5A967632DBc320B0820639"}]},{"type":"lpStakingTime","address":"0x447f2078a1b6b2C1190B7b7aF98ef4B139d41F70","symbol":"USDT","chainKey":"bsc","lpToken":{"chainKey":"bsc","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x68C6c27fB0e02285829e69240BE16f32C5f8bEFe"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"bsc","decimals":18,"symbol":"METIS","name":"Metis","address":"0xceCB301c2e2A04dD631428C386DD21db70716F8a"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"USDC","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xdf0770dF86a8034b3EFEf0A1Bb3c889B8332FF56"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"USDT","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x38EA452219524Bb87e18dE1C24D3bB59510BD783"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"ETH","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x101816545F6bd2b1076434B54383a1E633390A2E"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"DAI","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*DAI","name":"Dai Stablecoin-LP","address":"0x0Faf1d2d3CED330824de3B8200fc8dc6E397850d"},"disabled":false,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"FRAX","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0xfA0F307783AC21C39E939ACFF795e27b650F6e68"},"disabled":false,"stargateVersion":"v1","pid":4,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"sUSD","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*sUSD","name":"Synth sUSD-LP","address":"0x590d4f8A68583639f215f675F3a259Ed84790580"},"disabled":false,"stargateVersion":"v1","pid":5,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStaking","address":"0xB0D502E938ed5f4df2E681fE6E419ff29631d62b","symbol":"LUSD","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*LUSD","name":"LUSD Stablecoin-LP","address":"0xE8F55368C82D38bbbbDb5533e7F56AfC2E978CC2"},"disabled":false,"stargateVersion":"v1","pid":6,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"STG","name":"StargateToken","address":"0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6"}]},{"type":"lpStakingTime","address":"0x1c3000b8f475A958b87c73a5cc5780Ab763122FC","symbol":"USDT","chainKey":"ethereum","lpToken":{"chainKey":"ethereum","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x430Ebff5E3E80A6C58E7e6ADA1d90F5c28AA116d"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"ethereum","decimals":18,"symbol":"Metis","name":"Metis Token","address":"0x9E32b13ce7f2E80A01932B42553652E053D6ed8e"}]},{"type":"lpStaking","address":"0x224D8Fd7aB6AD4c6eb4611Ce56EF35Dec2277F03","symbol":"USDC","chainKey":"fantom","lpToken":{"chainKey":"fantom","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0x12edeA9cd262006cC3C4E77c90d2CD2DD4b1eb97"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"fantom","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x224D8Fd7aB6AD4c6eb4611Ce56EF35Dec2277F03","symbol":"USDC","chainKey":"fantom","lpToken":{"chainKey":"fantom","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xc647CE76ec30033Aa319d472Ae9f4462068f2AD7"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"fantom","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStakingTime","address":"0x35F78Adf283Fe87732AbC9747d9f6630dF33276C","symbol":"USDt","chainKey":"kava","lpToken":{"chainKey":"kava","decimals":6,"symbol":"S*USDt","name":"TetherUSDt-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"kava","decimals":18,"symbol":"WKAVA","name":"Wrapped Kava","address":"0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b"}]},{"type":"lpStakingTime","address":"0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8","symbol":"ETH","chainKey":"linea","lpToken":{"chainKey":"linea","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"linea","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x808d7c71ad2ba3FA531b068a2417C63106BC0949"}]},{"type":"lpStakingTime","address":"0x352d8275AAE3e0c2404d9f68f6cEE084B5bEB3DD","symbol":"USDC","chainKey":"mantle","lpToken":{"chainKey":"mantle","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"mantle","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]},{"type":"lpStakingTime","address":"0x352d8275AAE3e0c2404d9f68f6cEE084B5bEB3DD","symbol":"USDT","chainKey":"mantle","lpToken":{"chainKey":"mantle","decimals":6,"symbol":"S*USDT","name":"Tether USD-LP","address":"0x2b60473a7C41Deb80EDdaafD5560e963440eb632"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"mantle","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]},{"type":"lpStakingTime","address":"0x45A01E4e04F14f7A4a6702c74187c5F6222033cd","symbol":"USDT","chainKey":"metis","lpToken":{"chainKey":"metis","decimals":6,"symbol":"S*USDT","name":"USDT Token-LP","address":"0x2b60473a7C41Deb80EDdaafD5560e963440eb632"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"metis","decimals":18,"symbol":"Metis","name":"Metis Token","address":"0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000"}]},{"type":"lpStaking","address":"0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8","symbol":"USDC","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xDecC0c09c3B5f6e92EF4184125D5648a66E35298"},"disabled":true,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97"}]},{"type":"lpStaking","address":"0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8","symbol":"ETH","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0xd22363e3762cA7339569F3d33EADe20127D5F98C"},"disabled":true,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"USDC","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xDecC0c09c3B5f6e92EF4184125D5648a66E35298"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"ETH","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0xd22363e3762cA7339569F3d33EADe20127D5F98C"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"DAI","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*DAI","name":"Dai Stablecoin-LP","address":"0x165137624F1f692e69659f944BF69DE02874ee27"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"FRAX","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*FRAX","name":"Frax-LP","address":"0x368605D9C6243A80903b9e326f1Cddde088B8924"},"disabled":false,"stargateVersion":"v1","pid":3,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"sUSD","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*sUSD","name":"Synth sUSD-LP","address":"0x2F8bC9081c7FCFeC25b9f41a50d97EaA592058ae"},"disabled":false,"stargateVersion":"v1","pid":4,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStakingTime","address":"0x4DeA9e918c6289a52cd469cAC652727B7b412Cd2","symbol":"LUSD","chainKey":"optimism","lpToken":{"chainKey":"optimism","decimals":6,"symbol":"S*LUSD","name":"LUSD Stablecoin-LP","address":"0x3533F5e279bDBf550272a199a223dA798D9eff78"},"disabled":false,"stargateVersion":"v1","pid":5,"rewards":[{"chainKey":"optimism","decimals":18,"symbol":"OP","name":"Optimism","address":"0x4200000000000000000000000000000000000042"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDC","chainKey":"polygon","lpToken":{"chainKey":"polygon","decimals":6,"symbol":"S*USDC","name":"USD Coin (PoS)-LP","address":"0x1205f31718499dBf1fCa446663B532Ef87481fe1"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"polygon","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"USDT","chainKey":"polygon","lpToken":{"chainKey":"polygon","decimals":6,"symbol":"S*USDT","name":"(PoS) Tether USD-LP","address":"0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"polygon","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStaking","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98","symbol":"DAI","chainKey":"polygon","lpToken":{"chainKey":"polygon","decimals":6,"symbol":"S*DAI","name":"(PoS) Dai Stablecoin-LP","address":"0x1c272232Df0bb6225dA87f4dEcD9d37c32f63Eea"},"disabled":false,"stargateVersion":"v1","pid":2,"rewards":[{"chainKey":"polygon","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590"}]},{"type":"lpStakingTime","address":"0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614","symbol":"USDC","chainKey":"scroll","lpToken":{"chainKey":"scroll","decimals":6,"symbol":"S*USDC","name":"USD Coin-LP","address":"0xAad094F6A75A14417d39f04E690fC216f080A41a"},"disabled":false,"stargateVersion":"v1","pid":0,"rewards":[{"chainKey":"scroll","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]},{"type":"lpStakingTime","address":"0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614","symbol":"ETH","chainKey":"scroll","lpToken":{"chainKey":"scroll","decimals":18,"symbol":"S*SGETH","name":"Stargate Ether Vault-LP","address":"0x2b60473a7C41Deb80EDdaafD5560e963440eb632"},"disabled":false,"stargateVersion":"v1","pid":1,"rewards":[{"chainKey":"scroll","decimals":18,"symbol":"STG","name":"StargateToken","address":"0x8731d54E9D02c286767d56ac03e8037C07e01e98"}]}]');
+    let b = m.array().parse(t);
+    d(76908),
         d(81735);
-        let l = new i.PA(i.RJ)
-          , y = b
-          , f = {
+    let l = new i.PA(i.RJ)
+        , y = b
+        , f = {
             deployments: {
                 ethereum: {
                     rewardToken: o.ethereum
@@ -15588,24 +15564,24 @@
                 }
             }
         }
-    },
-    81735: function(e, a, d) {
-        d.d(a, {
-            e: function() {
-                return n
-            }
-        });
-        var s = d(6479)
-          , i = d(41270);
-        let o = i.ZP.object({
-            stgToken: s.iK,
-            veToken: s.iK,
-            sveToken: s.iK.optional(),
-            aastgToken: s.iK.optional(),
-            minTime: i.ZP.number(),
-            maxTime: i.ZP.number()
-        })
-          , n = i.ZP.object({
+},
+81735: function(e, a, d) {
+    d.d(a, {
+        e: function () {
+            return n
+        }
+    });
+    var s = d(6479)
+        , i = d(41270);
+    let o = i.ZP.object({
+        stgToken: s.iK,
+        veToken: s.iK,
+        sveToken: s.iK.optional(),
+        aastgToken: s.iK.optional(),
+        minTime: i.ZP.number(),
+        maxTime: i.ZP.number()
+    })
+        , n = i.ZP.object({
             deployments: i.ZP.record(o)
         }).parse({
             deployments: {
@@ -15751,5 +15727,5 @@
                 }
             }
         })
-    }
+}
 }]);
