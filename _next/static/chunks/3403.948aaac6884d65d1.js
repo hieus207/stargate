@@ -868,53 +868,30 @@
                             eid: 30101,
                             token: {
                                 chainKey: "ethereum",
-                                address: "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
+                                address: "0x61DBbBb552dc893ab3aAd09F289f811E67cEf285",
                                 decimals: 18,
-                                name: "AltLayer Token ",
-                                symbol: "ALT"
-                            },
-                            oftProxy: {
-                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA"
+                                name: "Skate",
+                                symbol: "SKATE"
                             }
                         },
                         arbitrum: {
                             eid: 30110,
                             token: {
                                 chainKey: "arbitrum",
-                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
+                                address: "0x61DBbBb552dc893ab3aAd09F289f811E67cEf285",
                                 decimals: 18,
-                                name: "AltLayer Token ",
-                                symbol: "ALT"
+                                name: "Skate",
+                                symbol: "SKATE"
                             }
                         },
-                        base: {
-                            eid: 30184,
+                        bsc: {
+                            eid: 30102,
                             token: {
-                                chainKey: "base",
-                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
+                                chainKey: "bsc",
                                 decimals: 18,
-                                name: "AltLayer Token ",
-                                symbol: "ALT"
-                            }
-                        },
-                        optimism: {
-                            eid: 30111,
-                            token: {
-                                chainKey: "optimism",
-                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
-                                decimals: 18,
-                                name: "AltLayer Token ",
-                                symbol: "ALT"
-                            }
-                        },
-                        polygon: {
-                            eid: 30109,
-                            token: {
-                                chainKey: "polygon",
-                                address: "0x85AF271d1DFCBF53486D996f61D7FF0bba5582eA",
-                                decimals: 18,
-                                name: "AltLayer Token ",
-                                symbol: "ALT"
+                                symbol: "SKATE",
+                                name: "Skate",
+                                address: "0x61DBbBb552dc893ab3aAd09F289f811E67cEf285"
                             }
                         },
                         solana: {
@@ -922,17 +899,17 @@
                             version: 4,
                             token: {
                                 chainKey: "solana",
-                                name: "AltLayer Token ",
-                                symbol: "ALT",
-                                address: "GVkbuvfYEXGJfUZwnVoyzzby3RsatA2Cr56BPp79JUbg",
+                                name: "Skate",
+                                symbol: "SKATE",
+                                address: "9v6BKHg8WWKBPTGqLFQz87RxyaHHDygx8SnZEbBFmns2",
                                 decimals: 9,
-                                programId: V.H_
+                                programId: "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
                             },
                             tokenEscrow: {
-                                address: "8RCnxmR14qJXS9dYTDpngzbgueFDLnSRevw2ft3NMQSf"
+                                address: "3AqnMqPKs9hUHLvNax17JmYJ9DAGNQt2RTSScBe868zq"
                             },
                             oft: {
-                                programId: "CeEVLEGhkrLVqWKSYJimDjiTiSGqSAQortwLzaLihm9M"
+                                programId: "BSe38ota5jSQv4UUCZfJYyr9E6zvq1PZBAotJgUhzZn9"
                             }
                         }
                     },
@@ -5560,9 +5537,12 @@
                             token: {
                                 chainKey: "ethereum",
                                 decimals: 18,
-                                symbol: "LA",
-                                name: "Lagrange",
-                                address: "0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467"
+                                symbol: "OL",
+                                name: "OPENLOOT",
+                                address: "0x1F57da732A77636D913C9a75d685B26CC85DCC3A"
+                            },
+                            oftProxy: {
+                                address: "0x3f160760535Eb715d5809a26cF55408A2d9844c1"
                             }
                         },
                         bsc: {
@@ -5571,9 +5551,9 @@
                             token: {
                                 chainKey: "bsc",
                                 decimals: 18,
-                                symbol: "LA",
-                                name: "Lagrange",
-                                address: "0x389AD4bb96d0D6EE5B6eF0EFAF4b7db0bA2e02a0"
+                                symbol: "OL",
+                                name: "OPENLOOT",
+                                address: "0x3f160760535Eb715d5809a26cF55408A2d9844c1"
                             }
                         }
                     
