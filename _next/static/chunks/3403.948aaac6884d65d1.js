@@ -864,11 +864,11 @@
                     limit: !1,
                     fee: !0,
                     deployments: {
-                        ethereum: {
-                            eid: 30101,
+                        base: {
+                            eid: 30184,
                             token: {
-                                chainKey: "ethereum",
-                                address: "0x61DBbBb552dc893ab3aAd09F289f811E67cEf285",
+                                chainKey: "base",
+                                address: "0x4BfAa776991E85e5f8b1255461cbbd216cFc714f",
                                 decimals: 18,
                                 name: "Skate",
                                 symbol: "SKATE"
@@ -8261,14 +8261,14 @@
                     eid: 30101,
                     version: 3,
                     oftProxy: {
-                        address: "0x3Ea9bb9fcDCC1C37cB09175aecdb488A97EDd83F"
+                        address: "0xAfF2e841851700D1Fc101995Ee6b81Ae21Bb87D7"
                     },
                     token: {
                         chainKey: "ethereum",
                         decimals: 18,
-                        symbol: "PUFFER",
-                        name: "PUFFER",
-                        address: "0x4d1C297d39C5c1277964D0E3f8Aa901493664530"
+                        symbol: "SPK",
+                        name: "Spark",
+                        address: "0xc20059e0317DE91738d13af027DfC4a50781b066"
                     }
                 },
                 bsc: {
@@ -8277,9 +8277,9 @@
                     token: {
                         chainKey: "bsc",
                         decimals: 18,
-                        symbol: "PUFFER",
-                        name: "PUFFER",
-                        address: "0x87d00066cf131ff54B72B134a217D5401E5392b6"
+                        symbol: "SPK",
+                        name: "Spark",
+                        address: "0xAfF2e841851700D1Fc101995Ee6b81Ae21Bb87D7"
                     }
                 }
             }
