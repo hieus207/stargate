@@ -8153,39 +8153,33 @@
             limit: !1,
             fee: !0,
             deployments: {
-                ethereum: {
-                    eid: 30101,
-                    token: {
-                        chainKey: "ethereum",
-                        address: "0x915424Ac489433130d92B04096F3b96c82e92a9D",
-                        decimals: 18,
-                        name: "Prosper",
-                        symbol: "PROS"
-                    }
-                },
                 bsc: {
                     eid: 30102,
                     token: {
                         chainKey: "bsc",
-                        address: "0x915424Ac489433130d92B04096F3b96c82e92a9D",
+                        address: "0xc32cc70741c3A8433dCbcB5adE071c299B55FfC8",
                         decimals: 18,
-                        name: "Prosper",
-                        symbol: "PROS"
+                        name: "ChainBase",
+                        symbol: "C"
                     }
                 },
                 base: {
                     eid: 30184,
                     token: {
-                        address: "0x915424Ac489433130d92B04096F3b96c82e92a9D",
+                        address: "0xba12BC7B210E61e5D3110B997A63Ea216e0E18F7",
                         chainKey: "base",
                         decimals: 18,
-                        name: "Prosper",
-                        symbol: "PROS"
+                        name: "ChainBase",
+                        symbol: "C"
+                    },
+                    oftProxy: {
+                        address: "0x3AdE69D08aC3C7c0Cc3654eeEDbE899f109f7181"
                     }
                 }
+                
             },
             coinMarketCapId: 8255,
-            coinGeckoId: "prosper"
+            coinGeckoId: "chainbase"
         })
     , dh = (0,
         X.C2)({

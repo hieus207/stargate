@@ -3182,23 +3182,11 @@
     },
     {
         "isBridgeable": true,
-        "chainKey": "ethereum",
-        "decimals": 18,
-        "symbol": "PROS",
-        "name": "Prosper",
-        "address": "0x915424Ac489433130d92B04096F3b96c82e92a9D",
-        "icon": "https://s2.coinmarketcap.com/static/img/coins/128x128/8255.png",
-        "price": {
-            "USD": 0.04721604954531068
-        }
-    },
-    {
-        "isBridgeable": true,
         "chainKey": "bsc",
         "decimals": 18,
-        "symbol": "PROS",
-        "name": "Prosper",
-        "address": "0x915424Ac489433130d92B04096F3b96c82e92a9D",
+        "symbol": "C",
+        "name": "Chainbase",
+        "address": "0xc32cc70741c3A8433dCbcB5adE071c299B55FfC8",
         "icon": "https://s2.coinmarketcap.com/static/img/coins/128x128/8255.png",
         "price": {
             "USD": 0.04721604954531068
@@ -3208,9 +3196,9 @@
         "isBridgeable": true,
         "chainKey": "base",
         "decimals": 18,
-        "symbol": "PROS",
-        "name": "Prosper",
-        "address": "0x915424Ac489433130d92B04096F3b96c82e92a9D",
+        "symbol": "C",
+        "name": "Chainbase",
+        "address": "0xba12bc7b210e61e5d3110b997a63ea216e0e18f7",
         "icon": "https://s2.coinmarketcap.com/static/img/coins/128x128/8255.png",
         "price": {
             "USD": 0.04721604954531068
