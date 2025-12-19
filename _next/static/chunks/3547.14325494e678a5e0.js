@@ -2115,12 +2115,9 @@
                             version: 3,
                             token: {
                                 chainKey: "bsc",
-                                symbol: "CAT",
-                                address: "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+                                symbol: "RateX",
+                                address: "0x4829A1D1fB6DED1F81d26868ab8976648baF9893",
                                 decimals: 18
-                            },
-                            oftProxy: {
-                                address: "0x27A2914fA4bA0Ec60d42E2bc0726c3A8a6D7B000"
                             }
                         },
                         solana: {
@@ -2128,16 +2125,16 @@
                             version: 4,
                             token: {
                                 chainKey: "solana",
-                                symbol: "CAT",
-                                address: "3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse",
-                                decimals: 6,
+                                symbol: "RateX",
+                                address: "J1wnHdKvP34fg7TtYdX63UPJMTdXNzJGEqfNJB22vKjU",
+                                decimals: 9,
                                 programId: V.H_
                             },
                             tokenEscrow: {
-                                address: "FEf59AJ5vbzXGkdZkZrV1pf1GHCaceG7MVC2FP1HN2Vg"
+                                address: "J4shXGqiHDX5yYvzUZsqDMt8XL2FZKTd3j2hTQitGP7Z"
                             },
                             oft: {
-                                programId: "CATLZdvDfQcK99YntCaeDs8o342HcXRP1R5t4yTT5dUw"
+                                programId: "Jws3eNUo7PYHi6ysNUtb43uTgYfsxbF9Fat3G7Q8etX"
                             }
                         }
                     },

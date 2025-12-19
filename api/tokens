@@ -4663,8 +4663,8 @@
         "isBridgeable": true,
         "chainKey": "bsc",
         "decimals": 18,
-        "symbol": "CAT",
-        "address": "0x6894CDe390a3f51155ea41Ed24a33A4827d3063D",
+        "symbol": "RateX",
+        "address": "0x4829A1D1fB6DED1F81d26868ab8976648baF9893",
         "icon": "https://s2.coinmarketcap.com/static/img/coins/128x128/32724.png",
         "price": {
             "USD": 0.000008345610814542724
@@ -4674,8 +4674,8 @@
         "isBridgeable": true,
         "chainKey": "solana",
         "decimals": 6,
-        "symbol": "CAT",
-        "address": "3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse",
+        "symbol": "RateX",
+        "address": "J1wnHdKvP34fg7TtYdX63UPJMTdXNzJGEqfNJB22vKjU",
         "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
         "icon": "https://s2.coinmarketcap.com/static/img/coins/128x128/32724.png",
         "price": {
