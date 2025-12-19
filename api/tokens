@@ -4673,7 +4673,7 @@
     {
         "isBridgeable": true,
         "chainKey": "solana",
-        "decimals": 6,
+        "decimals": 9,
         "symbol": "RateX",
         "address": "J1wnHdKvP34fg7TtYdX63UPJMTdXNzJGEqfNJB22vKjU",
         "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
